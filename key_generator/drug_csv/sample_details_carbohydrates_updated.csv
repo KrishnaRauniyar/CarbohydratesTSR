@@ -1,0 +1,3107 @@
+protein,chain,carb_name,carb_id,group
+7E6X,E,NAG,1;2,opsin
+7PNB,J,NAG,1;2,filament
+7PNB,J,YZT,3,filament
+7PNB,J,BGC,4,filament
+7PNB,J,MAN,5;6,filament
+7PNB,K,NAG,1;2,filament
+7PNB,K,YZT,3,filament
+7PNB,K,MAN,4,filament
+7PNB,L,NAG,1;2,filament
+7PNB,L,YZT,3,filament
+7PNB,L,BGC,4,filament
+7PNB,L,MAN,5;6,filament
+7PNB,M,NAG,1;2,filament
+7PNB,M,YZT,3,filament
+7PNB,M,BGC,4,filament
+7PNB,M,MAN,5;6,filament
+7PNB,N,NAG,1;2,filament
+7PNB,N,YZT,3,filament
+7PNB,N,BGC,4,filament
+7PNB,N,MAN,5;6,filament
+7PNB,O,NAG,1;2,filament
+7PNB,O,YZT,3,filament
+7PNB,O,BGC,4,filament
+7PNB,O,MAN,5;6,filament
+7PNB,P,NAG,1;2,filament
+7PNB,P,YZT,3,filament
+7PNB,P,MAN,4,filament
+7PNB,Q,NAG,1;2,filament
+7PNB,Q,YZT,3,filament
+7PNB,Q,BGC,4,filament
+7PNB,Q,MAN,5;6,filament
+7PNB,R,NAG,1;2,filament
+7PNB,R,YZT,3,filament
+7PNB,R,BGC,4,filament
+7PNB,R,MAN,5;6,filament
+7PNB,S,NAG,1;2,filament
+7PNB,S,YZT,3,filament
+7PNB,S,BGC,4,filament
+7PNB,S,MAN,5;6,filament
+7PNB,T,NAG,1;2,filament
+7PNB,T,YZT,3,filament
+7PNB,T,BGC,4,filament
+7PNB,T,MAN,5;6,filament
+7PNB,U,NAG,1;2,filament
+7PNB,U,YZT,3,filament
+7PNB,U,MAN,4,filament
+7PNB,V,NAG,1;2,filament
+7PNB,V,YZT,3,filament
+7PNB,V,BGC,4,filament
+7PNB,V,MAN,5;6,filament
+7PNB,W,NAG,1;2,filament
+7PNB,W,YZT,3,filament
+7PNB,W,BGC,4,filament
+7PNB,W,MAN,5;6,filament
+7PNB,X,NAG,1;2,filament
+7PNB,X,YZT,3,filament
+7PNB,X,BGC,4,filament
+7PNB,X,MAN,5;6,filament
+7PNB,Y,NAG,1;2,filament
+7PNB,Y,YZT,3,filament
+7PNB,Y,BGC,4,filament
+7PNB,Y,MAN,5;6,filament
+7PNB,Z,NAG,1;2,filament
+7PNB,Z,YZT,3,filament
+7PNB,Z,MAN,4,filament
+7PNB,a,NAG,1;2,filament
+7PNB,a,YZT,3,filament
+7PNB,a,BGC,4,filament
+7PNB,a,MAN,5;6,filament
+7PNB,b,NAG,1;2,filament
+7PNB,b,YZT,3,filament
+7PNB,b,BGC,4,filament
+7PNB,b,MAN,5;6,filament
+7PNB,c,NAG,1;2,filament
+7PNB,c,YZT,3,filament
+7PNB,c,BGC,4,filament
+7PNB,c,MAN,5;6,filament
+7PNB,d,NAG,1;2,filament
+7PNB,d,YZT,3,filament
+7PNB,d,BGC,4,filament
+7PNB,d,MAN,5;6,filament
+7PNB,e,NAG,1;2,filament
+7PNB,e,YZT,3,filament
+7PNB,e,MAN,4,filament
+7PNB,f,NAG,1;2,filament
+7PNB,f,YZT,3,filament
+7PNB,f,BGC,4,filament
+7PNB,f,MAN,5;6,filament
+7PNB,g,NAG,1;2,filament
+7PNB,g,YZT,3,filament
+7PNB,g,BGC,4,filament
+7PNB,g,MAN,5;6,filament
+7PNB,h,NAG,1;2,filament
+7PNB,h,YZT,3,filament
+7PNB,h,BGC,4,filament
+7PNB,h,MAN,5;6,filament
+7PNB,i,NAG,1;2,filament
+7PNB,i,YZT,3,filament
+7PNB,i,BGC,4,filament
+7PNB,i,MAN,5;6,filament
+7PNB,j,NAG,1;2,filament
+7PNB,j,YZT,3,filament
+7PNB,j,MAN,4,filament
+7PNB,k,NAG,1;2,filament
+7PNB,k,YZT,3,filament
+7PNB,k,BGC,4,filament
+7PNB,k,MAN,5;6,filament
+7PNB,l,NAG,1;2,filament
+7PNB,l,YZT,3,filament
+7PNB,l,BGC,4,filament
+7PNB,l,MAN,5;6,filament
+7PNB,m,NAG,1;2,filament
+7PNB,m,YZT,3,filament
+7PNB,m,BGC,4,filament
+7PNB,m,MAN,5;6,filament
+7PNB,n,NAG,1;2,filament
+7PNB,n,YZT,3,filament
+7PNB,n,BGC,4,filament
+7PNB,n,MAN,5;6,filament
+7PNB,o,NAG,1;2,filament
+7PNB,o,YZT,3,filament
+7PNB,o,BGC,4,filament
+7PNB,p,NAG,1;2,filament
+7PNB,p,YZT,3,filament
+7PNB,p,BGC,4,filament
+7PNB,p,MAN,5;6,filament
+7PNB,q,NAG,1;2,filament
+7PNB,q,YZT,3,filament
+7PNB,q,BGC,4,filament
+7PNB,q,MAN,5;6,filament
+7PNB,r,NAG,1;2,filament
+7PNB,r,YZT,3,filament
+7PNB,r,BGC,4,filament
+7PNB,r,MAN,5;6,filament
+7PNB,s,NAG,1;2,filament
+7PNB,s,YZT,3,filament
+7PNB,s,BGC,4,filament
+7PNB,s,MAN,5;6,filament
+7PNB,t,NAG,1;2,filament
+7PNB,t,YZT,3,filament
+7PNB,t,BGC,4,filament
+7PNB,u,NAG,1;2,filament
+7PNB,u,YZT,3,filament
+7PNB,u,BGC,4,filament
+7PNB,u,MAN,5;6,filament
+7PNB,v,NAG,1;2,filament
+7PNB,v,YZT,3,filament
+7PNB,v,BGC,4,filament
+7PNB,v,MAN,5;6,filament
+7PNB,w,NAG,1;2,filament
+7PNB,w,YZT,3,filament
+7PNB,w,BGC,4,filament
+7PNB,w,MAN,5;6,filament
+7PNB,x,NAG,1;2,filament
+7PNB,x,YZT,3,filament
+7PNB,x,BGC,4,filament
+7PNB,x,MAN,5;6,filament
+7PNB,y,NAG,1;2,filament
+7PNB,y,YZT,3,filament
+7PNB,y,BGC,4,filament
+7PNB,z,NAG,1;2,filament
+7PNB,z,YZT,3,filament
+7PNB,z,BGC,4,filament
+7PNB,z,MAN,5;6,filament
+7PNB,0,NAG,1;2,filament
+7PNB,0,YZT,3,filament
+7PNB,0,BGC,4,filament
+7PNB,0,MAN,5;6,filament
+7PNB,1,NAG,1;2,filament
+7PNB,1,YZT,3,filament
+7PNB,1,BGC,4,filament
+7PNB,1,MAN,5;6,filament
+8FR7,D,NAG,1;2,spike
+8FR7,D,BMA,3,spike
+8FR7,D,MAN,4;5;6;7,spike
+8FR7,E,NAG,1;2,spike
+8FR7,E,BMA,3,spike
+8FR7,E,MAN,4;5;6;7,spike
+8FR7,F,NAG,1;2,spike
+8FR7,F,BMA,3,spike
+8FR7,F,MAN,4;5;6;7;8;9,spike
+8FR7,G,NAG,1;2,spike
+8FR7,G,BMA,3,spike
+8FR7,G,MAN,4,spike
+8FR7,G,NAG,5,spike
+8FR7,G,GAL,6,spike
+8FR7,G,MAN,7,spike
+8FR7,G,NAG,8,spike
+8FR7,G,GAL,9,spike
+8FR7,H,NAG,1;2,spike
+8FR7,H,BMA,3,spike
+8FR7,H,MAN,4;5;6;7,spike
+8FR7,I,NAG,1;2,spike
+8FR7,I,BMA,3,spike
+8FR7,I,MAN,4;5;6;7,spike
+8FR7,J,NAG,1;2,spike
+8FR7,J,BMA,3,spike
+8FR7,J,MAN,4;5;6;7,spike
+8FR7,K,NAG,1;2,spike
+8FR7,K,BMA,3,spike
+8FR7,K,MAN,4;5;6;7,spike
+8FR7,L,NAG,1;2,spike
+8FR7,L,BMA,3,spike
+8FR7,L,MAN,4;5;6;7,spike
+8FR7,M,NAG,1;2,spike
+8FR7,M,BMA,3,spike
+8FR7,M,MAN,4;5;6;7;8,spike
+8FR7,N,NAG,1;2,spike
+8FR7,N,BMA,3,spike
+8FR7,N,MAN,4;5;6;7,spike
+8FR7,O,NAG,1;2,spike
+8FR7,O,BMA,3,spike
+8FR7,O,MAN,4;5;6;7,spike
+8FR7,P,NAG,1;2,spike
+8FR7,P,BMA,3,spike
+8FR7,P,MAN,4;5;6;7,spike
+8FR7,Q,NAG,1;2,spike
+8FR7,Q,BMA,3,spike
+8FR7,Q,MAN,4;5;6;7,spike
+8FR7,R,NAG,1;2,spike
+8FR7,R,BMA,3,spike
+8FR7,R,MAN,4;5;6;7;8;9,spike
+8FR7,S,NAG,1;2,spike
+8FR7,S,BMA,3,spike
+8FR7,S,MAN,4,spike
+8FR7,S,NAG,5,spike
+8FR7,S,GAL,6,spike
+8FR7,S,MAN,7,spike
+8FR7,S,NAG,8,spike
+8FR7,S,GAL,9,spike
+8FR7,T,NAG,1;2,spike
+8FR7,T,BMA,3,spike
+8FR7,T,MAN,4;5;6;7,spike
+8FR7,U,NAG,1;2,spike
+8FR7,U,BMA,3,spike
+8FR7,U,MAN,4;5;6;7,spike
+8FR7,V,NAG,1;2,spike
+8FR7,V,BMA,3,spike
+8FR7,V,MAN,4;5;6;7,spike
+8FR7,W,NAG,1;2,spike
+8FR7,W,BMA,3,spike
+8FR7,W,MAN,4;5;6;7,spike
+8FR7,X,NAG,1;2,spike
+8FR7,X,BMA,3,spike
+8FR7,X,MAN,4;5;6;7,spike
+8FR7,Y,NAG,1;2,spike
+8FR7,Y,BMA,3,spike
+8FR7,Y,MAN,4;5;6;7;8,spike
+8FR7,Z,NAG,1;2,spike
+8FR7,Z,BMA,3,spike
+8FR7,Z,MAN,4;5;6;7,spike
+8FR7,a,NAG,1;2,spike
+8FR7,a,BMA,3,spike
+8FR7,a,MAN,4;5;6;7,spike
+8FR7,b,NAG,1;2,spike
+8FR7,b,BMA,3,spike
+8FR7,b,MAN,4;5;6;7,spike
+8FR7,c,NAG,1;2,spike
+8FR7,c,BMA,3,spike
+8FR7,c,MAN,4;5;6;7,spike
+8FR7,d,NAG,1;2,spike
+8FR7,d,BMA,3,spike
+8FR7,d,MAN,4;5;6;7,spike
+8FR7,e,NAG,1;2,spike
+8FR7,e,BMA,3,spike
+8FR7,e,MAN,4;5;6;7,spike
+8FR7,f,NAG,1;2,spike
+8FR7,f,BMA,3,spike
+8FR7,f,MAN,4;5;6;7,spike
+8FR7,g,NAG,1;2,spike
+8FR7,g,BMA,3,spike
+8FR7,g,MAN,4;5;6;7,spike
+8FR7,h,NAG,1;2,spike
+8FR7,h,BMA,3,spike
+8FR7,h,MAN,4;5;6;7,spike
+8FR7,i,NAG,1;2,spike
+8FR7,i,BMA,3,spike
+8FR7,i,MAN,4;5;6;7,spike
+8FR7,j,NAG,1;2,spike
+8FR7,j,BMA,3,spike
+8FR7,j,MAN,4;5;6;7,spike
+8FR7,k,NAG,1;2,spike
+8FR7,k,BMA,3,spike
+8FR7,k,MAN,4;5;6;7,spike
+8FR7,l,NAG,1;2,spike
+8FR7,l,BMA,3,spike
+8FR7,l,MAN,4;5;6;7,spike
+8FR7,m,NAG,1;2,spike
+8FR7,m,BMA,3,spike
+8FR7,m,MAN,4;5;6;7,spike
+8FR7,n,NAG,1;2,spike
+8FR7,n,BMA,3,spike
+8FR7,n,MAN,4;5;6;7,spike
+8FR7,o,NAG,1;2,spike
+8FR7,o,BMA,3,spike
+8FR7,o,MAN,4;5;6;7,spike
+8FR7,p,NAG,1;2,spike
+8FR7,p,BMA,3,spike
+8FR7,p,MAN,4,spike
+8FR7,p,NAG,5,spike
+8FR7,p,GAL,6,spike
+8FR7,p,NAG,7,spike
+8FR7,p,GAL,8,spike
+8FR7,p,MAN,9,spike
+8FR7,p,NAG,10,spike
+8FR7,p,GAL,11,spike
+8FR7,p,FUC,12,spike
+8FR7,q,NAG,1;2,spike
+8FR7,q,BMA,3,spike
+8FR7,q,MAN,4;5;6;7,spike
+8FR7,r,NAG,1;2,spike
+8FR7,r,BMA,3,spike
+8FR7,r,MAN,4;5;6;7,spike
+8FR7,s,NAG,1;2,spike
+8FR7,s,BMA,3,spike
+8FR7,s,MAN,4;5;6;7,spike
+8FR7,t,NAG,1;2,spike
+8FR7,t,BMA,3,spike
+8FR7,t,MAN,4;5;6;7,spike
+8FR7,u,NAG,1;2,spike
+8FR7,u,BMA,3,spike
+8FR7,u,MAN,4;5;6;7,spike
+8FR7,v,NAG,1;2,spike
+8FR7,v,BMA,3,spike
+8FR7,v,MAN,4;5,spike
+8FR7,w,NAG,1;2,spike
+8FR7,w,BMA,3,spike
+8FR7,w,MAN,4;5;6;7,spike
+8FR7,x,NAG,1;2,spike
+8FR7,x,BMA,3,spike
+8FR7,x,MAN,4;5;6;7,spike
+8FR7,y,NAG,1;2,spike
+8FR7,y,BMA,3,spike
+8FR7,y,MAN,4;5;6;7,spike
+8FR7,z,NAG,1;2,spike
+8FR7,0,NAG,1;2,spike
+8FR7,0,BMA,3,spike
+8FR7,0,MAN,4;5;6;7,spike
+8FR7,1,NAG,1;2,spike
+8FR7,1,BMA,3,spike
+8FR7,1,MAN,4;5;6;7,spike
+8FR7,2,NAG,1;2,spike
+8FR7,2,BMA,3,spike
+8FR7,2,MAN,4;5;6;7,spike
+8FR7,3,NAG,1;2,spike
+8FR7,3,BMA,3,spike
+8FR7,3,MAN,4;5;6;7,spike
+8FR7,4,NAG,1;2,spike
+8FR7,4,BMA,3,spike
+8FR7,4,MAN,4;5;6;7,spike
+8FR7,5,NAG,1;2,spike
+8FR7,5,BMA,3,spike
+8FR7,5,MAN,4;5;6;7,spike
+8FR7,6,NAG,1;2,spike
+8FR7,6,BMA,3,spike
+8FR7,6,MAN,4;5;6;7,spike
+8FR7,7,NAG,1;2,spike
+8FR7,7,BMA,3,spike
+8FR7,7,MAN,4;5;6;7,spike
+2HG0,B,NAG,1,envelope
+2HG0,B,NDG,2,envelope
+2HG0,B,FUL,3,envelope
+4MWF,E,NAG,1;2,heavy chain
+4MWF,E,BMA,3,heavy chain
+4MWF,E,MAN,4;5;6;7;8,heavy chain
+4MWF,F,NAG,1;2,heavy chain
+4MWF,G,NAG,1;2,heavy chain
+8JAM,A,NAG,1;2,spike
+8JAM,A,FUC,3,spike
+9LYP,P,NAG,1;2,spike
+2AJF,C,NAG,1;2,angiotensin-converting enzyme-related carboxypeptidase
+2AJF,C,BMA,3,angiotensin-converting enzyme-related carboxypeptidase
+2AJF,D,NAG,1;2,angiotensin-converting enzyme-related carboxypeptidase
+2AJF,D,BMA,3,angiotensin-converting enzyme-related carboxypeptidase
+9BLK,D,NAG,1;2,spike
+9BLK,D,BMA,3,spike
+9BLK,E,NAG,1;2,spike
+9BLK,F,NAG,1;2,spike
+9BLK,F,BMA,3,spike
+9BLK,G,NAG,1;2,spike
+9BLK,H,NAG,1;2,spike
+9BLK,H,BMA,3,spike
+9BLK,I,NAG,1;2,spike
+5NFF,Q,NAG,1;2,glycoprotein
+5NFF,R,NAG,1;2,glycoprotein
+5NFF,S,NAG,1;2,glycoprotein
+5NFF,S,MAN,3;4,glycoprotein
+5NFF,T,NAG,1;2,glycoprotein
+5NFF,T,MAN,3;4;5,glycoprotein
+3C5X,B,NAG,1,envelope protein E
+3C5X,B,NDG,2,envelope protein E
+3C5X,D,NAG,1;2,envelope protein E
+3C5X,D,SHD,3,envelope protein E
+3C5X,D,BMA,4;5,envelope protein E
+2I69,B,NAG,1;2,polyprotein
+2I69,B,FUL,3,polyprotein
+5UQY,Q,NAG,1;2,envelope
+5UQY,R,NAG,1;2,envelope
+5UQY,S,NAG,1;2,envelope
+5UQY,S,BMA,3,envelope
+5UQY,S,MAN,4;5;6,envelope
+5UQY,T,NAG,1;2,envelope
+5UQY,U,NAG,1;2,envelope
+5UQY,U,BMA,3,envelope
+5UQY,U,MAN,4;5;6,envelope
+5UQY,V,NAG,1;2,envelope
+5UQY,V,BMA,3,envelope
+5UQY,V,MAN,4,envelope
+5UQY,W,NAG,1;2,envelope
+5UQY,X,NAG,1;2,envelope
+5UQY,X,BMA,3,envelope
+5UQY,X,MAN,4,envelope
+5UQY,Y,NAG,1;2,envelope
+5UQY,Z,NAG,1;2,envelope
+5UQY,a,NAG,1;2,envelope
+5UQY,a,BMA,3,envelope
+5UQY,a,MAN,4;5,envelope
+4UTC,C,NAG,1;2,envelope
+4UTC,C,FUC,3,envelope
+4UTC,D,NAG,1;2,envelope
+4UTC,E,NAG,1;2,envelope
+4UTC,E,BMA,3;4;5,envelope
+4UTC,E,FUC,6,envelope
+4UTC,F,NAG,1;2,envelope
+3M1C,C,NAG,1;2,envelope glycoprotein H
+5HJ3,Q,NAG,1;2,envelope
+5HJ3,Q,BMA,3,envelope
+5HJ3,Q,MAN,4;5;6;7,envelope
+5HJ3,R,NAG,1;2,envelope
+5HJ3,R,BMA,3,envelope
+5HJ3,R,MAN,4;5;6;7,envelope
+5HJ3,S,NAG,1;2,envelope
+5HJ3,S,BMA,3,envelope
+5HJ3,S,MAN,4;5;6;7,envelope
+5HJ3,T,NAG,1;2,envelope
+5HJ3,T,BMA,3,envelope
+5HJ3,T,MAN,4;5;6;7,envelope
+5N0A,C,NAG,1;2,envelope glycoprotein E
+5N0A,C,BMA,3,envelope glycoprotein E
+5N0A,C,MAN,4;5,envelope glycoprotein E
+5N0A,C,FUC,6,envelope glycoprotein E
+5N0A,D,NAG,1,envelope glycoprotein E
+5N0A,D,BMA,3,envelope glycoprotein E
+5N0A,D,MAN,4;5,envelope glycoprotein E
+5N0A,D,FUC,6,envelope glycoprotein E
+4JNT,C,NAG,1;2,envelope glycoprotein E2
+4JNT,D,NAG,1;2,envelope glycoprotein E2
+4JNT,E,NAG,1;2,envelope glycoprotein E2
+4JNT,F,NAG,1;2,envelope glycoprotein E2
+4JNT,G,NAG,1;2,envelope glycoprotein E2
+4JNT,H,NAG,1;2,envelope glycoprotein E2
+4JNT,I,NAG,1;2,envelope glycoprotein E2
+4JNT,J,NAG,1;2,envelope glycoprotein E2
+3CSY,Q,NAG,1;2,heavy chain
+3CSY,Q,BMA,3,heavy chain
+3CSY,R,NAG,1;2,heavy chain
+3CSY,R,BMA,3,heavy chain
+3CSY,R,MAN,4;5,heavy chain
+3CSY,S,NAG,1;2,heavy chain
+3CSY,T,NAG,1;2,heavy chain
+3CSY,T,BMA,3,heavy chain
+3CSY,T,MAN,4,heavy chain
+3CSY,T,NAG,5,heavy chain
+3CSY,T,MAN,6,heavy chain
+3CSY,U,NAG,1;2,heavy chain
+3CSY,U,BMA,3,heavy chain
+3CSY,V,NAG,1;2,heavy chain
+3CSY,V,BMA,3,heavy chain
+3CSY,V,MAN,4;5,heavy chain
+3CSY,W,NAG,1;2,heavy chain
+3CSY,W,BMA,3,heavy chain
+3CSY,X,NAG,1;2,heavy chain
+3CSY,X,BMA,3,heavy chain
+3CSY,X,MAN,4,heavy chain
+3CSY,X,NAG,5,heavy chain
+3CSY,X,MAN,6,heavy chain
+6S8D,G,NAG,1;2,light chain
+6S8D,I,NAG,1;2,light chain
+6S8D,J,NAG,1;2,light chain
+8TCO,H,NAG,1;2,envelope glycoprotein H
+8TCO,H,BMA,3,envelope glycoprotein H
+8TCO,I,NAG,1;2,envelope glycoprotein H
+8TCO,J,NAG,1;2,envelope glycoprotein H
+8TCO,J,BMA,3,envelope glycoprotein H
+6XEY,D,NAG,1;2,spike
+6XEY,E,NAG,1;2,spike
+6XEY,E,BMA,3,spike
+6XEY,I,NAG,1;2,spike
+6XEY,M,NAG,1,spike
+6XEY,M,BMA,2,spike
+6XEY,N,NAG,1;2,spike
+6XEY,O,NAG,1;2,spike
+6XEY,O,BMA,3,spike
+6XEY,P,NAG,1;2,spike
+6XEY,P,BMA,3,spike
+6XEY,Q,NAG,1,spike
+6XEY,Q,BMA,2,spike
+6XEY,R,NAG,1;2,spike
+6XEY,S,NAG,1;2,spike
+6XEY,T,NAG,1;2,spike
+6XEY,U,NAG,1;2,spike
+6P91,B,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P91,B,BMA,3,pre-glycoprotein polyprotein GP complex
+6P91,B,MAN,4,pre-glycoprotein polyprotein GP complex
+6P91,C,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P91,D,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P91,E,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P91,E,BMA,3,pre-glycoprotein polyprotein GP complex
+6P91,F,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P91,G,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P91,I,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P91,I,BMA,3,pre-glycoprotein polyprotein GP complex
+6P91,I,MAN,4,pre-glycoprotein polyprotein GP complex
+6P91,J,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P91,J,BMA,3,pre-glycoprotein polyprotein GP complex
+6P91,K,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P91,K,BMA,3,pre-glycoprotein polyprotein GP complex
+6P91,F,FUC,4,pre-glycoprotein polyprotein GP complex
+6P95,I,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,I,BMA,3,pre-glycoprotein polyprotein GP complex
+6P95,J,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,K,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,M,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,M,BMA,3,pre-glycoprotein polyprotein GP complex
+6P95,N,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,O,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,O,BMA,3,pre-glycoprotein polyprotein GP complex
+6P95,O,MAN,1,pre-glycoprotein polyprotein GP complex
+6P95,P,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,P,BMA,3,pre-glycoprotein polyprotein GP complex
+6P95,Q,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,R,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,R,BMA,3,pre-glycoprotein polyprotein GP complex
+6P95,S,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,T,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,T,BMA,3,pre-glycoprotein polyprotein GP complex
+6P95,T,MAN,4;5,pre-glycoprotein polyprotein GP complex
+6P95,U,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,U,BMA,3,pre-glycoprotein polyprotein GP complex
+6P95,U,MAN,4;5,pre-glycoprotein polyprotein GP complex
+6P95,V,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,V,FUC,3,pre-glycoprotein polyprotein GP complex
+6P95,W,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,W,BMA,3,pre-glycoprotein polyprotein GP complex
+6P95,W,MAN,4,pre-glycoprotein polyprotein GP complex
+6P95,X,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,Y,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,Y,FUC,3,pre-glycoprotein polyprotein GP complex
+6P95,Z,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,Z,BMA,3,pre-glycoprotein polyprotein GP complex
+6P95,Z,MAN,4,pre-glycoprotein polyprotein GP complex
+6P95,d,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,e,NAG,1;2,pre-glycoprotein polyprotein GP complex
+6P95,e,FUC,3,pre-glycoprotein polyprotein GP complex
+7L57,D,NAG,1;2,spike
+7L57,E,NAG,1;2,spike
+7L57,F,NAG,1;2,spike
+7L57,F,BMA,3,spike
+7L57,F,MAN,4,spike
+7L57,F,NAG,5,spike
+7L57,G,NAG,1;2,spike
+7L57,I,NAG,1;2,spike
+7L57,J,NAG,1;2,spike
+7L57,J,BMA,3,spike
+7L57,J,NAG,4,spike
+7L57,K,NAG,1;2,spike
+7L57,M,NAG,1;2,spike
+7L57,N,NAG,1;2,spike
+7L56,D,NAG,1;2,spike
+7L56,E,NAG,1;2,spike
+7L56,I,NAG,1;2,spike
+7L56,I,BMA,3,spike
+7L56,I,MAN,4,spike
+7L56,I,NAG,5,spike
+7L56,I,GAL,6,spike
+7L56,I,MAN,7;8,spike
+7L56,M,NAG,1;2,spike
+7L56,M,BMA,3,spike
+7L56,M,MAN,4,spike
+7L56,M,NAG,5,spike
+7L56,M,GAL,6,spike
+7L56,M,MAN,7;8,spike
+7L56,N,NAG,1;2,spike
+7L56,O,NAG,1;2,spike
+7L56,P,NAG,1;2,spike
+7L56,P,BMA,3,spike
+7L56,P,MAN,4,spike
+7L56,P,NAG,5,spike
+7L56,P,GAL,6,spike
+7L56,P,MAN,7;8,spike
+7L56,Q,NAG,1;2,spike
+7L56,R,NAG,1;2,spike
+7MKL,D,NAG,1;2,spike
+7MKL,E,NAG,1;2,spike
+7MKL,F,NAG,1;2,spike
+7MKL,G,NAG,1;2,spike
+7MKL,I,NAG,1;2,spike
+7MKL,J,NAG,1;2,spike
+7MKL,K,NAG,1;2,spike
+7MKL,M,NAG,1;2,spike
+7MKL,N,NAG,1;2,spike
+7MKL,O,NAG,1;2,spike
+7MKL,P,NAG,1;2,spike
+7MKL,Q,NAG,1;2,spike
+7MKL,R,NAG,1;2,spike
+7MKL,S,NAG,1;2,spike
+7MKL,T,NAG,1;2,spike
+2J3F,G,NAG,1;2,FICOLIN-2
+2J3F,G,BMA,3,FICOLIN-2
+2J3F,G,MAN,4,FICOLIN-2
+2J3F,G,FUC,5,FICOLIN-2
+2J3F,H,NAG,1;2,FICOLIN-2
+2J3F,H,BMA,3,FICOLIN-2
+4MDJ,D,NAG,1;2,"HLA class II histocompatibility antigen, DR alpha chain"
+6XC9,B,NAG,1;2,MHC class II HLA-DQ-alpha chain
+6XC9,G,NAG,1;2,MHC class II HLA-DQ-alpha chain
+6XC9,G,FUC,3,MHC class II HLA-DQ-alpha chain
+1YPZ,I,NAG,1;2,H2-T22 protein
+1YPZ,I,MAN,3,H2-T22 protein
+1YPZ,J,NAG,1;2,H2-T22 protein
+1YPZ,K,NAG,1;2,H2-T22 protein
+1YPZ,L,NAG,1;2,H2-T22 protein
+1YPZ,L,MAN,3,H2-T22 protein
+1YPZ,M,NAG,1;2,H2-T22 protein
+1YPZ,M,FUC,3,H2-T22 protein
+5J0B,E,GAL,1,Myeloid cell surface antigen CD33
+5J0B,E,SIA,2,Myeloid cell surface antigen CD33
+5J0B,F,GAL,1,Myeloid cell surface antigen CD33
+5J0B,F,SIA,2,Myeloid cell surface antigen CD33
+5J0B,G,GAL,1,Myeloid cell surface antigen CD33
+5J0B,G,SIA,2,Myeloid cell surface antigen CD33
+5J06,E,GAL,1,Myeloid cell surface antigen CD33
+5J06,E,SIA,2,Myeloid cell surface antigen CD33
+4ADQ ,I,NAG,1;2,SECRETED PROTEIN BARF1
+4ADQ ,I,BMA,3,SECRETED PROTEIN BARF1
+4ADQ ,J,NAG,1;2,SECRETED PROTEIN BARF1
+4ADQ ,J,BMA,3,SECRETED PROTEIN BARF1
+4ADQ ,J,MAN,4,SECRETED PROTEIN BARF1
+4ADQ ,K,NAG,1;2,SECRETED PROTEIN BARF1
+4ADQ ,K,BMA,3,SECRETED PROTEIN BARF1
+4ADQ ,L,NAG,1;2,SECRETED PROTEIN BARF1
+4ADQ ,L,BMA,3,SECRETED PROTEIN BARF1
+4MD5 ,D,NAG,1;2,"HLA class II histocompatibility antigen, DR alpha chain"
+4MDI ,D,NAG,1;2,"HLA class II histocompatibility antigen, DR alpha chain"
+4MD0 ,D,NAG,1;2,"HLA class II histocompatibility antigen, DR alpha chain"
+4GG8 ,C,GLC,1,"T-CELL RECEPTOR, SP3.4 ALPHA CHAIN"
+4GG8 ,C,FRU,2,"T-CELL RECEPTOR, SP3.4 ALPHA CHAIN"
+4GG8 ,D,GLC,1,"T-CELL RECEPTOR, SP3.4 ALPHA CHAIN"
+4GG8 ,D,FRU,2,"T-CELL RECEPTOR, SP3.4 ALPHA CHAIN"
+4MD4 ,D,NAG,1;2,"HLA class II histocompatibility antigen, DR alpha chain"
+4MDJ ,D,NAG,1;2,"HLA class II histocompatibility antigen, DR alpha chain"
+4ADF ,Y,NAG,1;2,SECRETED PROTEIN BARF1
+4ADF ,Y,BMA,3,SECRETED PROTEIN BARF1
+4ADF ,Y,MAN,4;5;6,SECRETED PROTEIN BARF1
+4ADF ,Z,NAG,1;2,SECRETED PROTEIN BARF1
+4ADF ,Z,BMA,3,SECRETED PROTEIN BARF1
+4ADF ,Z,MAN,4;5;6;7,SECRETED PROTEIN BARF1
+4ADF ,a,NAG,1;2,SECRETED PROTEIN BARF1
+4ADF ,a,BMA,3,SECRETED PROTEIN BARF1
+4ADF ,a,MAN,4;5;6;7,SECRETED PROTEIN BARF1
+4ADF ,b,NAG,1;2,SECRETED PROTEIN BARF1
+4ADF ,b,BMA,3,SECRETED PROTEIN BARF1
+4ADF ,b,MAN,4;5,SECRETED PROTEIN BARF1
+4ADF ,c,NAG,1;2,SECRETED PROTEIN BARF1
+4ADF ,c,BMA,3,SECRETED PROTEIN BARF1
+4ADF ,c,MAN,4;5,SECRETED PROTEIN BARF1
+4ADF ,d,NAG,1;2,SECRETED PROTEIN BARF1
+4ADF ,d,BMA,3,SECRETED PROTEIN BARF1
+4ADF ,d,MAN,4;5,SECRETED PROTEIN BARF1
+4ADF ,e,NAG,1;2,SECRETED PROTEIN BARF1
+4ADF ,e,BMA,3,SECRETED PROTEIN BARF1
+4ADF ,e,MAN,4;5;6,SECRETED PROTEIN BARF1
+4ADF ,f,NAG,1;2,SECRETED PROTEIN BARF1
+4ADF ,f,BMA,3,SECRETED PROTEIN BARF1
+4ADF ,f,MAN,4;5;6,SECRETED PROTEIN BARF1
+4ADF ,g,NAG,1;2,SECRETED PROTEIN BARF1
+4ADF ,g,BMA,3,SECRETED PROTEIN BARF1
+4ADF ,g,MAN,4;5,SECRETED PROTEIN BARF1
+4ADF ,h,NAG,1;2,SECRETED PROTEIN BARF1
+4ADF ,h,BMA,3,SECRETED PROTEIN BARF1
+4ADF ,h,MAN,4;5;6,SECRETED PROTEIN BARF1
+4ADF ,i,NAG,1;2,SECRETED PROTEIN BARF1
+4ADF ,i,BMA,3,SECRETED PROTEIN BARF1
+4ADF ,i,MAN,4;5;6;7,SECRETED PROTEIN BARF1
+4ADF ,j,NAG,1;2,SECRETED PROTEIN BARF1
+4ADF ,j,BMA,3,SECRETED PROTEIN BARF1
+4ADF ,j,MAN,4;5;6;7,SECRETED PROTEIN BARF1
+2VSD ,B,NAG,1;2,CHIR AB1
+2VSD ,B,BMA,3,CHIR AB1
+8QYA ,C,NAG,1;2,J22.9-FNY Fab antibody light chain
+5GSQ ,E,NAG,1;2,Ig gamma-1 chain C region
+5GSQ ,E,BMA,3,Ig gamma-1 chain C region
+5GSQ ,E,MAN,4,Ig gamma-1 chain C region
+5GSQ ,E,NAG,5,Ig gamma-1 chain C region
+5GSQ ,E,GAL,6,Ig gamma-1 chain C region
+5GSQ ,E,MAN,7,Ig gamma-1 chain C region
+5GSQ ,F,NAG,1;2,Ig gamma-1 chain C region
+5GSQ ,F,BMA,3,Ig gamma-1 chain C region
+5GSQ ,F,MAN,4,Ig gamma-1 chain C region
+5GSQ ,F,NAG,5,Ig gamma-1 chain C region
+5GSQ ,F,GAL,6,Ig gamma-1 chain C region
+5GSQ ,F,MAN,7,Ig gamma-1 chain C region
+5GSQ ,G,NAG,1;2,Ig gamma-1 chain C region
+5GSQ ,G,BMA,3,Ig gamma-1 chain C region
+5GSQ ,G,MAN,4,Ig gamma-1 chain C region
+5GSQ ,G,NAG,5,Ig gamma-1 chain C region
+5GSQ ,G,GAL,6,Ig gamma-1 chain C region
+5GSQ ,G,SIA,7,Ig gamma-1 chain C region
+5GSQ ,G,MAN,8,Ig gamma-1 chain C region
+5GSQ ,H,NAG,1;2,Ig gamma-1 chain C region
+5GSQ ,H,BMA,3,Ig gamma-1 chain C region
+5GSQ ,H,MAN,4,Ig gamma-1 chain C region
+5GSQ ,H,NAG,5,Ig gamma-1 chain C region
+8SJK ,D,NAG,1;2,ANTIBODY LIGHT CHAIN
+8SJK ,D,BMA,3,ANTIBODY LIGHT CHAIN
+8SJK ,D,MAN,4,ANTIBODY LIGHT CHAIN
+8SJK ,D,NAG,5,ANTIBODY LIGHT CHAIN
+8SJK ,D,MAN,6,ANTIBODY LIGHT CHAIN
+8SJK ,D,NAG,7,ANTIBODY LIGHT CHAIN
+8SJK ,E,GLC,1,ANTIBODY LIGHT CHAIN
+8SJK ,E,FRU,2,ANTIBODY LIGHT CHAIN
+8SJK ,F,GLC,1,ANTIBODY LIGHT CHAIN
+8SJK ,F,FRU,2,ANTIBODY LIGHT CHAIN
+7URU ,D,NAG,1;2,Immunoglobulin gamma-1 heavy chain
+7URU ,D,BMA,3,Immunoglobulin gamma-1 heavy chain
+7URU ,D,MAN,4,Immunoglobulin gamma-1 heavy chain
+7URU ,D,NAG,5,Immunoglobulin gamma-1 heavy chain
+7URU ,D,MAN,6,Immunoglobulin gamma-1 heavy chain
+7URU ,D,NAG,7,Immunoglobulin gamma-1 heavy chain
+7URU ,D,FUC,8,Immunoglobulin gamma-1 heavy chain
+7URU ,E,NAG,1;2,Immunoglobulin gamma-1 heavy chain
+7URU ,E,BMA,3,Immunoglobulin gamma-1 heavy chain
+7URU ,E,MAN,4,Immunoglobulin gamma-1 heavy chain
+7URU ,E,NAG,5,Immunoglobulin gamma-1 heavy chain
+7URU ,E,MAN,6,Immunoglobulin gamma-1 heavy chain
+7URU ,E,NAG,7,Immunoglobulin gamma-1 heavy chain
+7URU ,E,FUC,8,Immunoglobulin gamma-1 heavy chain
+3WN5 ,G,NAG,1;2,Ig gamma-1 chain C region
+3WN5 ,G,BMA,3,Ig gamma-1 chain C region
+3WN5 ,G,MAN,4,Ig gamma-1 chain C region
+3WN5 ,G,NAG,5,Ig gamma-1 chain C region
+3WN5 ,G,GAL,6,Ig gamma-1 chain C region
+3WN5 ,G,MAN,7,Ig gamma-1 chain C region
+3WN5 ,G,NAG,8,Ig gamma-1 chain C region
+3WN5 ,G,FUL,9,Ig gamma-1 chain C region
+3WN5 ,H,NAG,1;2,Ig gamma-1 chain C region
+3WN5 ,H,BMA,3,Ig gamma-1 chain C region
+3WN5 ,H,MAN,4,Ig gamma-1 chain C region
+3WN5 ,H,NAG,5,Ig gamma-1 chain C region
+3WN5 ,H,GAL,6,Ig gamma-1 chain C region
+3WN5 ,H,MAN,7,Ig gamma-1 chain C region
+3WN5 ,H,NAG,8,Ig gamma-1 chain C region
+3WN5 ,H,FUL,9,Ig gamma-1 chain C region
+3WN5 ,I,NAG,1;2,Ig gamma-1 chain C region
+3WN5 ,I,BMA,3,Ig gamma-1 chain C region
+3WN5 ,I,MAN,4,Ig gamma-1 chain C region
+3WN5 ,I,MAN,5,Ig gamma-1 chain C region
+3WN5 ,J,NAG,1;2,Ig gamma-1 chain C region
+3WN5 ,K,NAG,1;2,Ig gamma-1 chain C region
+3WN5 ,K,BMA,3,Ig gamma-1 chain C region
+3WN5 ,K,MAN,4,Ig gamma-1 chain C region
+3WN5 ,K,NAG,5,Ig gamma-1 chain C region
+3WN5 ,K,MAN,6,Ig gamma-1 chain C region
+3WN5 ,K,NAG,7,Ig gamma-1 chain C region
+3WN5 ,K,FUL,8,Ig gamma-1 chain C region
+3WN5 ,L,NAG,1;2,Ig gamma-1 chain C region
+3WN5 ,L,BMA,3,Ig gamma-1 chain C region
+3WN5 ,L,MAN,4,Ig gamma-1 chain C region
+3WN5 ,L,NAG,5,Ig gamma-1 chain C region
+3WN5 ,L,GAL,6,Ig gamma-1 chain C region
+3WN5 ,L,MAN,7,Ig gamma-1 chain C region
+3WN5 ,L,NAG,8,Ig gamma-1 chain C region
+3WN5 ,L,FUL,9,Ig gamma-1 chain C region
+3WN5 ,M,NAG,1;2,Ig gamma-1 chain C region
+3WJL ,D,NAG,1;2,Ig gamma-1 chain C region
+3WJL ,D,BMA,3,Ig gamma-1 chain C region
+3WJL ,D,MAN,4,Ig gamma-1 chain C region
+3WJL ,D,NAG,5,Ig gamma-1 chain C region
+3WJL ,D,GAL,6,Ig gamma-1 chain C region
+3WJL ,D,MAN,7,Ig gamma-1 chain C region
+3WJL ,D,NAG,8,Ig gamma-1 chain C region
+3WJL ,E,NAG,1;2,Ig gamma-1 chain C region
+3WJL ,E,BMA,3,Ig gamma-1 chain C region
+3WJL ,E,MAN,4,Ig gamma-1 chain C region
+3WJL ,E,NAG,5,Ig gamma-1 chain C region
+3WJL ,E,GAL,6,Ig gamma-1 chain C region
+3WJL ,E,MAN,7,Ig gamma-1 chain C region
+3WJL ,E,NAG,8,Ig gamma-1 chain C region
+3WJL ,E,FUL,9,Ig gamma-1 chain C region
+3WJJ ,D,NAG,1;2,Ig gamma-1 chain C region
+3WJJ ,D,BMA,3,Ig gamma-1 chain C region
+3WJJ ,D,MAN,4,Ig gamma-1 chain C region
+3WJJ ,D,NAG,5,Ig gamma-1 chain C region
+3WJJ ,D,GAL,6,Ig gamma-1 chain C region
+3WJJ ,D,MAN,7,Ig gamma-1 chain C region
+3WJJ ,D,NAG,8,Ig gamma-1 chain C region
+3WJJ ,D,FUL,9,Ig gamma-1 chain C region
+3WJJ ,E,NAG,1;2,Ig gamma-1 chain C region
+3WJJ ,E,BMA,3,Ig gamma-1 chain C region
+3WJJ ,E,MAN,4,Ig gamma-1 chain C region
+3WJJ ,E,NAG,5,Ig gamma-1 chain C region
+3WJJ ,E,GAL,6,Ig gamma-1 chain C region
+3WJJ ,E,MAN,7,Ig gamma-1 chain C region
+3WJJ ,E,NAG,8,Ig gamma-1 chain C region
+3WJJ ,E,FUL,9,Ig gamma-1 chain C region
+3SGJ ,D,NAG,1;2,human Fc fragment
+3SGJ ,D,BMA,3,human Fc fragment
+3SGJ ,D,MAN,4,human Fc fragment
+3SGJ ,D,NAG,5,human Fc fragment
+3SGJ ,D,MAN,6,human Fc fragment
+3SGJ ,D,NAG,7,human Fc fragment
+3SGJ ,D,FUC,8,human Fc fragment
+3SGJ ,E,NAG,1;2,human Fc fragment
+3SGJ ,E,BMA,3,human Fc fragment
+3SGJ ,E,MAN,4,human Fc fragment
+3SGJ ,E,NAG,5,human Fc fragment
+3SGJ ,E,MAN,6,human Fc fragment
+3SGJ ,E,NAG,7,human Fc fragment
+3SGJ ,E,FUC,8,human Fc fragment
+3SGJ ,F,NAG,1;2,human Fc fragment
+3SGJ ,F,BMA,3,human Fc fragment
+3SGJ ,F,MAN,4;5,human Fc fragment
+3SGJ ,G,NAG,1;2,human Fc fragment
+8D7E ,A,NAG,1;2,Ciliary neurotrophic factor receptor subunit alpha
+8D7E ,B,NAG,1;2,Ciliary neurotrophic factor receptor subunit alpha
+8D7E ,H,NAG,1;2,Ciliary neurotrophic factor receptor subunit alpha
+8D7E ,I,NAG,1;2,Ciliary neurotrophic factor receptor subunit alpha
+8F0H ,M,NAG,1;2,spike
+8F0H ,M,FUC,3,spike
+6XDG ,F,NAG,1;2,Spike protein S1
+6XDG ,F,BMA,3,Spike protein S1
+6XDG ,F,MAN,4,Spike protein S1
+7M42 ,F,NAG,1;2,REGN10989 antibody Fab fragment light chain
+7M42 ,F,BMA,3,REGN10989 antibody Fab fragment light chain
+4ZSO ,G,NAG,1,Natural cytotoxicity triggering receptor 3 ligand 1
+4ZSO ,G,FUC,2,Natural cytotoxicity triggering receptor 3 ligand 1
+4ZSO ,H,NAG,1;2,Natural cytotoxicity triggering receptor 3 ligand 1
+4ZSO ,I,NAG,1;2,Natural cytotoxicity triggering receptor 3 ligand 1
+4ZSO ,I,FUC,3,Natural cytotoxicity triggering receptor 3 ligand 1
+4ZSO ,J,NAG,1;2,Natural cytotoxicity triggering receptor 3 ligand 1
+4F2M ,G,NAG,1;2,"monoclonal antibody 1AF10, heavy chain"
+4F2M ,H,NAG,1;2,"monoclonal antibody 1AF10, heavy chain"
+4F2M ,I,NAG,1;2,"monoclonal antibody 1AF10, heavy chain"
+4F2M ,J,NAG,1;2,"monoclonal antibody 1AF10, heavy chain"
+1IGT ,E,NAG,1;2,IGG2A INTACT ANTIBODY - MAB231
+1IGT ,E,BMA,3,IGG2A INTACT ANTIBODY - MAB231
+1IGT ,E,MAN,4,IGG2A INTACT ANTIBODY - MAB231
+1IGT ,E,NAG,5,IGG2A INTACT ANTIBODY - MAB231
+1IGT ,E,GAL,6,IGG2A INTACT ANTIBODY - MAB231
+1IGT ,E,MAN,7,IGG2A INTACT ANTIBODY - MAB231
+1IGT ,E,NAG,8,IGG2A INTACT ANTIBODY - MAB231
+1IGT ,E,FUL,9,IGG2A INTACT ANTIBODY - MAB231
+1IGT ,F,NAG,1;2,IGG2A INTACT ANTIBODY - MAB231
+1IGT ,F,BMA,3,IGG2A INTACT ANTIBODY - MAB231
+1IGT ,F,MAN,4,IGG2A INTACT ANTIBODY - MAB231
+1IGT ,F,NAG,5,IGG2A INTACT ANTIBODY - MAB231
+1IGT ,F,GAL,6,IGG2A INTACT ANTIBODY - MAB231
+1IGT ,F,MAN,7,IGG2A INTACT ANTIBODY - MAB231
+1IGT ,F,NAG,8,IGG2A INTACT ANTIBODY - MAB231
+1IGT ,F,FUC,9,IGG2A INTACT ANTIBODY - MAB231
+1HZH ,A,NAG,1;2,IMMUNOGLOBULIN HEAVY CHAIN
+1HZH ,A,BMA,3,IMMUNOGLOBULIN HEAVY CHAIN
+1HZH ,A,MAN,4,IMMUNOGLOBULIN HEAVY CHAIN
+1HZH ,A,NAG,5,IMMUNOGLOBULIN HEAVY CHAIN
+1HZH ,A,GAL,6,IMMUNOGLOBULIN HEAVY CHAIN
+1HZH ,A,MAN,7,IMMUNOGLOBULIN HEAVY CHAIN
+1HZH ,A,NAG,8,IMMUNOGLOBULIN HEAVY CHAIN
+1HZH ,A,GAL,9,IMMUNOGLOBULIN HEAVY CHAIN
+1HZH ,B,NAG,1;2,IMMUNOGLOBULIN HEAVY CHAIN
+1HZH ,B,BMA,3,IMMUNOGLOBULIN HEAVY CHAIN
+1HZH ,B,MAN,4,IMMUNOGLOBULIN HEAVY CHAIN
+1HZH ,B,NAG,5,IMMUNOGLOBULIN HEAVY CHAIN
+1HZH ,B,GAL,6,IMMUNOGLOBULIN HEAVY CHAIN
+1HZH ,B,MAN,7,IMMUNOGLOBULIN HEAVY CHAIN
+1HZH ,B,NAG,8,IMMUNOGLOBULIN HEAVY CHAIN
+1HZH ,B,FUC,9,IMMUNOGLOBULIN HEAVY CHAIN
+8GHP ,S,NAG,1;2;3,Guanylyl cyclase C
+1OQO ,E,NAG,1;2,immunoglobulin gamma-1 heavy chain constant region
+1OQO ,E,BMA,3,immunoglobulin gamma-1 heavy chain constant region
+1OQO ,E,MAN,4,immunoglobulin gamma-1 heavy chain constant region
+1OQO ,E,NAG,5,immunoglobulin gamma-1 heavy chain constant region
+1OQO ,E,MAN,6,immunoglobulin gamma-1 heavy chain constant region
+1OQO ,E,NAG,7,immunoglobulin gamma-1 heavy chain constant region
+1OQO ,E,FUL,8,immunoglobulin gamma-1 heavy chain constant region
+1OQO ,F,NAG,1;2,immunoglobulin gamma-1 heavy chain constant region
+1OQO ,F,BMA,3,immunoglobulin gamma-1 heavy chain constant region
+1OQO ,F,MAN,4,immunoglobulin gamma-1 heavy chain constant region
+1OQO ,F,NDG,5,immunoglobulin gamma-1 heavy chain constant region
+1OQO ,F,MAN,6,immunoglobulin gamma-1 heavy chain constant region
+1OQO ,F,NAG,7,immunoglobulin gamma-1 heavy chain constant region
+1OQO ,F,FUC,8,immunoglobulin gamma-1 heavy chain constant region
+7EAM ,E,NAG,1;2,Spike protein S1
+7EAM ,F,NAG,1;2,Spike protein S1
+7N4M ,B,NAG,1;2,WRAIR-2151 antibody Fab heavy chain
+2WAH ,C,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+2WAH ,C,BMA,3,IG GAMMA-1 CHAIN C REGION
+2WAH ,C,MAN,4'5;6;7;8;9,IG GAMMA-1 CHAIN C REGION
+2WAH ,D,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+2WAH ,D,BMA,3,IG GAMMA-1 CHAIN C REGION
+4Q6Y ,E,NAG,1;2,Ig gamma-1 chain C region
+4Q6Y ,E,BMA,3,Ig gamma-1 chain C region
+4Q6Y ,E,MAN,4,Ig gamma-1 chain C region
+4Q6Y ,E,NAG,5,Ig gamma-1 chain C region
+4Q6Y ,E,MAN,6,Ig gamma-1 chain C region
+4Q6Y ,E,NAG,7,Ig gamma-1 chain C region
+4Q6Y ,F,NAG,1;2,Ig gamma-1 chain C region
+4Q6Y ,F,BMA,3,Ig gamma-1 chain C region
+4Q6Y ,F,MAN,4,Ig gamma-1 chain C region
+4Q6Y ,F,NAG,5,Ig gamma-1 chain C region
+4Q6Y ,F,GAL,6,Ig gamma-1 chain C region
+4Q6Y ,F,SIA,7,Ig gamma-1 chain C region
+4Q6Y ,F,MAN,8,Ig gamma-1 chain C region
+4Q6Y ,F,NAG,9,Ig gamma-1 chain C region
+4Q6Y ,G,NAG,1;2,Ig gamma-1 chain C region
+4Q6Y ,G,BMA,3,Ig gamma-1 chain C region
+4Q6Y ,G,MAN,4,Ig gamma-1 chain C region
+4Q6Y ,G,NAG,5,Ig gamma-1 chain C region
+4Q6Y ,G,GAL,6,Ig gamma-1 chain C region
+4Q6Y ,G,SIA,7,Ig gamma-1 chain C region
+4Q6Y ,G,MAN,8,Ig gamma-1 chain C region
+4Q6Y ,G,NAG,9,Ig gamma-1 chain C region
+4Q6Y ,H,NAG,1;2,Ig gamma-1 chain C region
+4Q6Y ,H,BMA,3,Ig gamma-1 chain C region
+4Q6Y ,H,MAN,4,Ig gamma-1 chain C region
+4Q6Y ,H,NAG,5,Ig gamma-1 chain C region
+4Q6Y ,H,GAL,6,Ig gamma-1 chain C region
+4Q6Y ,H,MAN,7,Ig gamma-1 chain C region
+4Q6Y ,H,NAG,8,Ig gamma-1 chain C region
+4DZ8 ,C,NAG,1;2,Ig gamma-1 chain C region
+4DZ8 ,C,BMA,3,Ig gamma-1 chain C region
+4DZ8 ,C,MAN,4,Ig gamma-1 chain C region
+4DZ8 ,C,NAG,5,Ig gamma-1 chain C region
+4DZ8 ,C,MAN,6,Ig gamma-1 chain C region
+4DZ8 ,C,NAG,7,Ig gamma-1 chain C region
+4DZ8 ,C,FUC,8,Ig gamma-1 chain C region
+4DZ8 ,D,NAG,1;2,Ig gamma-1 chain C region
+4DZ8 ,D,BMA,3,Ig gamma-1 chain C region
+4DZ8 ,D,MAN,4,Ig gamma-1 chain C region
+4DZ8 ,D,NAG,5,Ig gamma-1 chain C region
+4DZ8 ,D,MAN,6,Ig gamma-1 chain C region
+4DZ8 ,D,NAG,7,Ig gamma-1 chain C region
+4DZ8 ,D,FUC,8,Ig gamma-1 chain C region
+2AGJ ,A,NAG,1;2,"Yvo Fab, Light Chain"
+8DW2 ,E,NAG,1;2,SR22
+8DW2 ,E,BMA,3,SR22
+2GJ7 ,C,NAG,1;2,Ig gamma-1 chain C region
+2GJ7 ,C,BMA,3,Ig gamma-1 chain C region
+2GJ7 ,C,MAN,4,Ig gamma-1 chain C region
+2GJ7 ,C,NAG,5,Ig gamma-1 chain C region
+2GJ7 ,C,GAL,6,Ig gamma-1 chain C region
+2GJ7 ,C,MAN,7,Ig gamma-1 chain C region
+2GJ7 ,C,FUC,8,Ig gamma-1 chain C region
+2GJ7 ,D,NAG,1;2,Ig gamma-1 chain C region
+2GJ7 ,D,BMA,3,Ig gamma-1 chain C region
+2GJ7 ,D,MAN,4,Ig gamma-1 chain C region
+2GJ7 ,D,NAG,5,Ig gamma-1 chain C region
+2GJ7 ,D,GAL,6,Ig gamma-1 chain C region
+2GJ7 ,D,MAN,7,Ig gamma-1 chain C region
+2GJ7 ,D,FUC,8,Ig gamma-1 chain C region
+6XQ0 ,G,NAG,1;2,Hemagglutinin
+6XQ0 ,G,BMA,3,Hemagglutinin
+6XQ0 ,G,FUC,4;5,Hemagglutinin
+6XQ0 ,H,NAG,1;2,Hemagglutinin
+6XQ0 ,H,BMA,3,Hemagglutinin
+6XQ0 ,H,FUC,4;5,Hemagglutinin
+5JII ,C,NAG,1;2,Ig gamma-1 chain C region
+5JII ,C,BMA,3,Ig gamma-1 chain C region
+5JII ,C,MAN,4,Ig gamma-1 chain C region
+5JII ,C,NAG,5,Ig gamma-1 chain C region
+5JII ,C,MAN,6,Ig gamma-1 chain C region
+5JII ,D,NAG,1;2,Ig gamma-1 chain C region
+5JII ,D,BMA,3,Ig gamma-1 chain C region
+5JII ,D,MAN,4,Ig gamma-1 chain C region
+5JII ,D,NAG,5,Ig gamma-1 chain C region
+5JII ,D,GAL,6,Ig gamma-1 chain C region
+5JII ,D,MAN,7,Ig gamma-1 chain C region
+5JII ,D,FUC,8,Ig gamma-1 chain C region
+1FC1 ,C,NAG,1;2,FC FRAGMENT
+1FC1 ,C,MAN,3;4,FC FRAGMENT
+1FC1 ,C,NAG,5,FC FRAGMENT
+1FC1 ,C,GAL,6,FC FRAGMENT
+1FC1 ,C,MAN,7,FC FRAGMENT
+1FC1 ,C,NAG,8,FC FRAGMENT
+1FC1 ,C,FUC,9,FC FRAGMENT
+1FC1 ,D,NAG,1;2,FC FRAGMENT
+1FC1 ,D,MAN,3;4,FC FRAGMENT
+1FC1 ,D,NAG,5,FC FRAGMENT
+1FC1 ,D,GAL,6,FC FRAGMENT
+1FC1 ,D,MAN,7,FC FRAGMENT
+1FC1 ,D,NAG,8,FC FRAGMENT
+1FC1 ,D,FUC,9,FC FRAGMENT
+1H3T ,C,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+1H3T ,C,BMA,3,IG GAMMA-1 CHAIN C REGION
+1H3T ,C,FUL,4,IG GAMMA-1 CHAIN C REGION
+1H3U ,C,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+1H3U ,C,BMA,3,IG GAMMA-1 CHAIN C REGION
+1H3U ,C,MAN,4;5,IG GAMMA-1 CHAIN C REGION
+1H3U ,C,FUL,6,IG GAMMA-1 CHAIN C REGION
+1H3U ,D,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+1H3U ,D,BMA,3;4,IG GAMMA-1 CHAIN C REGION
+1H3U ,D,MAN,5,IG GAMMA-1 CHAIN C REGION
+1H3U ,D,FUL,6,IG GAMMA-1 CHAIN C REGION
+1H3X ,C,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+1H3X ,C,BMA,3,IG GAMMA-1 CHAIN C REGION
+1H3X ,C,MAN,4,IG GAMMA-1 CHAIN C REGION
+1H3X ,C,NAG,5,IG GAMMA-1 CHAIN C REGION
+1H3X ,C,MAN,6,IG GAMMA-1 CHAIN C REGION
+1H3X ,C,NAG,7,IG GAMMA-1 CHAIN C REGION
+1H3X ,C,FUL,8,IG GAMMA-1 CHAIN C REGION
+1H3X ,D,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+1H3X ,D,BMA,3,IG GAMMA-1 CHAIN C REGION
+1H3X ,D,MAN,4,IG GAMMA-1 CHAIN C REGION
+1H3X ,D,NAG,5,IG GAMMA-1 CHAIN C REGION
+1H3X ,D,MAN,6,IG GAMMA-1 CHAIN C REGION
+1H3X ,D,NAG,7,IG GAMMA-1 CHAIN C REGION
+1H3X ,D,FUL,8,IG GAMMA-1 CHAIN C REGION
+7R6W ,C,NAG,1;2,Light Chain of Fab domain of monoclonal antibody S309
+8CWJ ,C,NAG,1;2,Heavy chain of CR3022 antibody Fab
+8CWJ ,C,FUC,3,Heavy chain of CR3022 antibody Fab
+8CWJ ,D,NAG,1;2,Heavy chain of CR3022 antibody Fab
+8CWJ ,D,FUC,3,Heavy chain of CR3022 antibody Fab
+8CWJ ,E,NAG,1;2,Heavy chain of CR3022 antibody Fab
+8CWJ ,E,FUC,3,Heavy chain of CR3022 antibody Fab
+5JIH ,C,NAG,1;2,Ig gamma-1 chain C region
+5JIH ,C,BMA,3,Ig gamma-1 chain C region
+5JIH ,C,MAN,4,Ig gamma-1 chain C region
+5JIH ,C,NAG,5,Ig gamma-1 chain C region
+5JIH ,C,MAN,6,Ig gamma-1 chain C region
+5JIH ,C,NAG,7,Ig gamma-1 chain C region
+5JIH ,C,FUC,8,Ig gamma-1 chain C region
+5JIH ,D,NAG,1;2,Ig gamma-1 chain C region
+5JIH ,D,BMA,3,Ig gamma-1 chain C region
+5JIH ,D,MAN,4,Ig gamma-1 chain C region
+5JIH ,D,NAG,5,Ig gamma-1 chain C region
+5JIH ,D,MAN,6,Ig gamma-1 chain C region
+1CLY ,A,NAG,1,"IGG FAB (HUMAN IGG1, KAPPA)"
+1CLY ,A,GAL,2,"IGG FAB (HUMAN IGG1, KAPPA)"
+1CLY ,A,FUC,3;4,"IGG FAB (HUMAN IGG1, KAPPA)"
+5MTH ,C,GLC,1;2,antibody Fab heavy chain
+5MTH ,D,GLC,1;2,antibody Fab heavy chain
+5MTH ,E,GLC,1;2,antibody Fab heavy chain
+5MTH ,F,GLC,1;2,antibody Fab heavy chain
+7YAD ,F,NAG,1;2,S309 neutralizing antibody heavy chain
+7YAD ,F,FUC,3,S309 neutralizing antibody heavy chain
+7YAD ,G,NAG,1;2,S309 neutralizing antibody heavy chain
+7YAD ,G,FUC,3,S309 neutralizing antibody heavy chain
+7N4I ,A,NAG,1;2,WRAIR-2057 Antibody Fab Light Chain
+7N4I ,A,BMA,3,WRAIR-2057 Antibody Fab Light Chain
+5IW3 ,B,NAG,1;2,Ig gamma-1 chain C region
+5IW3 ,B,BMA,3,Ig gamma-1 chain C region
+5IW3 ,B,MAN,4,Ig gamma-1 chain C region
+5IW3 ,B,NAG,5,Ig gamma-1 chain C region
+5IW3 ,B,GAL,6,Ig gamma-1 chain C region
+5IW3 ,B,MAN,7,Ig gamma-1 chain C region
+5IW3 ,B,NAG,8,Ig gamma-1 chain C region
+7N4J ,B,NAG,1;2,Spike protein S1
+7N4J ,B,BMA,3,Spike protein S1
+7SN2 ,B,NAG,1;2,Spike 
+7SN2 ,B,BMA,3,Spike 
+7SN2 ,C,NAG,1;2,Spike 
+7SN2 ,C,BMA,3,Spike 
+7SN2 ,C,MAN,4,Spike 
+7SN2 ,C,NAG,5,Spike 
+7SN2 ,C,MAN,6,Spike 
+7SN2 ,C,NAG,7,Spike 
+8DW3 ,E,NAG,1;2,Anti-SARS-CoV-2 DARPin SR16m
+8DW3 ,E,BMA,3,Anti-SARS-CoV-2 DARPin SR16m
+9JQ6 ,A,NAG,1;2,Butyrophilin subfamily 2 member A1
+9JQ6 ,B,NAG,1;2,Butyrophilin subfamily 2 member A1
+9JQ6 ,C,NAG,1;2,Butyrophilin subfamily 2 member A1
+1H3V ,C,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+1H3V ,C,BMA,3,IG GAMMA-1 CHAIN C REGION
+1H3V ,C,MAN,4,IG GAMMA-1 CHAIN C REGION
+1H3V ,C,NAG,5,IG GAMMA-1 CHAIN C REGION
+1H3V ,C,GAL,6,IG GAMMA-1 CHAIN C REGION
+1H3V ,C,MAN,7,IG GAMMA-1 CHAIN C REGION
+1H3V ,C,FUL,8,IG GAMMA-1 CHAIN C REGION
+1H3V ,D,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+1H3V ,D,BMA,3;4,IG GAMMA-1 CHAIN C REGION
+1H3V ,D,NAG,5,IG GAMMA-1 CHAIN C REGION
+1H3V ,D,GAL,6,IG GAMMA-1 CHAIN C REGION
+1H3V ,D,MAN,7,IG GAMMA-1 CHAIN C REGION
+1H3V ,D,FUL,8,IG GAMMA-1 CHAIN C REGION
+1H3Y ,C,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+1H3Y ,C,MAN,3;4,IG GAMMA-1 CHAIN C REGION
+1H3Y ,C,NAG,5,IG GAMMA-1 CHAIN C REGION
+1H3Y ,C,GLA,6,IG GAMMA-1 CHAIN C REGION
+1H3Y ,C,MAN,7,IG GAMMA-1 CHAIN C REGION
+1H3Y ,C,NAG,8,IG GAMMA-1 CHAIN C REGION
+1H3Y ,C,FUL,9,IG GAMMA-1 CHAIN C REGION
+1H3Y ,D,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+1H3Y ,D,BMA,3,IG GAMMA-1 CHAIN C REGION
+1H3Y ,D,MAN,4,IG GAMMA-1 CHAIN C REGION
+1H3Y ,D,NAG,5,IG GAMMA-1 CHAIN C REGION
+1H3Y ,D,GLA,6,IG GAMMA-1 CHAIN C REGION
+1H3Y ,D,MAN,7,IG GAMMA-1 CHAIN C REGION
+1H3Y ,D,NAG,8,IG GAMMA-1 CHAIN C REGION
+1H3Y ,D,FUL,9,IG GAMMA-1 CHAIN C REGION
+4B7I ,C,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+4B7I ,C,BMA,3,IG GAMMA-1 CHAIN C REGION
+4B7I ,C,MAN,4;5;6;7,IG GAMMA-1 CHAIN C REGION
+4B7I ,C,FUC,8,IG GAMMA-1 CHAIN C REGION
+4WI2 ,C,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+4WI2 ,C,BMA,3,IG GAMMA-1 CHAIN C REGION
+4WI2 ,C,MAN,4,IG GAMMA-1 CHAIN C REGION
+4WI2 ,C,NAG,5,IG GAMMA-1 CHAIN C REGION
+4WI2 ,C,MAN,6,IG GAMMA-1 CHAIN C REGION
+4WI2 ,C,NAG,7,IG GAMMA-1 CHAIN C REGION
+4WI2 ,C,FUC,8,IG GAMMA-1 CHAIN C REGION
+4WI2 ,D,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+4WI2 ,D,BMA,3,IG GAMMA-1 CHAIN C REGION
+4WI2 ,D,MAN,4,IG GAMMA-1 CHAIN C REGION
+4WI2 ,D,NAG,5,IG GAMMA-1 CHAIN C REGION
+4WI2 ,D,MAN,6,IG GAMMA-1 CHAIN C REGION
+4WI2 ,D,NAG,7,IG GAMMA-1 CHAIN C REGION
+4WI2 ,D,FUC,8,IG GAMMA-1 CHAIN C REGION
+4WI3 ,C,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+4WI3 ,C,BMA,3,IG GAMMA-1 CHAIN C REGION
+4WI3 ,C,MAN,4,IG GAMMA-1 CHAIN C REGION
+4WI3 ,C,NAG,5,IG GAMMA-1 CHAIN C REGION
+4WI3 ,C,MAN,6,IG GAMMA-1 CHAIN C REGION
+4WI3 ,C,NAG,7,IG GAMMA-1 CHAIN C REGION
+4WI3 ,C,FUC,8,IG GAMMA-1 CHAIN C REGION
+4WI3 ,D,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+4WI3 ,D,BMA,3,IG GAMMA-1 CHAIN C REGION
+4WI3 ,D,MAN,4,IG GAMMA-1 CHAIN C REGION
+4WI3 ,D,NAG,5,IG GAMMA-1 CHAIN C REGION
+4WI3 ,D,MAN,6,IG GAMMA-1 CHAIN C REGION
+4WI3 ,D,NAG,7,IG GAMMA-1 CHAIN C REGION
+4WI3 ,D,FUC,8,IG GAMMA-1 CHAIN C REGION
+4WI4 ,C,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+4WI4 ,C,BMA,3,IG GAMMA-1 CHAIN C REGION
+4WI4 ,C,MAN,4,IG GAMMA-1 CHAIN C REGION
+4WI4 ,C,NAG,5,IG GAMMA-1 CHAIN C REGION
+4WI4 ,C,MAN,6,IG GAMMA-1 CHAIN C REGION
+4WI4 ,C,NAG,7,IG GAMMA-1 CHAIN C REGION
+4WI4 ,C,FUC,8,IG GAMMA-1 CHAIN C REGION
+4WI4 ,D,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+4WI4 ,D,BMA,3,IG GAMMA-1 CHAIN C REGION
+4WI4 ,D,MAN,4,IG GAMMA-1 CHAIN C REGION
+4WI4 ,D,NAG,5,IG GAMMA-1 CHAIN C REGION
+4WI4 ,D,MAN,6,IG GAMMA-1 CHAIN C REGION
+4WI4 ,D,NAG,7,IG GAMMA-1 CHAIN C REGION
+4WI4 ,D,FUC,8,IG GAMMA-1 CHAIN C REGION
+4WI5 ,C,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+4WI5 ,C,BMA,3,IG GAMMA-1 CHAIN C REGION
+4WI5 ,C,MAN,4,IG GAMMA-1 CHAIN C REGION
+4WI5 ,C,NAG,5,IG GAMMA-1 CHAIN C REGION
+4WI5 ,C,MAN,6,IG GAMMA-1 CHAIN C REGION
+4WI5 ,C,NAG,7,IG GAMMA-1 CHAIN C REGION
+4WI5 ,C,FUC,8,IG GAMMA-1 CHAIN C REGION
+4WI5 ,D,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+4WI5 ,D,BMA,3,IG GAMMA-1 CHAIN C REGION
+4WI5 ,D,MAN,4,IG GAMMA-1 CHAIN C REGION
+4WI5 ,D,NAG,5,IG GAMMA-1 CHAIN C REGION
+4WI5 ,D,MAN,6,IG GAMMA-1 CHAIN C REGION
+4WI5 ,D,NAG,7,IG GAMMA-1 CHAIN C REGION
+4WI5 ,D,FUC,8,IG GAMMA-1 CHAIN C REGION
+4WI6 ,C,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+4WI6 ,C,BMA,3,IG GAMMA-1 CHAIN C REGION
+4WI6 ,C,MAN,4,IG GAMMA-1 CHAIN C REGION
+4WI6 ,C,NAG,5,IG GAMMA-1 CHAIN C REGION
+4WI6 ,C,MAN,6,IG GAMMA-1 CHAIN C REGION
+4WI6 ,C,NAG,7,IG GAMMA-1 CHAIN C REGION
+4WI6 ,C,FUC,8,IG GAMMA-1 CHAIN C REGION
+4WI6 ,D,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+4WI6 ,D,BMA,3,IG GAMMA-1 CHAIN C REGION
+4WI6 ,D,MAN,4,IG GAMMA-1 CHAIN C REGION
+4WI6 ,D,NAG,5,IG GAMMA-1 CHAIN C REGION
+4WI6 ,D,MAN,6,IG GAMMA-1 CHAIN C REGION
+4WI6 ,D,NAG,7,IG GAMMA-1 CHAIN C REGION
+4WI6 ,D,FUC,8,IG GAMMA-1 CHAIN C REGION
+5HYE ,B,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+5HYE ,B,BMA,3;4,IG GAMMA-1 CHAIN C REGION
+5HYE ,B,NAG,5,IG GAMMA-1 CHAIN C REGION
+5HYE ,B,GAL,6,IG GAMMA-1 CHAIN C REGION
+5HYE ,B,BMA,7,IG GAMMA-1 CHAIN C REGION
+5HYE ,B,NAG,8,IG GAMMA-1 CHAIN C REGION
+5HYE ,B,FUC,9,IG GAMMA-1 CHAIN C REGION
+5HYE ,D,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+5HYE ,D,BMA,3;4,IG GAMMA-1 CHAIN C REGION
+5HYE ,D,NAG,5,IG GAMMA-1 CHAIN C REGION
+5HYE ,D,GAL,6,IG GAMMA-1 CHAIN C REGION
+5HYE ,D,BMA,7,IG GAMMA-1 CHAIN C REGION
+5HYE ,D,NAG,8,IG GAMMA-1 CHAIN C REGION
+5HYE ,D,FUC,9,IG GAMMA-1 CHAIN C REGION
+6F2Z ,C,NAG,1;2,Fc fragment of antibody
+6F2Z ,C,BMA,3,Fc fragment of antibody
+6F2Z ,C,MAN,4,Fc fragment of antibody
+6F2Z ,C,NAG,5,Fc fragment of antibody
+6F2Z ,C,GAL,6,Fc fragment of antibody
+6F2Z ,C,MAN,7,Fc fragment of antibody
+6F2Z ,D,NAG,1;2,Fc fragment of antibody
+6F2Z ,D,BMA,3,Fc fragment of antibody
+6F2Z ,D,MAN,4,Fc fragment of antibody
+6F2Z ,D,NAG,5,Fc fragment of antibody
+6F2Z ,D,GAL,6,Fc fragment of antibody
+6F2Z ,D,MAN,7,Fc fragment of antibody
+6F2Z ,D,NAG,8,Fc fragment of antibody
+6F2Z ,D,FUL,9,Fc fragment of antibody
+7RKS ,A,NAG,1;2,C118 Antibody Fab Heavy Chain
+7RKS ,B,NAG,1;2,C118 Antibody Fab Heavy Chain
+7RKS ,B,FUC,3,C118 Antibody Fab Heavy Chain
+5K64 ,C,NAG,1;2,Ig gamma-1 chain C region
+5K64 ,C,BMA,3,Ig gamma-1 chain C region
+5K64 ,C,MAN,4;5,Ig gamma-1 chain C region
+5K64 ,D,NAG,1;2,Ig gamma-1 chain C region
+5K64 ,D,BMA,3,Ig gamma-1 chain C region
+5K64 ,D,MAN,4,Ig gamma-1 chain C region
+5K64 ,D,NAG,5,Ig gamma-1 chain C region
+5K64 ,D,MAN,6,Ig gamma-1 chain C region
+8GDR ,c,NAG,1;2,spike
+8GDR ,e,NAG,1;2,spike
+8GDR ,g,NAG,1;2,spike
+8GDR ,i,NAG,1;2,spike
+4WI8 ,C,NAG,1;2,Ig gamma-1 chain C region
+4WI8 ,C,BMA,3,Ig gamma-1 chain C region
+4WI8 ,C,MAN,4,Ig gamma-1 chain C region
+4WI8 ,C,NAG,5,Ig gamma-1 chain C region
+4WI8 ,C,MAN,6,Ig gamma-1 chain C region
+4WI8 ,C,NAG,7,Ig gamma-1 chain C region
+4WI8 ,C,FUC,8,Ig gamma-1 chain C region
+4WI8 ,D,NAG,1;2,Ig gamma-1 chain C region
+4WI8 ,D,BMA,3,Ig gamma-1 chain C region
+4WI8 ,D,MAN,4,Ig gamma-1 chain C region
+4WI8 ,D,NAG,5,Ig gamma-1 chain C region
+4WI8 ,D,FUC,6,Ig gamma-1 chain C region
+4WI8 ,E,BMA,1,Ig gamma-1 chain C region
+4WI8 ,E,NAG,2,Ig gamma-1 chain C region
+4WI9 ,C,NAG,1,Ig gamma-1 chain C region
+4WI9 ,C,FUC,2,Ig gamma-1 chain C region
+4WI9 ,D,NAG,1,Ig gamma-1 chain C region
+4WI9 ,D,BMA,2,Ig gamma-1 chain C region
+4WI9 ,D,MAN,3,Ig gamma-1 chain C region
+4WI9 ,D,NAG,4,Ig gamma-1 chain C region
+4WI9 ,D,MAN,5,Ig gamma-1 chain C region
+4WI9 ,D,NAG,6,Ig gamma-1 chain C region
+4WI9 ,E,NAG,1;2,Ig gamma-1 chain C region
+4WI9 ,E,BMA,3,Ig gamma-1 chain C region
+4WI9 ,E,MAN,4,Ig gamma-1 chain C region
+4WI9 ,E,NAG,5,Ig gamma-1 chain C region
+4WI9 ,E,MAN,6,Ig gamma-1 chain C region
+4WI9 ,E,NAG,7,Ig gamma-1 chain C region
+4WI9 ,E,FUC,8,Ig gamma-1 chain C region
+1T83 ,D,NAG,1;2,IGG1
+1T83 ,D,BMA,3,IGG1
+1T83 ,D,MAN,4,IGG1
+1T83 ,D,NDG,5,IGG1
+1T83 ,D,GAL,6,IGG1
+1T83 ,D,BMA,7,IGG1
+1T83 ,D,FUL,8,IGG1
+1T83 ,E,NAG,1,IGG1
+1T83 ,E,NDG,2,IGG1
+1T83 ,E,BMA,3,IGG1
+1T83 ,E,MAN,4,IGG1
+1T83 ,E,NAG,5,IGG1
+1T83 ,E,MAN,6,IGG1
+1T83 ,E,NAG,7,IGG1
+1T83 ,E,FUL,8,IGG1
+1T89 ,D,NAG,1;2,recombinant IgG1 heavy chain
+1T89 ,D,BMA,3,recombinant IgG1 heavy chain
+1T89 ,D,MAN,4,recombinant IgG1 heavy chain
+1T89 ,D,NDG,5,recombinant IgG1 heavy chain
+1T89 ,D,GAL,6,recombinant IgG1 heavy chain
+1T89 ,D,BMA,7,recombinant IgG1 heavy chain
+1T89 ,D,FUL,8,recombinant IgG1 heavy chain
+1T89 ,E,NAG,1,recombinant IgG1 heavy chain
+1T89 ,E,NGD,2,recombinant IgG1 heavy chain
+1T89 ,E,BMA,3,recombinant IgG1 heavy chain
+1T89 ,E,MAN,4,recombinant IgG1 heavy chain
+1T89 ,E,NAG,5,recombinant IgG1 heavy chain
+1T89 ,E,MAN,6,recombinant IgG1 heavy chain
+1T89 ,E,NAG,7,recombinant IgG1 heavy chain
+1T89 ,E,FUC,8,recombinant IgG1 heavy chain
+1EO8 ,C,NAG,1;2,HEMAGGLUTININ (HA1 CHAIN)
+1EO8 ,C,MAN,3,HEMAGGLUTININ (HA1 CHAIN)
+1EO8 ,D,NAG,1;2,HEMAGGLUTININ (HA1 CHAIN)
+7TB8 ,I,NAG,1;2,spike
+7TB8 ,M,NAG,1;2,spike
+7TB8 ,N,NAG,1;2,spike
+7TB8 ,O,NAG,1;2,spike
+7TB8 ,P,NAG,1;2,spike
+7TB8 ,Q,NAG,1;2,spike
+7TB8 ,R,NAG,1;2,spike
+7TB8 ,S,NAG,1;2,spike
+7TB8 ,T,NAG,1;2,spike
+7TCC ,I,NAG,1;2,spike
+7TCC ,Q,NAG,1;2,spike
+7TCC ,R,NAG,1;2,spike
+7TCC ,S,NAG,1;2,spike
+7TCC ,T,NAG,1;2,spike
+7TCC ,U,NAG,1;2,spike
+7TCC ,V,NAG,1;2,spike
+7TCC ,W,NAG,1;2,spike
+7TCC ,X,NAG,1;2,spike
+7TCC ,Y,NAG,1;2,spike
+7TCC ,Z,NAG,1;2,spike
+7TCC ,a,NAG,1;2,spike
+7TCC ,b,NAG,1;2,spike
+1DN2,C,NAG,1;2,IMMUNOGLOBULIN LAMBDA HEAVY CHAIN
+1DN2,C,BMA,3,IMMUNOGLOBULIN LAMBDA HEAVY CHAIN
+1DN2,C,MAN,4,IMMUNOGLOBULIN LAMBDA HEAVY CHAIN
+1DN2,C,NAG,5,IMMUNOGLOBULIN LAMBDA HEAVY CHAIN
+1DN2,C,GAL,6,IMMUNOGLOBULIN LAMBDA HEAVY CHAIN
+1DN2,C,MAN,7,IMMUNOGLOBULIN LAMBDA HEAVY CHAIN
+1DN2,C,FUL,8,IMMUNOGLOBULIN LAMBDA HEAVY CHAIN
+1DN2,D,NAG,1;2,IMMUNOGLOBULIN LAMBDA HEAVY CHAIN
+1DN2,D,BMA,3,IMMUNOGLOBULIN LAMBDA HEAVY CHAIN
+1DN2,D,MAN,4,IMMUNOGLOBULIN LAMBDA HEAVY CHAIN
+1DN2,D,NAG,5,IMMUNOGLOBULIN LAMBDA HEAVY CHAIN
+1DN2,D,GAL,6,IMMUNOGLOBULIN LAMBDA HEAVY CHAIN
+1DN2,D,MAN,7,IMMUNOGLOBULIN LAMBDA HEAVY CHAIN
+1DN2,D,FUC,8,IMMUNOGLOBULIN LAMBDA HEAVY CHAIN
+4Q7D ,C,NAG,1;2,Ig gamma-1 chain C region
+4Q7D ,C,BMA,3,Ig gamma-1 chain C region
+4Q7D ,C,MAN,4,Ig gamma-1 chain C region
+4Q7D ,C,NAG,5,Ig gamma-1 chain C region
+4Q7D ,C,MAN,6,Ig gamma-1 chain C region
+4Q7D ,C,NAG,7,Ig gamma-1 chain C region
+4Q7D ,C,FUC,8,Ig gamma-1 chain C region
+4Q7D ,D,NAG,1;2,Ig gamma-1 chain C region
+4Q7D ,D,BMA,3,Ig gamma-1 chain C region
+4Q7D ,D,MAN,4,Ig gamma-1 chain C region
+4Q7D ,D,NAG,5,Ig gamma-1 chain C region
+4Q7D ,D,MAN,6,Ig gamma-1 chain C region
+4Q7D ,D,NAG,7,Ig gamma-1 chain C region
+4Q7D ,D,FUC,8,Ig gamma-1 chain C region
+4X99 ,C,NAG,1;2,Ig gamma-1 chain C region
+4X99 ,C,BMA,3,Ig gamma-1 chain C region
+4X99 ,C,MAN,4,Ig gamma-1 chain C region
+4X99 ,C,NAG,5,Ig gamma-1 chain C region
+4X99 ,C,MAN,6,Ig gamma-1 chain C region
+4X99 ,C,NAG,7,Ig gamma-1 chain C region
+4X99 ,C,FUC,8,Ig gamma-1 chain C region
+4X99 ,D,NAG,1;2,Ig gamma-1 chain C region
+4X99 ,D,BMA,3,Ig gamma-1 chain C region
+4X99 ,D,MAN,4,Ig gamma-1 chain C region
+4X99 ,D,NAG,5,Ig gamma-1 chain C region
+4X99 ,D,MAN,6,Ig gamma-1 chain C region
+4X99 ,D,NAG,7,Ig gamma-1 chain C region
+4X99 ,D,FUC,8,Ig gamma-1 chain C region
+4DAG ,B,NAG,1;2,Fusion glycoprotein F0
+4DAG ,B,BMA,3,Fusion glycoprotein F0
+4DAG ,B,MAN,4;5,Fusion glycoprotein F0
+4DAG ,C,NAG,1;2,Fusion glycoprotein F0
+4DAG ,C,BMA,3,Fusion glycoprotein F0
+4DAG ,C,MAN,4;5,Fusion glycoprotein F0
+1E4K ,D,NAG,1;2,FC FRAGMENT OF HUMAN IGG1
+1E4K ,D,BMA,3,FC FRAGMENT OF HUMAN IGG1
+1E4K ,D,MAN,4,FC FRAGMENT OF HUMAN IGG1
+1E4K ,D,NAG,5,FC FRAGMENT OF HUMAN IGG1
+1E4K ,D,GLA,6,FC FRAGMENT OF HUMAN IGG1
+1E4K ,D,MAN,7,FC FRAGMENT OF HUMAN IGG1
+1E4K ,D,NAG,8,FC FRAGMENT OF HUMAN IGG1
+1E4K ,D,FUC,9,FC FRAGMENT OF HUMAN IGG1
+1E4K ,E,NAG,1;2,FC FRAGMENT OF HUMAN IGG1
+1E4K ,E,BMA,3,FC FRAGMENT OF HUMAN IGG1
+1E4K ,E,MAN,4,FC FRAGMENT OF HUMAN IGG1
+1E4K ,E,NAG,5,FC FRAGMENT OF HUMAN IGG1
+1E4K ,E,GAL,6,FC FRAGMENT OF HUMAN IGG1
+1E4K ,E,MAN,7,FC FRAGMENT OF HUMAN IGG1
+1E4K ,E,NAG,8,FC FRAGMENT OF HUMAN IGG1
+1E4K ,E,FUL,9,FC FRAGMENT OF HUMAN IGG1
+6XPQ ,D,NAG,1;2,Hemagglutinin
+6XPQ ,D,BMA,3,Hemagglutinin
+6XPQ ,E,NAG,1;2,Hemagglutinin
+6XPQ ,E,BMA,3,Hemagglutinin
+6XPQ ,F,NAG,1;2,Hemagglutinin
+6XPQ ,F,BMA,3,Hemagglutinin
+5ANM ,I,NAG,1;2,IMMUNOGLOBULIN G
+5ANM ,I,BMA,3,IMMUNOGLOBULIN G
+5ANM ,I,MAN,4;5;6,IMMUNOGLOBULIN G
+5ANM ,J,NAG,1;2,IMMUNOGLOBULIN G
+5ANM ,J,BMA,3;4,IMMUNOGLOBULIN G
+5ANM ,J,MAN,5,IMMUNOGLOBULIN G
+5ANM ,K,NAG,1;2,IMMUNOGLOBULIN G
+5ANM ,K,BMA,3,IMMUNOGLOBULIN G
+5ANM ,K,MAN,4;5,IMMUNOGLOBULIN G
+5ANM ,K,BMA,6,IMMUNOGLOBULIN G
+5HYS ,M,NAG,1;2,Epididymis luminal protein 214
+5HYS ,M,BMA,3,Epididymis luminal protein 214
+5HYS ,M,MAN,4;5,Epididymis luminal protein 214
+5HYS ,N,NAG,1;2,Epididymis luminal protein 214
+5HYS ,N,BMA,3,Epididymis luminal protein 214
+5HYS ,N,MAN,4;5,Epididymis luminal protein 214
+5HYS ,O,NAG,1;2,Epididymis luminal protein 214
+5HYS ,O,BMA,3,Epididymis luminal protein 214
+5HYS ,O,MAN,4;5,Epididymis luminal protein 214
+5HYS ,P,NAG,1;2,Epididymis luminal protein 214
+5HYS ,P,BMA,3,Epididymis luminal protein 214
+5HYS ,P,MAN,4;5,Epididymis luminal protein 214
+1H3W ,A,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+1H3W ,A,BMA,3;4,IG GAMMA-1 CHAIN C REGION
+1H3W ,A,NAG,5,IG GAMMA-1 CHAIN C REGION
+1H3W ,A,FUC,6,IG GAMMA-1 CHAIN C REGION
+2QL1 ,C,NAG,1;2,IGHM protein
+2QL1 ,C,BMA,3,IGHM protein
+2QL1 ,C,MAN,4,IGHM protein
+2QL1 ,C,NAG,5,IGHM protein
+2QL1 ,C,GAL,6,IGHM protein
+2QL1 ,C,MAN,7,IGHM protein
+2QL1 ,C,NAG,8,IGHM protein
+2QL1 ,C,FUC,9,IGHM protein
+6ML8 ,C,NAG,1;2,Hemagglutinin
+6ML8 ,C,BMA,3,Hemagglutinin
+6ML8 ,C,MAN,4,Hemagglutinin
+6ML8 ,D,NAG,1;2,Hemagglutinin
+6ML8 ,D,BMA,3,Hemagglutinin
+6ML8 ,E,NAG,1;2,Hemagglutinin
+5D4Q ,C,NAG,1;2,Ig gamma-1 chain C region
+5D4Q ,C,BMA,3,Ig gamma-1 chain C region
+5D4Q ,C,MAN,4,Ig gamma-1 chain C region
+5D4Q ,C,NAG,5,Ig gamma-1 chain C region
+5D4Q ,C,GAL,6,Ig gamma-1 chain C region
+5D4Q ,C,MAN,7,Ig gamma-1 chain C region
+5D4Q ,C,NAG,8,Ig gamma-1 chain C region
+5D4Q ,D,NAG,1;2,Ig gamma-1 chain C region
+5D4Q ,D,BMA,3,Ig gamma-1 chain C region
+5D4Q ,D,MAN,4,Ig gamma-1 chain C region
+5D4Q ,D,NAG,5,Ig gamma-1 chain C region
+5D4Q ,D,GAL,6,Ig gamma-1 chain C region
+5D4Q ,D,MAN,7,Ig gamma-1 chain C region
+5D4Q ,D,NAG,8,Ig gamma-1 chain C region
+8CWI ,B,NAG,1;2,Spike protein S1
+8CWI ,B,BMA,3,Spike protein S1
+8CWI ,B,MAN,4;5,Spike protein S1
+8CWI ,B,FUC,6,Spike protein S1
+8CWI ,C,NAG,1;2,Spike protein S1
+8CWI ,C,FUC,3,Spike protein S1
+7NEG ,A,NAG,1;2,Antibody COVOX-269 Fab heavy chain
+7NEG ,A,FUC,3,Antibody COVOX-269 Fab heavy chain
+8ELJ ,E,NAG,1;2,Spike
+8ELJ ,F,NAG,1;2,Spike
+8ELJ ,G,NAG,1;2,Spike
+8ELJ ,H,NAG,1;2,Spike
+8ELJ ,J,NAG,1;2,Spike
+8ELJ ,K,NAG,1;2,Spike
+8ELJ ,L,NAG,1;2,Spike
+8ELJ ,M,NAG,1;2,Spike
+8ELJ ,O,NAG,1;2,Spike
+8ELJ ,P,NAG,1;2,Spike
+8ELJ ,Q,NAG,1;2,Spike
+8ELJ ,R,NAG,1;2,Spike
+1L6X ,C,NAG,1;2,IMMUNOGLOBULIN GAMMA-1 HEAVY CHAIN CONSTANT REGION
+1L6X ,C,BMA,3,IMMUNOGLOBULIN GAMMA-1 HEAVY CHAIN CONSTANT REGION
+1L6X ,C,MAN,4,IMMUNOGLOBULIN GAMMA-1 HEAVY CHAIN CONSTANT REGION
+1L6X ,C,NAG,5,IMMUNOGLOBULIN GAMMA-1 HEAVY CHAIN CONSTANT REGION
+1L6X ,C,GAL,6,IMMUNOGLOBULIN GAMMA-1 HEAVY CHAIN CONSTANT REGION
+1L6X ,C,MAN,7,IMMUNOGLOBULIN GAMMA-1 HEAVY CHAIN CONSTANT REGION
+1L6X ,C,NAG,8,IMMUNOGLOBULIN GAMMA-1 HEAVY CHAIN CONSTANT REGION
+1L6X ,C,GAL,9,IMMUNOGLOBULIN GAMMA-1 HEAVY CHAIN CONSTANT REGION
+1L6X ,C,FUL,10,IMMUNOGLOBULIN GAMMA-1 HEAVY CHAIN CONSTANT REGION
+2DTS ,C,NAG,1;2,Ig gamma-1 chain C region
+2DTS ,C,BMA,3,Ig gamma-1 chain C region
+2DTS ,C,MAN,4,Ig gamma-1 chain C region
+2DTS ,C,NAG,5,Ig gamma-1 chain C region
+2DTS ,C,MAN,6,Ig gamma-1 chain C region
+2DTS ,D,NAG,1;2,Ig gamma-1 chain C region
+2DTS ,D,BMA,3,Ig gamma-1 chain C region
+2DTS ,D,MAN,4,Ig gamma-1 chain C region
+2DTS ,D,NAG,5,Ig gamma-1 chain C region
+2DTS ,D,MAN,6,Ig gamma-1 chain C region
+2DTS ,D,NAG,7,Ig gamma-1 chain C region
+3AVE ,C,NAG,1;2,Ig gamma-1 chain C region
+3AVE ,C,BMA,3,Ig gamma-1 chain C region
+3AVE ,C,MAN,4,Ig gamma-1 chain C region
+3AVE ,C,NAG,5,Ig gamma-1 chain C region
+3AVE ,C,MAN,6,Ig gamma-1 chain C region
+3AVE ,C,NAG,7,Ig gamma-1 chain C region
+3AVE ,C,FUC,8,Ig gamma-1 chain C region
+3AVE ,D,NAG,1;2,Ig gamma-1 chain C region
+3AVE ,D,BMA,3,Ig gamma-1 chain C region
+3AVE ,D,MAN,4,Ig gamma-1 chain C region
+3AVE ,D,NAG,5,Ig gamma-1 chain C region
+3AVE ,D,MAN,6,Ig gamma-1 chain C region
+3AVE ,D,NAG,7,Ig gamma-1 chain C region
+3AVE ,D,FUC,8,Ig gamma-1 chain C region
+5K65 ,C,NAG,1;2,Ig gamma-1 chain C region
+5K65 ,C,BMA,3,Ig gamma-1 chain C region
+5K65 ,C,MAN,4,Ig gamma-1 chain C region
+5K65 ,C,NAG,5,Ig gamma-1 chain C region
+5K65 ,C,MAN,6,Ig gamma-1 chain C region
+5K65 ,C,FUC,7,Ig gamma-1 chain C region
+5K65 ,D,NAG,1;2,Ig gamma-1 chain C region
+5K65 ,D,BMA,3,Ig gamma-1 chain C region
+5K65 ,D,MAN,4;5,Ig gamma-1 chain C region
+5GJS ,C,NAG,1;2,Hemagglutinin
+5GJT ,C,NAG,1;2,Hemagglutinin
+7PNM ,F,NAG,1;2,Spike 
+7PNM ,J,NAG,1;2,Spike 
+7PNM ,K,NAG,1;2,Spike 
+7PNM ,M,NAG,1;2,Spike 
+7PNM ,N,NAG,1;2,Spike 
+7PNM ,O,NAG,1;2,Spike 
+7PNM ,P,NAG,1;2,Spike 
+7PNM ,Q,NAG,1;2,Spike 
+7PNM ,R,NAG,1;2,Spike 
+7PNM ,S,NAG,1;2,Spike 
+7PNM ,T,NAG,1;2,Spike 
+7PNM ,U,NAG,1;2,Spike 
+6GFE ,A,NAG,1;2,Immunoglobulin gamma-4 heavy chain
+6GFE ,A,BMA,3,Immunoglobulin gamma-4 heavy chain
+6GFE ,A,MAN,4,Immunoglobulin gamma-4 heavy chain
+6GFE ,A,NAG,5,Immunoglobulin gamma-4 heavy chain
+6GFE ,A,MAN,6,Immunoglobulin gamma-4 heavy chain
+6GFE ,A,FUC,7,Immunoglobulin gamma-4 heavy chain
+6GFE ,B,NAG,1;2,Immunoglobulin gamma-4 heavy chain
+6GFE ,B,BMA,3,Immunoglobulin gamma-4 heavy chain
+6GFE ,B,MAN,4,Immunoglobulin gamma-4 heavy chain
+6GFE ,B,NAG,5,Immunoglobulin gamma-4 heavy chain
+6GFE ,B,MAN,6,Immunoglobulin gamma-4 heavy chain
+6GFE ,B,FUC,7,Immunoglobulin gamma-4 heavy chain
+4W4N ,C,NAG,1;2,Ig gamma-1 chain C region
+4W4N ,C,BMA,3,Ig gamma-1 chain C region
+4W4N ,C,MAN,4,Ig gamma-1 chain C region
+4W4N ,C,NAG,5,Ig gamma-1 chain C region
+4W4N ,C,MAN,6,Ig gamma-1 chain C region
+4W4N ,C,NAG,7,Ig gamma-1 chain C region
+4W4N ,D,NAG,1;2,Ig gamma-1 chain C region
+4W4N ,D,BMA,3,Ig gamma-1 chain C region
+4W4N ,D,MAN,4,Ig gamma-1 chain C region
+4W4N ,D,NAG,5,Ig gamma-1 chain C region
+4W4N ,D,MAN,6,Ig gamma-1 chain C region
+4W4N ,D,NAG,7,Ig gamma-1 chain C region
+4W4N ,D,FUC,8,Ig gamma-1 chain C region
+1CLZ ,A,NAG,1,"IGG FAB (IGG3, KAPPA)"
+1CLZ ,A,GAL,2,"IGG FAB (IGG3, KAPPA)"
+1CLZ ,A,FUC,3;4,"IGG FAB (IGG3, KAPPA)"
+5BW7 ,D,NAG,1;2,Ig gamma-1 chain C region
+5BW7 ,D,BMA,3,Ig gamma-1 chain C region
+5BW7 ,D,MAN,4,Ig gamma-1 chain C region
+5BW7 ,D,NAG,5,Ig gamma-1 chain C region
+5BW7 ,D,GAL,6,Ig gamma-1 chain C region
+5BW7 ,D,MAN,7,Ig gamma-1 chain C region
+5BW7 ,D,NAG,8,Ig gamma-1 chain C region
+5BW7 ,E,NAG,1;2,Ig gamma-1 chain C region
+5BW7 ,E,BMA,3,Ig gamma-1 chain C region
+5BW7 ,E,MAN,4,Ig gamma-1 chain C region
+5BW7 ,E,NAG,5,Ig gamma-1 chain C region
+5BW7 ,E,MAN,6,Ig gamma-1 chain C region
+5BW7 ,E,NAG,7,Ig gamma-1 chain C region
+5BW7 ,F,NAG,1;2,Ig gamma-1 chain C region
+5BW7 ,F,BMA,3,Ig gamma-1 chain C region
+5BW7 ,F,MAN,4,Ig gamma-1 chain C region
+5BW7 ,F,NAG,5,Ig gamma-1 chain C region
+5BW7 ,F,MAN,6,Ig gamma-1 chain C region
+5BW7 ,F,FUC,7,Ig gamma-1 chain C region
+5BW7 ,G,NAG,1;2,Ig gamma-1 chain C region
+5BW7 ,G,BMA,3,Ig gamma-1 chain C region
+5BW7 ,G,MAN,4,Ig gamma-1 chain C region
+5BW7 ,G,NAG,5,Ig gamma-1 chain C region
+3V95 ,C,NAG,1;2,Ig gamma-1 chain C region
+3V95 ,C,MAN,3;4,Ig gamma-1 chain C region
+3V95 ,C,NAG,5,Ig gamma-1 chain C region
+3V95 ,C,GAL,6,Ig gamma-1 chain C region
+3V95 ,C,MAN,7,Ig gamma-1 chain C region
+3V95 ,C,NAG,8,Ig gamma-1 chain C region
+3V95 ,D,NAG,1;2,Ig gamma-1 chain C region
+3V95 ,D,MAN,3;4,Ig gamma-1 chain C region
+3V95 ,D,NAG,5,Ig gamma-1 chain C region
+3V95 ,D,GAL,6,Ig gamma-1 chain C region
+3V95 ,D,MAN,7,Ig gamma-1 chain C region
+3V95 ,D,NAG,8,Ig gamma-1 chain C region
+5HYF ,B,NAG,1;2,Ig gamma-1 chain C region
+5HYF ,B,BMA,3;4,Ig gamma-1 chain C region
+5HYF ,B,NAG,5,Ig gamma-1 chain C region
+5HYF ,B,GAL,6,Ig gamma-1 chain C region
+5HYF ,B,BMA,7,Ig gamma-1 chain C region
+5HYF ,B,NAG,8,Ig gamma-1 chain C region
+5HYF ,B,FUC,9,Ig gamma-1 chain C region
+5MOI ,G,NAG,1,Ig epsilon chain C region
+5MOI ,G,BMA,2,Ig epsilon chain C region
+5MOI ,G,MAN,3;4,Ig epsilon chain C region
+5MOI ,H,NAG,1;2,Ig epsilon chain C region
+5MOI ,H,BMA,3,Ig epsilon chain C region
+5MOI ,H,MAN,4;5,Ig epsilon chain C region
+5MOI ,I,NAG,1;2,Ig epsilon chain C region
+5MOI ,I,BMA,3,Ig epsilon chain C region
+5MOI ,I,MAN,4;5,Ig epsilon chain C region
+5MOI ,J,NAG,1;2,Ig epsilon chain C region
+5MOI ,J,BMA,3,Ig epsilon chain C region
+5MOI ,J,MAN,4;5;6;7,Ig epsilon chain C region
+5MOI ,K,NAG,1;2,Ig epsilon chain C region
+5MOI ,K,BMA,3,Ig epsilon chain C region
+5MOI ,K,MAN,4;5,Ig epsilon chain C region
+5MOI ,L,BMA,1,Ig epsilon chain C region
+5MOI ,L,MAN,2;3,Ig epsilon chain C region
+3UJI ,A,NAG,1;2,Light chain of anti-HIV-1 V3 monoclonal antibody 2558
+3UJI ,A,FUC,3,Light chain of anti-HIV-1 V3 monoclonal antibody 2558
+7LRS ,A,NAG,1;2,Spike 
+7LRS ,A,BMA,3,Spike 
+7LRS ,A,MAN,4;5,Spike 
+7LRS ,B,NAG,1;2,Spike 
+7LRS ,B,BMA,3,Spike 
+5TPS ,C,NAG,1;2,Ig gamma-1 chain C region
+5TPS ,C,BMA,3,Ig gamma-1 chain C region
+5TPS ,C,MAN,4,Ig gamma-1 chain C region
+5TPS ,C,NAG,5,Ig gamma-1 chain C region
+5TPS ,C,GAL,6,Ig gamma-1 chain C region
+5TPS ,C,MAN,7,Ig gamma-1 chain C region
+5TPS ,D,NAG,1;2,Ig gamma-1 chain C region
+5TPS ,D,BMA,3,Ig gamma-1 chain C region
+5TPS ,D,MAN,4,Ig gamma-1 chain C region
+5TPS ,D,NAG,5,Ig gamma-1 chain C region
+5TPS ,D,GAL,6,Ig gamma-1 chain C region
+5TPS ,D,MAN,7,Ig gamma-1 chain C region
+5TPS ,D,NAG,8,Ig gamma-1 chain C region
+5TPS ,D,FUC,9,Ig gamma-1 chain C region
+7SN3 ,I,NAG,1;2,Spike 
+7SN3 ,I,BMA,3,Spike 
+7SN3 ,J,NAG,1;2,Spike 
+7SN3 ,J,BMA,3,Spike 
+7SN3 ,K,NAG,1;2,Spike 
+7SN3 ,K,BMA,3,Spike 
+4GT7 ,E,NAG,1;2,Ig epsilon chain C region
+4GT7 ,E,BMA,3,Ig epsilon chain C region
+4GT7 ,E,MAN,4;5,Ig epsilon chain C region
+4GT7 ,F,NAG,1;2,Ig epsilon chain C region
+4GT7 ,F,BMA,3,Ig epsilon chain C region
+4GT7 ,F,MAN,4;5,Ig epsilon chain C region
+4GT7 ,G,NAG,1;2,Ig epsilon chain C region
+4GT7 ,G,BMA,3,Ig epsilon chain C region
+4GT7 ,G,MAN,4;5,Ig epsilon chain C region
+4GT7 ,H,NAG,1;2,Ig epsilon chain C region
+4GT7 ,H,BMA,3,Ig epsilon chain C region
+4GT7 ,H,MAN,4,Ig epsilon chain C region
+8XPY ,C,NAG,1;2,Glycoprotein G
+8XPY ,C,BMA,3,Glycoprotein G
+8XPY ,C,MAN,4;5,Glycoprotein G
+8XPY ,D,NAG,1;2,Glycoprotein G
+8XPY ,D,BMA,3,Glycoprotein G
+8XPY ,D,MAN,4;5;6,Glycoprotein G
+8XPY ,E,NAG,1;2,Glycoprotein G
+8XPY ,E,BMA,3,Glycoprotein G
+8XPY ,E,MAN,4,Glycoprotein G
+8XPY ,F,NAG,1;2,Glycoprotein G
+8XPY ,F,BMA,3,Glycoprotein G
+8XPY ,F,MAN,4;5,Glycoprotein G
+8XPY ,G,NAG,1;2,Glycoprotein G
+8XPY ,G,BMA,3,Glycoprotein G
+8XPY ,G,MAN,4;5,Glycoprotein G
+8SDF ,D,NAG,1;2,Spike protein S1
+8SDF ,D,FUC,3,Spike protein S1
+8SDH ,E,NAG,1;2,Spike protein S1
+2J6E ,C,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+2J6E ,C,BMA,3,IG GAMMA-1 CHAIN C REGION
+2J6E ,C,MAN,4,IG GAMMA-1 CHAIN C REGION
+2J6E ,C,NAG,5,IG GAMMA-1 CHAIN C REGION
+2J6E ,C,GAL,6,IG GAMMA-1 CHAIN C REGION
+2J6E ,C,BMA,7,IG GAMMA-1 CHAIN C REGION
+2J6E ,C,NAG,8,IG GAMMA-1 CHAIN C REGION
+2J6E ,C,FUL,9,IG GAMMA-1 CHAIN C REGION
+2J6E ,D,NAG,1;2,IG GAMMA-1 CHAIN C REGION
+2J6E ,D,BMA,3,IG GAMMA-1 CHAIN C REGION
+2J6E ,D,MAN,4,IG GAMMA-1 CHAIN C REGION
+2J6E ,D,NAG,5,IG GAMMA-1 CHAIN C REGION
+2J6E ,D,GAL,6,IG GAMMA-1 CHAIN C REGION
+2J6E ,D,BMA,7,IG GAMMA-1 CHAIN C REGION
+2J6E ,D,NAG,8,IG GAMMA-1 CHAIN C REGION
+2J6E ,D,FUL,9,IG GAMMA-1 CHAIN C REGION
+7AKJ ,I,NAG,1;2,Spike 
+7AKJ ,J,NAG,1;2,Spike 
+7AKJ ,J,FUC,3,Spike 
+7AKJ ,K,NAG,1;2,Spike 
+7AKJ ,M,NAG,1;2,Spike 
+7AKJ ,N,NAG,1;2,Spike 
+7AKJ ,N,BMA,3,Spike 
+7AKJ ,N,MAN,4;5;6;7;8,Spike 
+7AKJ ,N,FUC,9,Spike 
+7AKJ ,O,NAG,1;2,Spike 
+7AKJ ,P,NAG,1;2,Spike 
+7AKJ ,Q,NAG,1;2,Spike 
+7AKJ ,Q,FUC,3,Spike 
+7AKJ ,R,NAG,1;2,Spike 
+7AKJ ,S,NAG,1;2,Spike 
+7AKJ ,T,NAG,1;2,Spike 
+7AKJ ,T,BMA,3,Spike 
+7AKJ ,T,MAN,4;5;6;7;8,Spike 
+7AKJ ,T,FUC,9,Spike 
+7AKJ ,U,NAG,1;2,Spike 
+7AKJ ,V,1;2,,Spike 
+7AKJ ,W,NAG,1;2,Spike 
+7AKJ ,W,FUC,3,Spike 
+7AKJ ,X,NAG,1;2,Spike 
+7AKJ ,Y,NAG,1;2,Spike 
+7AKJ ,Z,NAG,1;2,Spike 
+7AKJ ,Z,BMA,3,Spike 
+7AKJ ,Z,MAN,4;5;6;7;8,Spike 
+7AKJ ,Z,FUC,9,Spike 
+7AKJ ,a,NAG,1;2,Spike 
+3D6G ,C,NAG,1;2,Ig gamma-1 chain C region
+3D6G ,C,BMA,3,Ig gamma-1 chain C region
+3D6G ,C,MAN,4,Ig gamma-1 chain C region
+3D6G ,C,NAG,5,Ig gamma-1 chain C region
+3D6G ,C,MAN,6,Ig gamma-1 chain C region
+3D6G ,C,NAG,7,Ig gamma-1 chain C region
+3D6G ,C,FUC,8,Ig gamma-1 chain C region
+3D6G ,D,NAG,1;2,Ig gamma-1 chain C region
+3D6G ,D,BMA,3,Ig gamma-1 chain C region
+3D6G ,D,MAN,4,Ig gamma-1 chain C region
+3D6G ,D,NAG,5,Ig gamma-1 chain C region
+3D6G ,D,MAN,6,Ig gamma-1 chain C region
+3D6G ,D,NAG,7,Ig gamma-1 chain C region
+3D6G ,D,FUC,8,Ig gamma-1 chain C region
+4Q74 ,C,NAG,1;2,Ig gamma-1 chain C region
+4Q74 ,C,BMA,3,Ig gamma-1 chain C region
+4Q74 ,C,MAN,4,Ig gamma-1 chain C region
+4Q74 ,C,NAG,5,Ig gamma-1 chain C region
+4Q74 ,C,GAL,6,Ig gamma-1 chain C region
+4Q74 ,C,FUC,7,Ig gamma-1 chain C region
+4Q74 ,D,NAG,1;2,Ig gamma-1 chain C region
+4Q74 ,D,BMA,3,Ig gamma-1 chain C region
+4Q74 ,D,MAN,4,Ig gamma-1 chain C region
+4Q74 ,D,NAG,5,Ig gamma-1 chain C region
+4Q74 ,D,GAL,6,Ig gamma-1 chain C region
+4Q74 ,D,MAN,7,Ig gamma-1 chain C region
+4Q74 ,D,NAG,8,Ig gamma-1 chain C region
+4Q74 ,D,FUC,9,Ig gamma-1 chain C region
+4AG4 ,B,NAG,1;2,EPITHELIAL DISCOIDIN DOMAIN-CONTAINING RECEPTOR 1
+4AG4 ,C,NAG,1;2,EPITHELIAL DISCOIDIN DOMAIN-CONTAINING RECEPTOR 1
+7JMW ,B,NAG,1;2,Spike protein S1
+6XQ2 ,G,NAG,1;2,Hemagglutinin
+6XQ2 ,G,BMA,3,Hemagglutinin
+6XQ2 ,H,NAG,1;2,Hemagglutinin
+6XQ2 ,I,NAG,1;2,Hemagglutinin
+6XQ2 ,I,BMA,3,Hemagglutinin
+6XQ4 ,G,NAG,1;2,Hemagglutinin
+6XQ4 ,H,NAG,1;2,Hemagglutinin
+6XQ4 ,H,BMA,3,Hemagglutinin
+7AKD ,F,NAG,1;2,Spike 
+7AKD ,G,NAG,1;2,Spike 
+7AKD ,G,BMA,3,Spike 
+7AKD ,I,NAG,1;2,Spike 
+7AKD ,I,BMA,3,Spike 
+7AKD ,J,NAG,1;2,Spike 
+7AKD ,K,NAG,1;2,Spike 
+7AKD ,M,NAG,1;2,Spike 
+7AKD ,N,NAG,1;2,Spike 
+7AKD ,N,BMA,3,Spike 
+7AKD ,O,NAG,1;2,Spike 
+7AKD ,O,BMA,3,Spike 
+7AKD ,O,MAN,4;5,Spike 
+7AKD ,P,NAG,1;2,Spike 
+7AKD ,Q,NAG,1;2,Spike 
+7AKD ,R,NAG,1;2,Spike 
+7AKD ,S,NAG,1;2,Spike 
+7AKD ,S,BMA,3,Spike 
+7AKD ,S,FUC,4,Spike 
+7AKD ,T,NAG,1;2,Spike 
+7AKD ,T,BMA,3,Spike 
+7AKD ,T,MAN,4;5,Spike 
+7AKD ,T,FUC,6,Spike 
+7AKD ,U,MAN,1;2,Spike 
+7AKD ,V,NAG,1;2,Spike 
+7AKD ,W,NAG,1;2,Spike 
+7AKD ,X,NAG,1;2,Spike 
+7TCA ,F,NAG,1;2,Spike 
+7TCA ,G,NAG,1;2,Spike 
+7TCA ,I,NAG,1;2,Spike 
+7TCA ,J,NAG,1;2,Spike 
+7TCA ,K,NAG,1;2,Spike 
+7TCA ,M,NAG,1;2,Spike 
+7TCA ,N,NAG,1;2,Spike 
+7TCA ,O,NAG,1;2,Spike 
+7TCA ,P,NAG,1;2,Spike 
+7TCA ,Q,NAG,1;2,Spike 
+7TCA ,R,NAG,1;2,Spike 
+7TCA ,S,NAG,1;2,Spike 
+7TCA ,T,NAG,1;2,Spike 
+7TCA ,U,NAG,1;2,Spike 
+8H01 ,O,NAG,1;2,Spike 
+8H01 ,J,NAG,1;2,Spike 
+8H01 ,K,NAG,1;2,Spike 
+8H01 ,L,NAG,1;2,Spike 
+8H01 ,M,NAG,1;2,Spike 
+8H01 ,N,NAG,1;2,Spike 
+8H01 ,P,NAG,1;2,Spike 
+8H01 ,Q,NAG,1;2,Spike 
+8H01 ,R,NAG,1;2,Spike 
+8H01 ,S,NAG,1;2,Spike 
+8H01 ,T,NAG,1;2,Spike 
+8H01 ,U,NAG,1;2,Spike 
+8H01 ,V,NAG,1;2,Spike 
+8H01 ,W,NAG,1;2,Spike 
+8H01 ,X,NAG,1;2,Spike 
+8DXT ,A,NAG,1;2,Light chain of Fab arm of antibody GAR12
+8DXT ,A,FUC,3,Light chain of Fab arm of antibody GAR12
+8HED ,O,NAG,1;2,Spike protein S1
+5IW6 ,C,NAG,1;2,Ig gamma-1 chain C region
+5IW6 ,C,BMA,3;4,Ig gamma-1 chain C region
+5IW6 ,C,NAG,5,Ig gamma-1 chain C region
+5IW6 ,C,GAL,6,Ig gamma-1 chain C region
+5IW6 ,C,MAN,7,Ig gamma-1 chain C region
+5IW6 ,C,NAG,8,Ig gamma-1 chain C region
+5IW6 ,D,NAG,1;2,Ig gamma-1 chain C region
+5IW6 ,D,BMA,3;4,Ig gamma-1 chain C region
+5IW6 ,D,NAG,5,Ig gamma-1 chain C region
+5IW6 ,D,GAL,6,Ig gamma-1 chain C region
+5IW6 ,D,MAN,7,Ig gamma-1 chain C region
+5IW6 ,D,NAG,8,Ig gamma-1 chain C region
+7K45 ,A,NAG,1;2,S2E12 neutralizing antibody Fab fragment (heavy chain)
+4FP8 ,E,NAG,1;2,Hemagglutinin HA1 chain
+3WN5 ,G,NAG,1;2,Ig gamma-1 chain C region
+3WN5 ,G,BMA,3,Ig gamma-1 chain C region
+3WN5 ,G,MAN,4,Ig gamma-1 chain C region
+3WN5 ,G,NAG,5,Ig gamma-1 chain C region
+3WN5 ,G,GAL,6,Ig gamma-1 chain C region
+3WN5 ,G,MAN,7,Ig gamma-1 chain C region
+3WN5 ,G,NAG,8,Ig gamma-1 chain C region
+3WN5 ,G,FUL,9,Ig gamma-1 chain C region
+3WN5 ,H,NAG,1;2,Ig gamma-1 chain C region
+3WN5 ,H,BMA,3,Ig gamma-1 chain C region
+3WN5 ,H,MAN,4,Ig gamma-1 chain C region
+3WN5 ,H,NAG,5,Ig gamma-1 chain C region
+3WN5 ,H,GAL,6,Ig gamma-1 chain C region
+3WN5 ,H,MAN,7,Ig gamma-1 chain C region
+3WN5 ,H,NAG,8,Ig gamma-1 chain C region
+3WN5 ,H,FUL,9,Ig gamma-1 chain C region
+3WN5 ,I,NAG,1;2,Ig gamma-1 chain C region
+3WN5 ,I,BMA,3,Ig gamma-1 chain C region
+3WN5 ,I,MAN,4;5,Ig gamma-1 chain C region
+3WN5 ,J,NAG,1;2,Ig gamma-1 chain C region
+3WN5 ,K,NAG,1;2,Ig gamma-1 chain C region
+3WN5 ,K,BMA,3,Ig gamma-1 chain C region
+3WN5 ,K,MAN,4,Ig gamma-1 chain C region
+3WN5 ,K,NAG,5,Ig gamma-1 chain C region
+3WN5 ,K,MAN,6,Ig gamma-1 chain C region
+3WN5 ,K,NAG,7,Ig gamma-1 chain C region
+3WN5 ,K,FUL,8,Ig gamma-1 chain C region
+3WN5 ,L,NAG,1;2,Ig gamma-1 chain C region
+3WN5 ,L,BMA,3,Ig gamma-1 chain C region
+3WN5 ,L,MAN,4,Ig gamma-1 chain C region
+3WN5 ,L,NAG,5,Ig gamma-1 chain C region
+3WN5 ,L,GAL,6,Ig gamma-1 chain C region
+3WN5 ,L,MAN,7,Ig gamma-1 chain C region
+3WN5 ,L,NAG,8,Ig gamma-1 chain C region
+3WN5 ,L,FUL,9,Ig gamma-1 chain C region
+3WN5 ,M,NAG,1;2,Ig gamma-1 chain C region
+4XNM ,E,NAG,1;2,H5.3 FAB Light Chain
+4XNM ,E,FUC,3,H5.3 FAB Light Chain
+7L0N ,G,NAG,1;2,Monoclonal antibody S309 Fab light chain
+7L0N ,G,BMA,3,Monoclonal antibody S309 Fab light chain
+7L0N ,G,MAN,4;5,Monoclonal antibody S309 Fab light chain
+7L0N ,G,FUC,6,Monoclonal antibody S309 Fab light chain
+7L0N ,I,NAG,1;2,Monoclonal antibody S309 Fab light chain
+7L0N ,I,BMA,3,Monoclonal antibody S309 Fab light chain
+7L0N ,I,MAN,4,Monoclonal antibody S309 Fab light chain
+7L0N ,I,FUC,5,Monoclonal antibody S309 Fab light chain
+6WPS ,I,NAG,1;2,spike 
+6WPS ,J,NAG,1;2,spike 
+6WPS ,K,NAG,1;2,spike 
+6WPS ,M,NAG,1;2,spike 
+6WPS ,N,NAG,1;2,spike 
+6WPS ,N,BMA,3,spike 
+6WPS ,N,MAN,4;5,spike 
+6WPS ,N,FUC,6,spike 
+6WPS ,O,NAG,1;2,spike 
+6WPS ,P,NAG,1;2,spike 
+6WPS ,Q,NAG,1;2,spike 
+6WPS ,R,NAG,1;2,spike 
+6WPS ,S,NAG,1;2,spike 
+6WPS ,S,BMA,3,spike 
+6WPS ,S,MAN,4;5,spike 
+6WPS ,S,FUC,6,spike 
+6WPS ,T,NAG,1;2,spike 
+6WPS ,U,NAG,1;2,spike 
+6WPS ,V,NAG,1;2,spike 
+6WPS ,W,NAG,1;2,spike 
+6WPS ,X,NAG,1;2,spike 
+6WPS ,X,BMA,3,spike 
+6WPS ,X,MAN,4;5,spike 
+6WPS ,X,FUC,6,spike 
+7UOW ,D,NAG,1;2,spike 
+7UOW ,E,NAG,1;2,spike 
+7UOW ,F,NAG,1;2,spike 
+7UOW ,G,NAG,1;2,spike 
+7UOW ,K,NAG,1;2,spike 
+7UOW ,M,NAG,1;2,spike 
+7UOW ,N,NAG,1;2,spike 
+7UOW ,O,NAG,1;2,spike 
+7UOW ,P,NAG,1;2,spike 
+7UOW ,Q,NAG,1;2,spike 
+7UOW ,R,NAG,1;2,spike 
+7UOW ,S,NAG,1;2,spike 
+5XEZ ,E,NAG,1;2,"Glucagon receptor,Endolysin,Glucagon receptor"
+5XEZ ,F,NAG,1;2,"Glucagon receptor,Endolysin,Glucagon receptor"
+5XEZ ,G,NAG,1;2,"Glucagon receptor,Endolysin,Glucagon receptor"
+5XEZ ,I,NAG,1;2,"Glucagon receptor,Endolysin,Glucagon receptor"
+5XEZ ,J,NAG,1;2,"Glucagon receptor,Endolysin,Glucagon receptor"
+5XF1 ,E,NAG,1;2,"Glucagon receptor,Endolysin,Glucagon receptor"
+5XF1 ,F,NAG,1;2,"Glucagon receptor,Endolysin,Glucagon receptor"
+5XF1 ,G,NAG,1;2,"Glucagon receptor,Endolysin,Glucagon receptor"
+5XF1 ,I,NAG,1;2,"Glucagon receptor,Endolysin,Glucagon receptor"
+5XF1 ,J,NAG,1;2;3,"Glucagon receptor,Endolysin,Glucagon receptor"
+5XF1 ,K,NAG,1;2,"Glucagon receptor,Endolysin,Glucagon receptor"
+5GMQ ,D,NAG,1,S protein
+5GMQ ,D,MAN,2;3,S protein
+4QGT ,C,NAG,1;2,Hepatitis B virus receptor binding protein
+4QGT ,C,BMA,3,Hepatitis B virus receptor binding protein
+4QGT ,C,MAN,4,Hepatitis B virus receptor binding protein
+4QGT ,C,NAG,5,Hepatitis B virus receptor binding protein
+4QGT ,D,NAG,1;2,Hepatitis B virus receptor binding protein
+4QGT ,D,BMA,3,Hepatitis B virus receptor binding protein
+4QGT ,D,MAN,4,Hepatitis B virus receptor binding protein
+4QGT ,D,NAG,5,Hepatitis B virus receptor binding protein
+4QGT ,D,MAN,6,Hepatitis B virus receptor binding protein
+4QGT ,D,NAG,7,Hepatitis B virus receptor binding protein
+4QGT ,D,FUC,8,Hepatitis B virus receptor binding protein
+1O0V ,C,NAG,1;2,Immunoglobulin heavy chain epsilon-1
+1O0V ,C,BMA,3,Immunoglobulin heavy chain epsilon-2
+1O0V ,C,MAN,4;5;6;7,Immunoglobulin heavy chain epsilon-3
+1O0V ,D,NAG,1;2,Immunoglobulin heavy chain epsilon-4
+1O0V ,D,BMA,3,Immunoglobulin heavy chain epsilon-5
+1O0V ,D,MAN,4;5,Immunoglobulin heavy chain epsilon-6
+1O0V ,D,BMA,6,Immunoglobulin heavy chain epsilon-7
+1O0V ,D,MAN,7,Immunoglobulin heavy chain epsilon-8
+7RKU ,M,NAG,1;2,Spike protein S1
+7RKU ,M,BMA,3,Spike protein S2
+7RKU ,N,NAG,1;2,Spike protein S3
+7RKU ,N,BMA,3,Spike protein S4
+5M3V ,C,NAG,1;2,"Ig gamma-1 chain C region,Ig gamma-3 chain C region"
+5M3V ,C,BMA,3,"Ig gamma-1 chain C region,Ig gamma-3 chain C region"
+5M3V ,C,MAN,4,"Ig gamma-1 chain C region,Ig gamma-3 chain C region"
+5M3V ,C,NAG,5,"Ig gamma-1 chain C region,Ig gamma-3 chain C region"
+5M3V ,C,GAL,6,"Ig gamma-1 chain C region,Ig gamma-3 chain C region"
+5M3V ,C,MAN,7,"Ig gamma-1 chain C region,Ig gamma-3 chain C region"
+5M3V ,C,NAG,8,"Ig gamma-1 chain C region,Ig gamma-3 chain C region"
+5M3V ,C,FUL,9,"Ig gamma-1 chain C region,Ig gamma-3 chain C region"
+5M3V ,D,NAG,1;2,"Ig gamma-1 chain C region,Ig gamma-3 chain C region"
+5M3V ,D,BMA,3,"Ig gamma-1 chain C region,Ig gamma-3 chain C region"
+5M3V ,D,MAN,4,"Ig gamma-1 chain C region,Ig gamma-3 chain C region"
+5M3V ,D,NAG,5,"Ig gamma-1 chain C region,Ig gamma-3 chain C region"
+5M3V ,D,GAL,6,"Ig gamma-1 chain C region,Ig gamma-3 chain C region"
+5M3V ,D,MAN,7,"Ig gamma-1 chain C region,Ig gamma-3 chain C region"
+5M3V ,D,NAG,8,"Ig gamma-1 chain C region,Ig gamma-3 chain C region"
+5M3V ,D,FUL,9,"Ig gamma-1 chain C region,Ig gamma-3 chain C region"
+8C2R ,G,NAG,1;2,Spike 
+8C2R ,H,NAG,1;2,Spike 
+8C2R ,I,NAG,1;2,Spike 
+8C2R ,J,NAG,1;2,Spike 
+8C2R ,K,NAG,1;2,Spike 
+8C2R ,M,NAG,1;2,Spike 
+8C2R ,N,NAG,1;2,Spike 
+8C2R ,O,NAG,1;2,Spike 
+8C2R ,P,NAG,1;2,Spike 
+8C2R ,Q,NAG,1;2,Spike 
+8C2R ,S,NAG,1;2,Spike 
+8C2R ,T,NAG,1;2,Spike 
+8C2R ,U,NAG,1;2,Spike 
+8C2R ,V,NAG,1;2,Spike 
+8C2R ,W,NAG,1;2,Spike 
+3SGJ ,D,NAG,1;2,human Fc fragment
+3SGJ ,D,BMA,3,human Fc fragment
+3SGJ ,D,MAN,4,human Fc fragment
+3SGJ ,D,NAG,5,human Fc fragment
+3SGJ ,D,MAN,6,human Fc fragment
+3SGJ ,D,NAG,7,human Fc fragment
+3SGJ ,D,FUC,8,human Fc fragment
+3SGJ ,E,NAG,1;2,human Fc fragment
+3SGJ ,E,BMA,3,human Fc fragment
+3SGJ ,E,MAN,4,human Fc fragment
+3SGJ ,E,NAG,5,human Fc fragment
+3SGJ ,E,MAN,6,human Fc fragment
+3SGJ ,E,NAG,7,human Fc fragment
+3SGJ ,E,FUC,8,human Fc fragment
+3SGJ ,F,NAG,1;2,human Fc fragment
+3SGJ ,F,BMA,3,human Fc fragment
+3SGJ ,F,MAN,4;5,human Fc fragment
+3SGJ ,G,NAG,1;2,human Fc fragment
+3SGK ,D,NAG,1;2,Fc fragment
+3SGK ,D,BMA,3,Fc fragment
+3SGK ,D,MAN,4,Fc fragment
+3SGK ,D,NAG,5,Fc fragment
+3SGK ,D,MAN,6,Fc fragment
+3SGK ,D,NAG,7;8,Fc fragment
+3SGK ,E,NAG,1;2,Fc fragment
+3SGK ,E,BMA,3,Fc fragment
+3SGK ,E,MAN,4,Fc fragment
+3SGK ,E,NAG,5,Fc fragment
+3SGK ,E,MAN,6,Fc fragment
+3SGK ,E,NAG,7;8,Fc fragment
+3SGK ,F,NAG,1;2,Fc fragment
+3SGK ,F,BMA,3,Fc fragment
+3SGK ,F,MAN,4;5;6;7;8,Fc fragment
+3SGK ,G,NAG,1;2,Fc fragment
+3ZTN ,C,NAG,1;2,HAEMAGGLUTININ
+3ZTN ,D,NAG,1;2,HAEMAGGLUTININ
+3ZTN ,D,BMA,3,HAEMAGGLUTININ
+3ZTN ,E,NAG,1;2,HAEMAGGLUTININ
+8TP7 ,I,NAG,1;2,Hemagglutinin
+8TP7 ,I,FUC,3,Hemagglutinin
+8TP7 ,J,NAG,1;2,Hemagglutinin
+8TP7 ,J,FUC,3,Hemagglutinin
+8TP7 ,K,NAG,1;2,Hemagglutinin
+8TP7 ,K,FUC,3,Hemagglutinin
+3W9E ,D,NAG,1;2,Envelope glycoprotein D
+3W9E ,D,BMA,3,Envelope glycoprotein D
+3W9E ,D,MAN,4,Envelope glycoprotein D
+3GBM ,E,NAG,1;2,Hemagglutinin
+3GBM ,F,NAG,1;2,Hemagglutinin
+3GBM ,A,NAG,1,Hemagglutinin
+3GBM ,A,BMA,4,Hemagglutinin
+1KEN ,G,NAG,1;2,hemagglutinin HA1
+1KEN ,G,MAN,3,hemagglutinin HA2
+1KEN ,I,NAG,1;2,hemagglutinin HA3
+1KEN ,I,MAN,3,hemagglutinin HA4
+1KEN ,J,NAG,1;2,hemagglutinin HA5
+1KEN ,J,MAN,3,hemagglutinin HA6
+8F0G ,D,NAG,1;2,Antibody 1C3 Fab Heavy Chain
+8F0G ,E,NAG,1;2,Antibody 1C3 Fab Heavy Chain
+8F0G ,F,NAG,1;2,Antibody 1C3 Fab Heavy Chain
+5MOK,E,NAG,1;2,Ig epsilon chain C region
+5MOK,E,BMA,3,Ig epsilon chain C region
+5MOK,E,MAN,4,Ig epsilon chain C region
+5MOK,F,NAG,1;2,Ig epsilon chain C region
+5MOK,F,BMA,3,Ig epsilon chain C region
+5MOK,F,MAN,4;5;6;7,Ig epsilon chain C region
+5MOK,G,NAG,1,Ig epsilon chain C region
+5MOK,G,BMA,2,Ig epsilon chain C region
+5MOK,G,MAN,3;4,Ig epsilon chain C region
+5MOK,H,NAG,1;2,Ig epsilon chain C region
+5MOK,H,BMA,3,Ig epsilon chain C region
+5MOK,H,MAN,4;5;6;7,Ig epsilon chain C region
+4X98 ,C,NAG,1;2,Ig gamma-1 chain C region
+4X98 ,C,BMA,3,Ig gamma-1 chain C region
+4X98 ,C,MAN,4,Ig gamma-1 chain C region
+4X98 ,C,NAG,5,Ig gamma-1 chain C region
+4X98 ,C,MAN,6,Ig gamma-1 chain C region
+4X98 ,C,NAG,7,Ig gamma-1 chain C region
+4X98 ,C,FUC,8,Ig gamma-1 chain C region
+4X98 ,D,NAG,1;2,Ig gamma-1 chain C region
+4X98 ,D,BMA,3,Ig gamma-1 chain C region
+4X98 ,D,MAN,4,Ig gamma-1 chain C region
+4X98 ,D,NAG,5,Ig gamma-1 chain C region
+4X98 ,D,MAN,6,Ig gamma-1 chain C region
+4X98 ,D,NAG,7,Ig gamma-1 chain C region
+4X98 ,D,FUC,8,Ig gamma-1 chain C region
+8H00 ,O,NAG,1;2,Spike 
+8H00 ,J,NAG,1;2,Spike 
+8H00 ,K,NAG,1;2,Spike 
+8H00 ,L,NAG,1;2,Spike 
+8H00 ,M,NAG,1;2,Spike 
+8H00 ,N,NAG,1;2,Spike 
+8H00 ,P,NAG,1;2,Spike 
+8H00 ,Q,NAG,1;2,Spike 
+8H00 ,R,NAG,1;2,Spike 
+8H00 ,S,NAG,1;2,Spike 
+8H00 ,T,NAG,1;2,Spike 
+8H00 ,U,NAG,1;2,Spike 
+8H00 ,V,NAG,1;2,Spike 
+8H00 ,W,NAG,1;2,Spike 
+8H00 ,X,NAG,1;2,Spike 
+6YT7 ,C,NAG,1;2,Immunoglobulin gamma-1 heavy chain
+6YT7 ,C,BMA,3,Immunoglobulin gamma-1 heavy chain
+6YT7 ,C,MAN,4,Immunoglobulin gamma-1 heavy chain
+6YT7 ,C,NAG,5,Immunoglobulin gamma-1 heavy chain
+6YT7 ,C,GAL,6,Immunoglobulin gamma-1 heavy chain
+6YT7 ,C,MAN,7,Immunoglobulin gamma-1 heavy chain
+6YT7 ,C,FUC,8,Immunoglobulin gamma-1 heavy chain
+6YT7 ,D,NAG,1;2,Immunoglobulin gamma-1 heavy chain
+6YT7 ,D,BMA,3,Immunoglobulin gamma-1 heavy chain
+6YT7 ,D,MAN,4,Immunoglobulin gamma-1 heavy chain
+6YT7 ,D,NAG,5,Immunoglobulin gamma-1 heavy chain
+6YT7 ,D,GAL,6,Immunoglobulin gamma-1 heavy chain
+6YT7 ,D,MAN,7,Immunoglobulin gamma-1 heavy chain
+6YT7 ,D,FUC,8,Immunoglobulin gamma-1 heavy chain
+9DHY ,M,NAG,1;2,Antibody Fab COVIC-154 Heavy Chain
+9DHY ,G,NAG,1;2,Antibody Fab COVIC-154 Heavy Chain
+9DHY ,H,NAG,1;2,Antibody Fab COVIC-154 Heavy Chain
+9DHY ,N,NAG,1;2,Antibody Fab COVIC-154 Heavy Chain
+9DHY ,L,NAG,1;2,Antibody Fab COVIC-154 Heavy Chain
+9DHY ,O,NAG,1;2,Antibody Fab COVIC-154 Heavy Chain
+9DHY ,P,NAG,1;2,Antibody Fab COVIC-154 Heavy Chain
+9DHY ,Q,NAG,1;2,Antibody Fab COVIC-154 Heavy Chain
+9DHY ,R,NAG,1;2,Antibody Fab COVIC-154 Heavy Chain
+6XPR ,G,NAG,1;2,Hemagglutinin
+6XPR ,G,BMA,3,Hemagglutinin
+6XPR ,H,NAG,1;2,Hemagglutinin
+6XPR ,H,BMA,3,Hemagglutinin
+6XPR ,I,NAG,1;2,Hemagglutinin
+5Y2L ,C,NAG,1;2,Hemagglutinin
+5Y2L ,D,NAG,1;2,Hemagglutinin
+8HEC ,O,NAG,1;2,Spike 
+8HEC ,J,NAG,1;2,Spike 
+8HEC ,K,NAG,1;2,Spike 
+8HEC ,L,NAG,1;2,Spike 
+8HEC ,M,NAG,1;2,Spike 
+8HEC ,N,NAG,1;2,Spike 
+8HEC ,P,NAG,1;2,Spike 
+8HEC ,Q,NAG,1;2,Spike 
+8HEC ,R,NAG,1;2,Spike 
+8HEC ,S,NAG,1;2,Spike 
+8HEC ,T,NAG,1;2,Spike 
+8HEC ,U,NAG,1;2,Spike 
+8HEC ,V,NAG,1;2,Spike 
+8HEC ,W,NAG,1;2,Spike 
+8HEC ,X,NAG,1;2,Spike 
+8HEC ,Y,NAG,1;2,Spike 
+8HEC ,Z,NAG,1;2,Spike 
+6DZM ,M,NAG,1;2,Bundibugyo virus GP1
+6DZM ,N,NAG,1;2,Bundibugyo virus GP2
+6DZM ,N,BMA,3,Bundibugyo virus GP3
+6DZM ,N,MAN,4;5,Bundibugyo virus GP4
+6DZM ,O,NAG,1;2,Bundibugyo virus GP5
+6DZM ,P,NAG,1;2,Bundibugyo virus GP6
+6DZM ,P,BMA,3,Bundibugyo virus GP7
+6DZM ,P,MAN,4;5,Bundibugyo virus GP8
+6DZM ,Q,NAG,1;2,Bundibugyo virus GP9
+6DZM ,R,NAG,1;2,Bundibugyo virus GP10
+6DZM ,R,BMA,3,Bundibugyo virus GP11
+6DZM ,R,MAN,4;5,Bundibugyo virus GP12
+7WRH ,E,NAG,1;2,Spike 
+7WRH ,F,NAG,1;2,Spike 
+7WRH ,G,NAG,1;2,Spike 
+7WRH ,H,NAG,1;2,Spike 
+7WRH ,I,NAG,1;2,Spike 
+7WRH ,J,NAG,1;2,Spike 
+7WRH ,K,NAG,1;2,Spike 
+7WRH ,L,NAG,1;2,Spike 
+7WRH ,M,NAG,1;2,Spike 
+7WRH ,N,NAG,1;2,Spike 
+7WRH ,O,NAG,1;2,Spike 
+7WRH ,P,NAG,1;2,Spike 
+7WRH ,Q,NAG,1;2,Spike 
+7WRH ,R,NAG,1;2,Spike 
+7WRH ,S,NAG,1;2,Spike 
+7WRH ,T,NAG,1;2,Spike 
+7WRH ,U,NAG,1;2,Spike 
+7WRH ,V,NAG,1;2,Spike 
+7WRH ,W,NAG,1;2,Spike 
+7WRH ,X,NAG,1;2,Spike 
+7WRH ,Y,NAG,1;2,Spike 
+7WRH ,Z,NAG,1;2,Spike 
+5F1B ,D,NAG,1;2,GP1
+8DM9 ,E,NAG,1;2,Spike 
+8DM9 ,F,NAG,1;2,Spike 
+8DM9 ,G,NAG,1;2,Spike 
+8DM9 ,H,NAG,1;2,Spike 
+8DM9 ,I,NAG,1;2,Spike 
+8DM9 ,J,NAG,1;2,Spike 
+8DM9 ,K,NAG,1;2,Spike 
+8DM9 ,L,NAG,1;2,Spike 
+8DM9 ,M,NAG,1;2,Spike 
+8DM9 ,N,NAG,1;2,Spike 
+8DM9 ,O,NAG,1;2,Spike 
+8DM9 ,P,NAG,1;2,Spike 
+8DM9 ,Q,NAG,1;2,Spike 
+8DM9 ,R,NAG,1;2,Spike 
+8DM9 ,S,NAG,1;2,Spike 
+8DM9 ,T,NAG,1;2,Spike 
+8DM9 ,U,NAG,1;2,Spike 
+8DM9 ,V,NAG,1;2,Spike 
+7SY3 ,D,NAG,1;2,Spike 
+7SY3 ,F,NAG,1;2,Spike 
+7SY3 ,G,NAG,1;2,Spike 
+7SY3 ,H,NAG,1;2,Spike 
+7SY3 ,I,NAG,1;2,Spike 
+7SY3 ,J,NAG,1;2,Spike 
+7SY3 ,K,NAG,1;2,Spike 
+7SY3 ,L,NAG,1;2,Spike 
+7SY3 ,M,NAG,1;2,Spike 
+7SY3 ,N,NAG,1;2,Spike 
+7SY3 ,O,NAG,1;2,Spike 
+7SY3 ,P,NAG,1;2,Spike 
+7SY3 ,Q,NAG,1;2,Spike 
+7SY3 ,R,NAG,1;2,Spike 
+7SY3 ,S,NAG,1;2,Spike 
+7SY3 ,T,NAG,1;2,Spike 
+7SY3 ,U,NAG,1;2,Spike 
+7SY3 ,V,NAG,1;2,Spike 
+7WGB ,E,NAG,1;2,Spike 
+7WGB ,G,NAG,1;2,Spike 
+7WGB ,H,NAG,1;2,Spike 
+7WGB ,I,NAG,1;2,Spike 
+7WGB ,J,NAG,1;2,Spike 
+7WGB ,K,NAG,1;2,Spike 
+7WGB ,K,BMA,3,Spike 
+7WGB ,L,NAG,1;2,Spike 
+7WGB ,M,NAG,1;2,Spike 
+7WGB ,N,NAG,1;2,Spike 
+7WGB ,O,NAG,1;2,Spike 
+7WGB ,P,NAG,1;2,Spike 
+7WGB ,Q,NAG,1;2,Spike 
+7WGB ,Q,BMA,3,Spike 
+7WGB ,R,NAG,1;2,Spike 
+7WGB ,R,NAG,1;2,Spike 
+7WGB ,S,NAG,1;2,Spike 
+7WGB ,T,NAG,1;2,Spike 
+7WGB ,U,NAG,1;2,Spike 
+7WGB ,V,NAG,1;2,Spike 
+7WGB ,W,NAG,1;2,Spike 
+7WGB ,X,NAG,1;2,Spike 
+7WGB ,Y,NAG,1;2,Spike 
+7WGB ,Y,NAG,1;2,Spike 
+7WGB ,Z,NAG,1;2,Spike 
+7WGB ,Z,BMA,3,Spike 
+8XQ3,I,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,I,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,I,MAN,4;5,Nipah virus Bangladesh string G protein
+8XQ3,J,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,J,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,J,MAN,4;5;6,Nipah virus Bangladesh string G protein
+8XQ3,K,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,K,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,K,MAN,4,Nipah virus Bangladesh string G protein
+8XQ3,L,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,L,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,L,MAN,4,Nipah virus Bangladesh string G protein
+8XQ3,M,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,M,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,M,MAN,4;5,Nipah virus Bangladesh string G protein
+8XQ3,N,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,N,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,N,MAN,4;5,Nipah virus Bangladesh string G protein
+8XQ3,O,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,O,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,O,MAN,4;5;6,Nipah virus Bangladesh string G protein
+8XQ3,P,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,P,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,P,MAN,4,Nipah virus Bangladesh string G protein
+8XQ3,Q,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,Q,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,Q,MAN,4,Nipah virus Bangladesh string G protein
+8XQ3,R,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,R,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,R,MAN,4;5,Nipah virus Bangladesh string G protein
+8XQ3,S,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,S,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,S,MAN,4;5,Nipah virus Bangladesh string G protein
+8XQ3,T,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,T,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,T,MAN,4;5;6,Nipah virus Bangladesh string G protein
+8XQ3,U,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,U,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,U,MAN,4,Nipah virus Bangladesh string G protein
+8XQ3,V,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,V,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,V,MAN,4,Nipah virus Bangladesh string G protein
+8XQ3,W,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,W,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,W,MAN,4;5,Nipah virus Bangladesh string G protein
+8XQ3,X,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,X,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,X,MAN,4;5,Nipah virus Bangladesh string G protein
+8XQ3,Y,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,Y,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,Y,MAN,4;5;6,Nipah virus Bangladesh string G protein
+8XQ3,Z,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,Z,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,Z,MAN,4,Nipah virus Bangladesh string G protein
+8XQ3,a,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,a,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,a,MAN,4,Nipah virus Bangladesh string G protein
+8XQ3,b,NAG,1;2,Nipah virus Bangladesh string G protein
+8XQ3,b,BMA,3,Nipah virus Bangladesh string G protein
+8XQ3,b,MAN,4;5,Nipah virus Bangladesh string G protein
+1QFU ,C,NAG,1,HEMAGGLUTININ HA1 CHAIN
+1QFU ,C,NDG,2,HEMAGGLUTININ HA1 CHAIN
+1QFU ,D,NAG,1;2,HEMAGGLUTININ HA1 CHAIN
+1QFU ,D,BMA,3,HEMAGGLUTININ HA1 CHAIN
+4XPB ,B,BGC,1,Transporter
+4XPB ,B,GLC,2,Transporter
+7JKS ,A,NAG,1;2,HIV-1 gp120 core
+7JKS ,A,BMA,3,HIV-1 gp120 core
+7MW2 ,I,NAG,1;2,Spike 
+7MW2 ,J,NAG,1;2,Spike 
+7MW2 ,K,NAG,1;2,Spike 
+7MW2 ,M,NAG,1;2,Spike 
+7MW2 ,N,NAG,1;2,Spike 
+7MW2 ,O,NAG,1;2,Spike 
+7MW2 ,P,NAG,1;2,Spike 
+7MW2 ,Q,NAG,1;2,Spike 
+7MW2 ,R,NAG,1;2,Spike 
+7MW2 ,S,NAG,1;2,Spike 
+7MW2 ,T,NAG,1;2,Spike 
+7MW2 ,U,NAG,1;2,Spike 
+7MW2 ,V,NAG,1;2,Spike 
+7MW2 ,W,NAG,1;2,Spike 
+7MW2 ,X,NAG,1;2,Spike 
+7MW2 ,Y,NAG,1;2,Spike 
+7MW2 ,Z,NAG,1;2,Spike 
+7MW2 ,a,NAG,1;2,Spike 
+7MW2 ,b,NAG,1;2,Spike 
+7MW2 ,c,NAG,1;2,Spike 
+7MW2 ,d,NAG,1;2,Spike 
+7MW3 ,I,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,J,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,K,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,M,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,N,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,O,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,P,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,Q,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,R,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,S,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,T,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,U,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,V,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,W,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,X,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,Y,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,Z,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,a,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,b,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,c,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW3 ,d,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW4 ,I,NAG,1;2,Spike 
+7MW4 ,J,NAG,1;2,Spike 
+7MW4 ,K,NAG,1;2,Spike 
+7MW4 ,M,NAG,1;2,Spike 
+7MW4 ,N,NAG,1;2,Spike 
+7MW4 ,O,NAG,1;2,Spike 
+7MW4 ,P,NAG,1;2,Spike 
+7MW4 ,Q,NAG,1;2,Spike 
+7MW4 ,R,NAG,1;2,Spike 
+7MW4 ,S,NAG,1;2,Spike 
+7MW4 ,T,NAG,1;2,Spike 
+7MW4 ,U,NAG,1;2,Spike 
+7MW4 ,V,NAG,1;2,Spike 
+7MW4 ,W,NAG,1;2,Spike 
+7MW4 ,X,NAG,1;2,Spike 
+7MW4 ,Y,NAG,1;2,Spike 
+7MW4 ,Z,NAG,1;2,Spike 
+7MW4 ,a,NAG,1;2,Spike 
+7MW4 ,b,NAG,1;2,Spike 
+7MW4 ,c,NAG,1;2,Spike 
+7MW4 ,d,NAG,1;2,Spike 
+7MW4 ,e,NAG,1;2,Spike 
+7MW4 ,f,NAG,1;2,Spike 
+7MW5 ,I,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,J,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,K,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,M,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,N,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,O,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,P,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,Q,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,R,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,S,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,T,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,U,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,V,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,W,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,X,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,Y,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,Z,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,a,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,b,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,c,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,d,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,e,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,f,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,g,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,h,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,i,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,j,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,k,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW5 ,l,NAG,1;2,"Fab of antibody clone 6, light chain"
+7MW6 ,I,NAG,1;2,Spike 
+7MW6 ,J,NAG,1;2,Spike 
+7MW6 ,K,NAG,1;2,Spike 
+7MW6 ,M,NAG,1;2,Spike 
+7MW6 ,N,NAG,1;2,Spike 
+7MW6 ,O,NAG,1;2,Spike 
+7MW6 ,P,NAG,1;2,Spike 
+7MW6 ,Q,NAG,1;2,Spike 
+7MW6 ,R,NAG,1;2,Spike 
+7MW6 ,S,NAG,1;2,Spike 
+7MW6 ,T,NAG,1;2,Spike 
+7MW6 ,U,NAG,1;2,Spike 
+7MW6 ,V,NAG,1;2,Spike 
+7MW6 ,W,NAG,1;2,Spike 
+7MW6 ,X,NAG,1;2,Spike 
+7MW6 ,Y,NAG,1;2,Spike 
+7MW6 ,Z,NAG,1;2,Spike 
+7MW6 ,a,NAG,1;2,Spike 
+7MW6 ,b,NAG,1;2,Spike 
+7MW6 ,c,NAG,1;2,Spike 
+7MW6 ,d,NAG,1;2,Spike 
+7MW6 ,e,NAG,1;2,Spike 
+7MW6 ,f,NAG,1;2,Spike 
+7MW6 ,g,NAG,1;2,Spike 
+7MW6 ,h,NAG,1;2,Spike 
+7MW6 ,i,NAG,1;2,Spike 
+7MW6 ,j,NAG,1;2,Spike 
+7MW6 ,k,NAG,1;2,Spike 
+7MW6 ,l,NAG,1;2,Spike 
+7MW6 ,m,NAG,1;2,Spike 
+7MW6 ,n,NAG,1;2,Spike 
+7MW6 ,o,NAG,1;2,Spike 
+7MW6 ,p,NAG,1;2,Spike 
+8DZH ,F,NAG,1;2,Spike 
+8DZH ,G,NAG,1;2,Spike 
+8DZH ,K,NAG,1;2,Spike 
+8DZH ,M,NAG,1;2,Spike 
+8DZH ,N,NAG,1;2,Spike 
+8DZH ,O,NAG,1;2,Spike 
+8DZH ,P,NAG,1;2,Spike 
+8DZH ,Q,NAG,1;2,Spike 
+8DZH ,R,NAG,1;2,Spike 
+8DZH ,S,NAG,1;2,Spike 
+8DZH ,T,NAG,1;2,Spike 
+8DZH ,U,NAG,1;2,Spike 
+8DZH ,V,NAG,1;2,Spike 
+8DZH ,W,NAG,1;2,Spike 
+8DZH ,X,NAG,1;2,Spike 
+8DZH ,Y,NAG,1;2,Spike 
+8DZH ,Z,NAG,1;2,Spike 
+8DZH ,a,NAG,1;2,Spike 
+8DZH ,b,NAG,1;2,Spike 
+8DZH ,c,NAG,1;2,Spike 
+8DZH ,d,NAG,1;2,Spike 
+8DZH ,e,NAG,1;2,Spike 
+8DZH ,f,NAG,1;2,Spike 
+8DZH ,g,NAG,1;2,Spike 
+8DZH ,h,NAG,1;2,Spike 
+8DZH ,i,NAG,1;2,Spike 
+8DZH ,j,NAG,1;2,Spike 
+8DZI ,I,NAG,1;2,Spike 
+8DZI ,J,NAG,1;2,Spike 
+8DZI ,K,NAG,1;2,Spike 
+8DZI ,M,NAG,1;2,Spike 
+8DZI ,N,NAG,1;2,Spike 
+8DZI ,O,NAG,1;2,Spike 
+8DZI ,P,NAG,1;2,Spike 
+8DZI ,Q,NAG,1;2,Spike 
+8DZI ,R,NAG,1;2,Spike 
+8DZI ,S,NAG,1;2,Spike 
+8DZI ,T,NAG,1;2,Spike 
+8DZI ,U,NAG,1;2,Spike 
+8DZI ,V,NAG,1;2,Spike 
+8DZI ,W,NAG,1;2,Spike 
+8DZI ,X,NAG,1;2,Spike 
+8DZI ,Y,NAG,1;2,Spike 
+8DZI ,Z,NAG,1;2,Spike 
+8DZI ,a,NAG,1;2,Spike 
+8DZI ,b,NAG,1;2,Spike 
+8DZI ,c,NAG,1;2,Spike 
+8HEB ,O,NAG,1;2,Spike 
+8HEB ,J,NAG,1;2,Spike 
+8HEB ,K,NAG,1;2,Spike 
+8HEB ,L,NAG,1;2,Spike 
+8HEB ,M,NAG,1;2,Spike 
+8HEB ,N,NAG,1;2,Spike 
+8HEB ,P,NAG,1;2,Spike 
+8HEB ,Q,NAG,1;2,Spike 
+8HEB ,R,NAG,1;2,Spike 
+8HEB ,S,NAG,1;2,Spike 
+8HEB ,T,NAG,1;2,Spike 
+8HEB ,U,NAG,1;2,Spike 
+8HEB ,V,NAG,1;2,Spike 
+8HEB ,W,NAG,1;2,Spike 
+8HEB ,X,NAG,1;2,Spike 
+8HEB ,Y,NAG,1;2,Spike 
+8HEB ,Z,NAG,1;2,Spike 
+8HEB ,a,NAG,1;2,Spike 
+8VPF ,H,NAG,1;2,Spike 
+8VPF ,I,NAG,1;2,Spike 
+8VPF ,J,NAG,1;2,Spike 
+8VPF ,J,BMA,3,Spike 
+8VPF ,K,NAG,1;2,Spike 
+8VPF ,L,NAG,1;2,Spike 
+8VPF ,O,NAG,1;2,Spike 
+8VPF ,P,NAG,1;2,Spike 
+8VPF ,P,BMA,3,Spike 
+8VPF ,Q,NAG,1;2,Spike 
+8VPF ,R,NAG,1;2,Spike 
+8VPF ,S,NAG,1;2,Spike 
+8VPF ,T,NAG,1;2,Spike 
+8VPF ,T,BMA,3,Spike 
+8VPF ,U,NAG,1;2,Spike 
+3CXD ,A,NAG,1;2,"Fab fragment of anti-osteopontin antibody 23C3, Light chain"
+3CXD ,A,BMA,3,"Fab fragment of anti-osteopontin antibody 23C3, Light chain"
+3CXD ,A,MAN,4,"Fab fragment of anti-osteopontin antibody 23C3, Light chain"
+3DSF ,A,NAG,1;2,"Fab fragment of anti-osteopontin antibody 23C3, Light chain"
+3DSF ,A,BMA,3,"Fab fragment of anti-osteopontin antibody 23C3, Light chain"
+3DSF ,A,MAN,4,"Fab fragment of anti-osteopontin antibody 23C3, Light chain"
+6XPZ ,G,NAG,1;2,Hemagglutinin
+6XPZ ,H,NAG,1;2,Hemagglutinin
+6XPZ ,H,BMA,3,Hemagglutinin
+6XPZ ,I,NAG,1;2,Hemagglutinin
+6XPZ ,I,BMA,3,Hemagglutinin
+6XPZ ,J,NAG,1;2,Hemagglutinin
+6XPZ ,J,BMA,3,Hemagglutinin
+4FQI ,C,NAG,1;2,Hemagglutinin HA1
+6DB6 ,A,NAG,1;2,Human monoclonal anti-HIV-1 gp120 V3 antibody 311-11D Fab heavy chain
+6DB6 ,A,BMA,3,Human monoclonal anti-HIV-1 gp120 V3 antibody 311-11D Fab heavy chain
+6DB6 ,A,MAN,4,Human monoclonal anti-HIV-1 gp120 V3 antibody 311-11D Fab heavy chain
+6DB6 ,A,FCA,5,Human monoclonal anti-HIV-1 gp120 V3 antibody 311-11D Fab heavy chain
+3WJL ,D,NAG,1;2,Ig gamma-1 chain C region
+3WJL ,D,BMA,3,Ig gamma-1 chain C region
+3WJL ,D,MAN,4,Ig gamma-1 chain C region
+3WJL ,D,NAG,5,Ig gamma-1 chain C region
+3WJL ,D,GAL,6,Ig gamma-1 chain C region
+3WJL ,D,MAN,7,Ig gamma-1 chain C region
+3WJL ,D,NAG,8,Ig gamma-1 chain C region
+3WJL ,E,NAG,1;2,Ig gamma-1 chain C region
+3WJL ,E,BMA,3,Ig gamma-1 chain C region
+3WJL ,E,MAN,4,Ig gamma-1 chain C region
+3WJL ,E,NAG,5,Ig gamma-1 chain C region
+3WJL ,E,GAL,6,Ig gamma-1 chain C region
+3WJL ,E,MAN,7,Ig gamma-1 chain C region
+3WJL ,E,NAG,8,Ig gamma-1 chain C region
+3WJL ,E,FUL,9,Ig gamma-1 chain C region
+1TCR ,C,NAG,1;2,"ALPHA, BETA T-CELL RECEPTOR"
+1TCR ,C,BMA,3,Surface protein gp120
+1TCR ,C,FUC,4,Surface protein gp120
+1TCR ,D,NAG,1;2,Surface protein gp120
+1TCR ,D,FUC,3,Surface protein gp120
+1TCR ,E,NAG,1;2,Surface protein gp120
+3FJT ,C,NAG,1;2,Ig gamma-1 chain C region
+3FJT ,C,BMA,3,Ig gamma-1 chain C region
+3FJT ,C,MAN,4,Ig gamma-1 chain C region
+3FJT ,C,NAG,5,Ig gamma-1 chain C region
+3FJT ,C,MAN,6,Ig gamma-1 chain C region
+3FJT ,C,NAG,7,Ig gamma-1 chain C region
+3FJT ,C,FUC,8,Ig gamma-1 chain C region
+3FJT ,D,NAG,1;2,Ig gamma-1 chain C region
+3FJT ,D,BMA,3,Ig gamma-1 chain C region
+3FJT ,D,MAN,4,Ig gamma-1 chain C region
+3FJT ,D,NAG,5,Ig gamma-1 chain C region
+3FJT ,D,MAN,6,Ig gamma-1 chain C region
+3FJT ,D,NAG,7,Ig gamma-1 chain C region
+3FJT ,D,FUC,8,Ig gamma-1 chain C region
+7B3O ,A,NAG,1;2,Spike protein S1
+5EN2 ,D,NAG,1;2,GD01 heavy chain
+5EN2 ,D,BMA,3,GD01 heavy chain
+5EN2 ,D,MAN,4;5;6;7,GD01 heavy chain
+5EN2 ,E,NAG,1;2,GD01 heavy chain
+6WHK ,D,NAG,1;2,Hemagglutinin HA1 chain
+6XPY ,D,NAG,1;2,Hemagglutinin
+6XPY ,D,BMA,3,Hemagglutinin
+6XPY ,E,NAG,1;2,Hemagglutinin
+6XPY ,E,BMA,3,Hemagglutinin
+8TTW ,S,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,T,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,U,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,V,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,W,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,X,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,Y,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,Z,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,a,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,b,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,b,BMA,3,Envelope glycoprotein gp160
+8TTW ,b,MAN,4;5;6;7;8;9;10,Envelope glycoprotein gp160
+8TTW ,c,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,c,BMA,3,Envelope glycoprotein gp160
+8TTW ,c,MAN,4;5,Envelope glycoprotein gp160
+8TTW ,d,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,e,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,f,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,f,BMA,3,Envelope glycoprotein gp160
+8TTW ,f,MAN,4;5;6;7;8;9,Envelope glycoprotein gp160
+8TTW ,g,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,h,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,i,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,j,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,k,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,l,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,m,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,n,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,n,BMA,3,Envelope glycoprotein gp160
+8TTW ,n,MAN,4;5;6;7;8;9;10,Envelope glycoprotein gp160
+8TTW ,o,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,o,BMA,3,Envelope glycoprotein gp160
+8TTW ,o,MAN,4;5,Envelope glycoprotein gp160
+8TTW ,p,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,q,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,r,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,r,BMA,3,Envelope glycoprotein gp160
+8TTW ,r,MAN,4;5;6;7;8;9,Envelope glycoprotein gp160
+8TTW ,s,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,t,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,u,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,v,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,w,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,x,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,y,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,z,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,z,BMA,3,Envelope glycoprotein gp160
+8TTW ,,MAN,4;5;6;7;8;9;10,Envelope glycoprotein gp160
+8TTW ,0,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,0,BMA,3,Envelope glycoprotein gp160
+8TTW ,0,MAN,4;5,Envelope glycoprotein gp160
+8TTW ,1,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,2,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,3,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,3,BMA,3,Envelope glycoprotein gp160
+8TTW ,3,MAN,4;5;6;7;8;9,Envelope glycoprotein gp160
+8TTW ,4,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,5,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,6,NAG,1;2,Envelope glycoprotein gp160
+8TTW ,7,NAG,1;2,Envelope glycoprotein gp160
+9C0V ,S,NAG,1;2,Hemagglutinin
+9C0V ,S,BMA,3,Hemagglutinin
+9C0V ,C,NAG,1;2,Hemagglutinin
+9C0V ,C,BMA,3,Hemagglutinin
+9C0X ,C,NAG,1;2,Hemagglutinin HA2 subunit
+7ARN ,A,NAG,1;2,Antibody Fab Fragment Heavy Chain
+7ARN ,A,BMA,3,Antibody Fab Fragment Heavy Chain
+7ARN ,B,NAG,1;2,Antibody Fab Fragment Heavy Chain
+7ARN ,B,BMA,3,Antibody Fab Fragment Heavy Chain
+7ARN ,B,MAN,4;5,Antibody Fab Fragment Heavy Chain
+8US0 ,S,NAG,1;2,Hemagglutinin
+8US0 ,S,BMA,3,Hemagglutinin
+8US0 ,T,NAG,1;2,Hemagglutinin
+8US0 ,T,BMA,3,Hemagglutinin
+8US0 ,U,NAG,1;2,Hemagglutinin
+8US0 ,U,BMA,3,Hemagglutinin
+8US0 ,V,NAG,1;2,Hemagglutinin
+8US0 ,V,BMA,3,Hemagglutinin
+8US0 ,W,NAG,1;2,Hemagglutinin
+8US0 ,W,BMA,3,Hemagglutinin
+8US0 ,X,NAG,1;2,Hemagglutinin
+8US0 ,X,BMA,3,Hemagglutinin
+8US0 ,Y,NAG,1;2,Hemagglutinin
+8US0 ,Z,NAG,1;2,Hemagglutinin
+8US0 ,a,NAG,1;2,Hemagglutinin
+8US0 ,a,BMA,3,Hemagglutinin
+8US0 ,b,NAG,1;2,Hemagglutinin
+8US0 ,c,NAG,1;2,Hemagglutinin
+8US0 ,c,BMA,3,Hemagglutinin
+5YC5 ,D,NAG,1;2,Immunoglobulin gamma-1 heavy chain
+5YC5 ,D,BMA,3,Immunoglobulin gamma-1 heavy chain
+5YC5 ,D,MAN,4,Immunoglobulin gamma-1 heavy chain
+5YC5 ,D,NAG,5,Immunoglobulin gamma-1 heavy chain
+5YC5 ,D,GAL,6,Immunoglobulin gamma-1 heavy chain
+5YC5 ,D,MAN,7,Immunoglobulin gamma-1 heavy chain
+5YC5 ,D,NAG,8,Immunoglobulin gamma-1 heavy chain
+5YC5 ,D,FUC,9,Immunoglobulin gamma-1 heavy chain
+5YC5 ,E,NAG,1;2,Immunoglobulin gamma-1 heavy chain
+5YC5 ,E,BMA,3,Immunoglobulin gamma-1 heavy chain
+5YC5 ,E,MAN,4,Immunoglobulin gamma-1 heavy chain
+5YC5 ,E,NAG,5,Immunoglobulin gamma-1 heavy chain
+5YC5 ,E,MAN,6,Immunoglobulin gamma-1 heavy chain
+5YC5 ,E,NAG,7,Immunoglobulin gamma-1 heavy chain
+5YC5 ,E,FUC,8,Immunoglobulin gamma-1 heavy chain
+8JTD ,O,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,P,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,Q,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,R,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,S,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,S,BMA,3,gp120 protein of HIV Envelope trimer
+8JTD ,T,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,T,BMA,3,gp120 protein of HIV Envelope trimer
+8JTD ,T,MAN,4;5;6,gp120 protein of HIV Envelope trimer
+8JTD ,V,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,W,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,X,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,X,BMA,3,gp120 protein of HIV Envelope trimer
+8JTD ,Y,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,Y,BMA,3,gp120 protein of HIV Envelope trimer
+8JTD ,Y,MAN,4;5,gp120 protein of HIV Envelope trimer
+8JTD ,Z,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,a,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,b,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,c,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,d,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,d,BMA,3,gp120 protein of HIV Envelope trimer
+8JTD ,e,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,f,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,f,BMA,3,gp120 protein of HIV Envelope trimer
+8JTD ,f,MAN,4;5;6;7,gp120 protein of HIV Envelope trimer
+8JTD ,h,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,i,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,j,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,k,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,k,BMA,3,gp120 protein of HIV Envelope trimer
+8JTD ,k,MAN,4;5,gp120 protein of HIV Envelope trimer
+8JTD ,l,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,l,BMA,3,gp120 protein of HIV Envelope trimer
+8JTD ,m,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,n,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,o,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,p,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,q,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,q,BMA,3,gp120 protein of HIV Envelope trimer
+8JTD ,q,MAN,4;5;6;7;8,gp120 protein of HIV Envelope trimer
+8JTD ,r,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,s,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,s,BMA,3,gp120 protein of HIV Envelope trimer
+8JTD ,s,MAN,4;5;6;7,gp120 protein of HIV Envelope trimer
+8JTD ,u,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,v,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,w,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,x,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,x,BMA,3,gp120 protein of HIV Envelope trimer
+8JTD ,x,MAN,4;5,gp120 protein of HIV Envelope trimer
+8JTD ,y,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,y,BMA,3,gp120 protein of HIV Envelope trimer
+8JTD ,z,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,0,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTD ,1,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,O,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,P,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,Q,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,R,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,S,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,S,BMA,3,gp120 protein of HIV Envelope trimer
+8JTM ,T,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,T,BMA,3,gp120 protein of HIV Envelope trimer
+8JTM ,T,MAN,4;5;6,gp120 protein of HIV Envelope trimer
+8JTM ,V,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,W,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,X,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,X,BMA,3,gp120 protein of HIV Envelope trimer
+8JTM ,Y,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,Y,BMA,3,gp120 protein of HIV Envelope trimer
+8JTM ,Y,MAN,4;5,gp120 protein of HIV Envelope trimer
+8JTM ,Z,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,a,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,b,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,c,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,d,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,d,BMA,3,gp120 protein of HIV Envelope trimer
+8JTM ,e,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,f,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,f,BMA,3,gp120 protein of HIV Envelope trimer
+8JTM ,f,MAN,4;5;6;7,gp120 protein of HIV Envelope trimer
+8JTM ,h,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,i,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,j,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,k,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,k,BMA,3,gp120 protein of HIV Envelope trimer
+8JTM ,k,MAN,4;5,gp120 protein of HIV Envelope trimer
+8JTM ,l,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,l,BMA,3,gp120 protein of HIV Envelope trimer
+8JTM ,m,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,n,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,o,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,p,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,q,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,q,BMA,3,gp120 protein of HIV Envelope trimer
+8JTM ,q,MAN,4;5;6;7;8,gp120 protein of HIV Envelope trimer
+8JTM ,r,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,s,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,s,BMA,3,gp120 protein of HIV Envelope trimer
+8JTM ,s,MAN,4;5;6;7,gp120 protein of HIV Envelope trimer
+8JTM ,u,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,v,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,w,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,x,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,x,BMA,3,gp120 protein of HIV Envelope trimer
+8JTM ,x,MAN,4;5,gp120 protein of HIV Envelope trimer
+8JTM ,y,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,y,BMA,3,gp120 protein of HIV Envelope trimer
+8JTM ,z,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,0,NAG,1;2,gp120 protein of HIV Envelope trimer
+8JTM ,1,NAG,1;2,gp120 protein of HIV Envelope trimer
+5VGP ,C,NAG,1;2,Human Fc fragment with G1F/G0F glycan
+5VGP ,C,BMA,3,Human Fc fragment with G1F/G0F glycan
+5VGP ,C,MAN,4,Human Fc fragment with G1F/G0F glycan
+5VGP ,C,NAG,5,Human Fc fragment with G1F/G0F glycan
+5VGP ,C,GAL,6,Human Fc fragment with G1F/G0F glycan
+5VGP ,C,MAN,7,Human Fc fragment with G1F/G0F glycan
+5VGP ,C,NAG,8,Human Fc fragment with G1F/G0F glycan
+5VGP ,C,FUC,9,Human Fc fragment with G1F/G0F glycan
+5VGP ,D,NAG,1;2,Human Fc fragment with G1F/G0F glycan
+5VGP ,D,BMA,3,Human Fc fragment with G1F/G0F glycan
+5VGP ,D,MAN,4,Human Fc fragment with G1F/G0F glycan
+5VGP ,D,NAG,5,Human Fc fragment with G1F/G0F glycan
+5VGP ,D,MAN,6,Human Fc fragment with G1F/G0F glycan
+5VGP ,D,NAG,7,Human Fc fragment with G1F/G0F glycan
+5VGP ,D,FUC,8,Human Fc fragment with G1F/G0F glycan
+6UR5 ,E,NAG,1;2,Antibody heavy chain
+6UR5 ,E,BMA,3,Antibody heavy chain
+6UR5 ,E,FUC,4;5,Antibody heavy chain
+6UR5 ,F,NAG,1;2,Antibody heavy chain
+6UR5 ,F,BMA,3,Antibody heavy chain
+6UR5 ,F,MAN,4,Antibody heavy chain
+6UR5 ,F,FUC,5;6,Antibody heavy chain
+6E3H ,C,NAG,1;2,Hemagglutinin HA1
+6E3H ,D,NAG,1;2,Hemagglutinin HA1
+6E3H ,D,BMA,3,Hemagglutinin HA1
+6E3H ,D,FUC,4,Hemagglutinin HA1
+6E3H ,E,NAG,1;2,Hemagglutinin HA1
+6P95 ,I,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,I,BMA,3,Pre-glycoprotein polyprotein GP complex
+6P95 ,J,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,K,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,M,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,M,BMA,3,Pre-glycoprotein polyprotein GP complex
+6P95 ,N,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,O,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,O,BMA,3,Pre-glycoprotein polyprotein GP complex
+6P95 ,O,MAN,4,Pre-glycoprotein polyprotein GP complex
+6P95 ,P,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,P,BMA,3,Pre-glycoprotein polyprotein GP complex
+6P95 ,Q,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,R,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,R,BMA,3,Pre-glycoprotein polyprotein GP complex
+6P95 ,S,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,T,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,T,BMA,3,Pre-glycoprotein polyprotein GP complex
+6P95 ,T,MAN,4;5,Pre-glycoprotein polyprotein GP complex
+6P95 ,U,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,U,BMA,3,Pre-glycoprotein polyprotein GP complex
+6P95 ,U,MAN,4;5,Pre-glycoprotein polyprotein GP complex
+6P95 ,V,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,V,FUC,3,Pre-glycoprotein polyprotein GP complex
+6P95 ,W,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,W,BMA,3,Pre-glycoprotein polyprotein GP complex
+6P95 ,W,MAN,4,Pre-glycoprotein polyprotein GP complex
+6P95 ,X,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,Y,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,Y,FUC,3,Pre-glycoprotein polyprotein GP complex
+6P95 ,Z,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,Z,BMA,3,Pre-glycoprotein polyprotein GP complex
+6P95 ,Z,MAN,4,Pre-glycoprotein polyprotein GP complex
+6P95 ,d,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,e,NAG,1;2,Pre-glycoprotein polyprotein GP complex
+6P95 ,e,FUC,3,Pre-glycoprotein polyprotein GP complex
+7BEO ,G,NAG,1;2,Spike 
+7BEO ,G,FUC,3,Spike 
+7BEO ,I,NAG,1;2,Spike 
+7BEO ,I,FUC,3,Spike 
+7BEO ,J,NAG,1;2,Spike 
+7BEO ,J,FUC,3,Spike 
+3AGV ,C,MAN,1;2,Ig gamma-1 chain C region
+3AGV ,C,NDG,3,Ig gamma-1 chain C region
+3AGV ,C,GLA,4,Ig gamma-1 chain C region
+3AGV ,D,NDG,1,Ig gamma-1 chain C region
+3AGV ,D,NAG,2,Ig gamma-1 chain C region
+3AGV,D,BMA,3,Ig gamma-1 chain C region
+3AGV,D,MAN,4,Ig gamma-1 chain C region
+3AGV,D,NAG,5,Ig gamma-1 chain C region
+3AGV,D,GAL,6,Ig gamma-1 chain C region
+3AGV,D,MAN,7,Ig gamma-1 chain C region
+3AGV,D,FUC,8,Ig gamma-1 chain C region
+4ZNE,B,NAG,1;2,High affinity immunoglobulin gamma Fc receptor I
+4ZNE,B,MAN,3,High affinity immunoglobulin gamma Fc receptor I
+4ZNE,C,NAG,1;2,High affinity immunoglobulin gamma Fc receptor I
+4ZNE,C,MAN,2,High affinity immunoglobulin gamma Fc receptor I
+4ZNE,D,NAG,1;2,High affinity immunoglobulin gamma Fc receptor I
+4ZNE,F,NAG,1;2,High affinity immunoglobulin gamma Fc receptor I
+4ZNE,F,MAN,3;4,High affinity immunoglobulin gamma Fc receptor I
+4ZNE,F,NAG,5,High affinity immunoglobulin gamma Fc receptor I
+4ZNE,F,MAN,6,High affinity immunoglobulin gamma Fc receptor I
+4ZNE,F,NAG,7,High affinity immunoglobulin gamma Fc receptor I
+4ZNE,F,FUL,8,High affinity immunoglobulin gamma Fc receptor I
+4ZNE,G,NAG,1;2,High affinity immunoglobulin gamma Fc receptor I
+4ZNE,G,MAN,3,High affinity immunoglobulin gamma Fc receptor I
+4ZNE,G,MAN,4,High affinity immunoglobulin gamma Fc receptor I
+4ZNE,G,NAG,5,High affinity immunoglobulin gamma Fc receptor I
+4ZNE,G,MAN,6,High affinity immunoglobulin gamma Fc receptor I
+4ZNE,G,NAG,7,High affinity immunoglobulin gamma Fc receptor I
+4ZNE,G,FUL,8,High affinity immunoglobulin gamma Fc receptor I
+7KFE,K,NAG,1;2,Antibody BDBV-329 heavy chain
+7KFE,K,BMA,3,Antibody BDBV-329 heavy chain
+7KFE,K,MAN,4;5,Antibody BDBV-329 heavy chain
+7KFE,L,NAG,1;2,Antibody BDBV-329 heavy chain
+7KFE,M,NAG,1;2,Antibody BDBV-329 heavy chain
+7KFE,M,BMA,3,Antibody BDBV-329 heavy chain
+7KFE,M,MAN,4;5,Antibody BDBV-329 heavy chain
+7KFE,N,NAG,1;2,Antibody BDBV-329 heavy chain
+7KFE,O,NAG,1;2,Antibody BDBV-329 heavy chain
+7KFE,O,BMA,3,Antibody BDBV-329 heavy chain
+7KFE,O,MAN,4;5,Antibody BDBV-329 heavy chain
+8GH4,F,NAG,1;2,Antibody heavy chain
+1IGY,E,NAG,1,IGG1 INTACT ANTIBODY
+1IGY,E,NDG,2,IGG1 INTACT ANTIBODY
+1IGY,E,BMA,3,IGG1 INTACT ANTIBODY
+1IGY,E,MAN,4,IGG1 INTACT ANTIBODY
+1IGY,E,NAG,5,IGG1 INTACT ANTIBODY
+1IGY,E,GAL,6,IGG1 INTACT ANTIBODY
+1IGY,E,MAN,7,IGG1 INTACT ANTIBODY
+1IGY,E,NAG,8,IGG1 INTACT ANTIBODY
+1IGY,E,FUL,9,IGG1 INTACT ANTIBODY
+1IGY,F,NAG,1,IGG1 INTACT ANTIBODY
+1IGY,F,NAG,1,IGG1 INTACT ANTIBODY
+1IGY,F,NDG,2,IGG1 INTACT ANTIBODY
+1IGY,F,BMA,3,IGG1 INTACT ANTIBODY
+1IGY,F,MAN,4,IGG1 INTACT ANTIBODY
+1IGY,F,NAG,5,IGG1 INTACT ANTIBODY
+1IGY,F,GAL,6,IGG1 INTACT ANTIBODY
+1IGY,F,MAN,7,IGG1 INTACT ANTIBODY
+1IGY,F,NAG,8,IGG1 INTACT ANTIBODY
+1IGY,F,FUC,9,IGG1 INTACT ANTIBODY
+4LSP,A,NAG,1;2,HIV-1 CLADE A/E STRAIN 93TH057 GP120
+4LSP,A,BMA,3,HIV-1 CLADE A/E STRAIN 93TH057 GP120
+6P65,I,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,I,BMA,3,HIV Env 16055 NFL TD 2CC+
+6P65,I,MAN,4;5,HIV Env 16055 NFL TD 2CC+
+6P65,J,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,K,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,M,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,N,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,O,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,P,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,Q,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,Q,BMA,3,HIV Env 16055 NFL TD 2CC+
+6P65,Q,MAN,4;5,HIV Env 16055 NFL TD 2CC+
+6P65,R,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,S,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,S,BMA,3,HIV Env 16055 NFL TD 2CC+
+6P65,T,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,U,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,V,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,W,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,X,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,X,FUC,3,HIV Env 16055 NFL TD 2CC+
+6P65,Y,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,Y,BMA,3,HIV Env 16055 NFL TD 2CC+
+6P65,Y,MAN,4;5,HIV Env 16055 NFL TD 2CC+
+6P65,Z,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,a,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,b,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,c,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,d,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,e,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,f,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,f,BMA,3,HIV Env 16055 NFL TD 2CC+
+6P65,f,MAN,4;5,HIV Env 16055 NFL TD 2CC+
+6P65,g,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,h,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,h,BMA,3,HIV Env 16055 NFL TD 2CC+
+6P65,i,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,j,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,k,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,l,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,m,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,m,FUC,3,HIV Env 16055 NFL TD 2CC+
+6P65,n,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,n,BMA,3,HIV Env 16055 NFL TD 2CC+
+6P65,n,MAN,4;5,HIV Env 16055 NFL TD 2CC+
+6P65,o,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,p,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,q,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,r,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,s,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,t,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,u,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,u,BMA,3,HIV Env 16055 NFL TD 2CC+
+6P65,u,MAN,4;5,HIV Env 16055 NFL TD 2CC+
+6P65,v,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,w,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,w,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,x,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,y,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,z,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,0,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,1,NAG,1;2,HIV Env 16055 NFL TD 2CC+
+6P65,1,FUC,3,HIV Env 16055 NFL TD 2CC+
+7WG3,M,NAG,1;2,Light chain of D9 Fab
+7WG3,M,BMA,3,Light chain of D9 Fab
+7WG3,M,MAN,4;5;6,Light chain of D9 Fab
+7WG3,N,NAG,1;2,Light chain of D9 Fab
+7WG3,N,BMA,3,Light chain of D9 Fab
+7WG3,N,MAN,4;5,Light chain of D9 Fab
+3H9Y,C,NAG,1;2,Ig epsilon chain C region
+3H9Y,C,BMA,3,Ig epsilon chain C region
+3H9Y,C,MAN,4;5;6,Ig epsilon chain C region
+3H9Y,D,NAG,1;2,Ig epsilon chain C region
+3H9Y,D,BMA,3,Ig epsilon chain C region
+3H9Y,D,MAN,4;5,Ig epsilon chain C region
+3H9Y,F,NAG,1;2,Ig epsilon chain C region
+3H9Y,F,BMA,3,Ig epsilon chain C region
+3H9Y,F,MAN,4;5,Ig epsilon chain C region
+5MOJ,C,NAG,1;2,Ig epsilon chain C region
+5MOJ,C,BMA,3,Ig epsilon chain C region
+5MOJ,C,MAN,4;5,Ig epsilon chain C region
+5MOJ,D,NAG,1;2,Ig epsilon chain C region
+5MOJ,D,BMA,3,Ig epsilon chain C region
+5MOJ,D,MAN,4;5,Ig epsilon chain C region
+6FYT,C,NAG,1,Hemagglutinin
+6FYT,C,FUC,2,Hemagglutinin
+6FYT,C,NAG,3,Hemagglutinin
+6FYT,C,FUC,4,Hemagglutinin
+6FYT,D,NAG,1;2,Hemagglutinin
+6FYT,E,NAG,1;2,Hemagglutinin
+6FYT,E,BMA,3,Hemagglutinin
+6FYT,F,NAG,1;2,Hemagglutinin
+6FYT,G,NAG,1,Hemagglutinin
+6FYT,G,FUC,2,Hemagglutinin
+6FYT,G,NAG,3,Hemagglutinin
+6FYT,G,FUC,4,Hemagglutinin
+6OZ4,A,NAG,1;2,Envelope glycoprotein gp160
+6OZ4,A,BMA,3,Envelope glycoprotein gp160
+6OZ4,C,NAG,1;2,Envelope glycoprotein gp160
+6OZ4,D,NAG,1;2,Envelope glycoprotein gp160
+6OZ4,D,BMA,3,Envelope glycoprotein gp160
+6OZ4,D,MAN,4,Envelope glycoprotein gp160
+6OZ4,E,NAG,1;2,Envelope glycoprotein gp160
+6OZ4,F,NAG,1;2,Envelope glycoprotein gp160
+6OZ4,F,BMA,3,Envelope glycoprotein gp160
+6OZ4,I,NAG,1;2,Envelope glycoprotein gp160
+6OZ4,J,NAG,1;2,Envelope glycoprotein gp160
+6OZ4,K,NAG,1;2,Envelope glycoprotein gp160
+6OZ4,K,BMA,3,Envelope glycoprotein gp160
+6OZ4,K,MAN,4;5;6;7,Envelope glycoprotein gp160
+6OZ4,M,NAG,1;2,Envelope glycoprotein gp160
+6OZ4,M,BMA,3,Envelope glycoprotein gp160
+6OZ4,N,NAG,1;2,Envelope glycoprotein gp160
+6OZ4,O,NAG,1;2,Envelope glycoprotein gp160
+6OZ4,P,NAG,1;2,Envelope glycoprotein gp160
+6EAQ,D,NAG,1;2,Immunoglobulin gamma-1 heavy chain
+6EAQ,D,BMA,3,Immunoglobulin gamma-1 heavy chain
+6EAQ,D,MAN,4,Immunoglobulin gamma-1 heavy chain
+6EAQ,D,NAG,5,Immunoglobulin gamma-1 heavy chain
+6EAQ,D,GAL,6,Immunoglobulin gamma-1 heavy chain
+6EAQ,D,MAN,7,Immunoglobulin gamma-1 heavy chain
+6EAQ,E,NAG,1;2,Immunoglobulin gamma-1 heavy chain
+6EAQ,E,BMA,3,Immunoglobulin gamma-1 heavy chain
+6EAQ,E,MAN,4,Immunoglobulin gamma-1 heavy chain
+6EAQ,E,NAG,5,Immunoglobulin gamma-1 heavy chain
+6EAQ,E,GAL,6,Immunoglobulin gamma-1 heavy chain
+6EAQ,E,MAN,7,Immunoglobulin gamma-1 heavy chain
+6EAQ,E,NAG,8,Immunoglobulin gamma-1 heavy chain
+6EAQ,F,NAG,1;2,Immunoglobulin gamma-1 heavy chain
+6EAQ,F,BMA,3,Immunoglobulin gamma-1 heavy chain
+6EAQ,G,NAG,1;2,Immunoglobulin gamma-1 heavy chain
+6EAQ,G,BMA,3,Immunoglobulin gamma-1 heavy chain
+7SYZ,B,NAG,1;2,Attachment glycoprotein
+7SYZ,B,BMA,3,Attachment glycoprotein
+7SYZ,B,MAN,4,Attachment glycoprotein
+7SYZ,C,NAG,1;2,Attachment glycoprotein
+7SYZ,C,BMA,3,Attachment glycoprotein
+7SYZ,D,NAG,1;2,Attachment glycoprotein
+7SYZ,D,BMA,3,Attachment glycoprotein
+7SYZ,D,FUC,4;5,Attachment glycoprotein
+7SYZ,E,NAG,1;2,Attachment glycoprotein
+7SYZ,E,BMA,3,Attachment glycoprotein
+7SYZ,E,MAN,4;5;6,Attachment glycoprotein
+7SYZ,F,NAG,1;2,Attachment glycoprotein
+7SYZ,F,FUC,3,Attachment glycoprotein
+5VME,C,NAG,1;2,"human IgG1 Fc K248E,T437R mutant"
+5VME,C,BMA,3,"human IgG1 Fc K248E,T437R mutant"
+5VME,C,MAN,4,"human IgG1 Fc K248E,T437R mutant"
+5VME,C,NAG,5,"human IgG1 Fc K248E,T437R mutant"
+5VME,C,MAN,6,"human IgG1 Fc K248E,T437R mutant"
+5VME,C,NAG,7,"human IgG1 Fc K248E,T437R mutant"
+5VME,C,FUC,8,"human IgG1 Fc K248E,T437R mutant"
+5VME,D,NAG,1;2,"human IgG1 Fc K248E,T437R mutant"
+5VME,D,BMA,3,"human IgG1 Fc K248E,T437R mutant"
+5VME,D,MAN,4,"human IgG1 Fc K248E,T437R mutant"
+5VME,D,NAG,5,"human IgG1 Fc K248E,T437R mutant"
+5VME,D,MAN,6,"human IgG1 Fc K248E,T437R mutant"
+5VME,D,FUC,7,"human IgG1 Fc K248E,T437R mutant"
+8R9Y,D,NAG,1;2,Spike
+8R9Z,D,NAG,1;2,Spike
+6UEA,M,NAG,1;2,Immunoglobulin heavy constant alpha 2
+6UEA,N,NAG,1;2,Immunoglobulin heavy constant alpha 2
+6UEA,N,BMA,3,Immunoglobulin heavy constant alpha 2
+6UEA,O,NAG,1;2,Immunoglobulin heavy constant alpha 2
+6UEA,P,NAG,1;2,Immunoglobulin heavy constant alpha 2
+6UEA,Q,NAG,1;2,Immunoglobulin heavy constant alpha 2
+6UEA,Q,BMA,3,Immunoglobulin heavy constant alpha 2
+6UEA,R,NAG,1;2,Immunoglobulin heavy constant alpha 2
+6UEA,S,NAG,1;2,Immunoglobulin heavy constant alpha 2
+6UEA,S,BMA,3,Immunoglobulin heavy constant alpha 2
+7LRT,I,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,I,BMA,3,antibody A23-58.1 heavy chain
+7LRT,J,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,J,BMA,3,antibody A23-58.1 heavy chain
+7LRT,K,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,K,BMA,3,antibody A23-58.1 heavy chain
+7LRT,M,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,N,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,O,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,P,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,Q,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,R,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,S,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,S,BMA,3,antibody A23-58.1 heavy chain
+7LRT,S,MAN,4;5,antibody A23-58.1 heavy chain
+7LRT,T,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,U,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,V,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,W,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,X,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,Y,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,Y,BMA,3,antibody A23-58.1 heavy chain
+7LRT,Y,MAN,4;5,antibody A23-58.1 heavy chain
+7LRT,Z,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,Z,BMA,3,antibody A23-58.1 heavy chain
+7LRT,a,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,b,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,c,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,d,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,e,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,e,NAG,1;2,antibody A23-58.1 heavy chain
+7LRT,e,MAN,4;5,antibody A23-58.1 heavy chain
+4GXU,Y,NAG,1;2,Hemagglutinin HA1 chain
+4GXU,Y,BMA,3,Hemagglutinin HA1 chain
+4GXU,Z,NAG,1;2,Hemagglutinin HA1 chain
+4GXU,Z,BMA,3,Hemagglutinin HA1 chain
+4GXU,a,NAG,1;2,Hemagglutinin HA1 chain
+4GXU,a,BMA,3,Hemagglutinin HA1 chain
+4GXU,b,NAG,1;2,Hemagglutinin HA1 chain
+4GXU,b,BMA,3,Hemagglutinin HA1 chain
+4GXU,c,NAG,1;2,Hemagglutinin HA1 chain
+4GXU,c,BMA,3,Hemagglutinin HA1 chain
+4GXU,d,NAG,1;2,Hemagglutinin HA1 chain
+4GXU,d,BMA,3,Hemagglutinin HA1 chain
+1F6A,C,NAG,1;2,HIGH AFFINITY IMMUNOGLOBULIN EPSILON RECEPTOR ALPHA-SUBUNIT
+1F6A,C,MAN,3,HIGH AFFINITY IMMUNOGLOBULIN EPSILON RECEPTOR ALPHA-SUBUNIT
+1F6A,C,FUC,4,HIGH AFFINITY IMMUNOGLOBULIN EPSILON RECEPTOR ALPHA-SUBUNIT
+1F6A,E,NAG,1;2,HIGH AFFINITY IMMUNOGLOBULIN EPSILON RECEPTOR ALPHA-SUBUNIT
+1F6A,E,MAN,3;4;5,HIGH AFFINITY IMMUNOGLOBULIN EPSILON RECEPTOR ALPHA-SUBUNIT
+1F6A,F,NAG,1;2,HIGH AFFINITY IMMUNOGLOBULIN EPSILON RECEPTOR ALPHA-SUBUNIT
+1F6A,F,FUC,3,HIGH AFFINITY IMMUNOGLOBULIN EPSILON RECEPTOR ALPHA-SUBUNIT
+1F6A,G,NAG,1;2,HIGH AFFINITY IMMUNOGLOBULIN EPSILON RECEPTOR ALPHA-SUBUNIT
+1F6A,G,MAN,3;4;6,HIGH AFFINITY IMMUNOGLOBULIN EPSILON RECEPTOR ALPHA-SUBUNIT
+1F6A,H,NAG,1;2,HIGH AFFINITY IMMUNOGLOBULIN EPSILON RECEPTOR ALPHA-SUBUNIT
+1F6A,H,MAN,3,HIGH AFFINITY IMMUNOGLOBULIN EPSILON RECEPTOR ALPHA-SUBUNIT
