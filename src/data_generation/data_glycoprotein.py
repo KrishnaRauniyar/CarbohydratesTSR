@@ -10,8 +10,8 @@ The script can either:
 
 For each PDB ID it downloads the legacy PDB file, parses HETATM residues,
 uses LINK records to keep glycan-like residues attached to the protein,
-aggregates duplicate residue numbers, and optionally merges the new rows
-into an existing carbohydrate CSV.
+aggregates duplicate residue numbers, and writes a fresh output CSV.
+Merging with an existing CSV is available only when explicitly requested.
 """
 
 from __future__ import annotations
@@ -57,6 +57,21 @@ class WorkerResult:
     selection_mode_used: str
 
 
+class LegacyPDBFormatUnavailableError(RuntimeError):
+    """Raised when RCSB does not provide a legacy .pdb file for an entry."""
+
+
+def build_legacy_pdb_unavailable_message(pdb_id: str) -> str:
+    return (
+        f"Legacy PDB format is not available for entry {pdb_id} "
+        f"(RCSB .pdb download returned HTTP 400 Bad Request). "
+        "RCSB provides some structures only in PDBx/mmCIF format, not in the old legacy PDB format. "
+        "Common reasons include multi-character chain IDs, more than 62 chains, more than 99999 atoms, "
+        "complex beta-sheet topology, B-factors above 999.99, 5-character chemical component IDs, "
+        "or extended PDB IDs."
+    )
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description=(
@@ -72,8 +87,16 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--input-csv",
         help=(
-            "Optional existing carbohydrate CSV to merge with before writing the output. "
-            "Expected columns: protein,chain,carb_name,carb_id,group."
+            "Optional existing carbohydrate CSV. By default this is used only as a carb_name whitelist. "
+            "It is merged into the output only if --merge-input-csv is also provided."
+        ),
+    )
+    parser.add_argument(
+        "--merge-input-csv",
+        action="store_true",
+        help=(
+            "Merge rows from --input-csv into the final output. "
+            "If not set, the script writes only newly generated rows."
         ),
     )
     parser.add_argument(
@@ -637,8 +660,15 @@ def download_pdb_if_needed(
 
     url = PDB_DOWNLOAD_URL.format(pdb_id=pdb_id)
     req = request.Request(url, headers={"User-Agent": "CarbohydratesTSR/1.0"})
-    with request.urlopen(req, timeout=timeout) as response:
-        output_path.write_bytes(response.read())
+    try:
+        with request.urlopen(req, timeout=timeout) as response:
+            output_path.write_bytes(response.read())
+    except error.HTTPError as exc:
+        if exc.code == 400:
+            raise LegacyPDBFormatUnavailableError(
+                build_legacy_pdb_unavailable_message(pdb_id)
+            ) from exc
+        raise
     return output_path
 
 
@@ -730,9 +760,12 @@ def main() -> int:
             pdb_id = futures[future]
             try:
                 result = future.result()
+            except LegacyPDBFormatUnavailableError as exc:
+                print(f"[WARN] {exc}", file=sys.stderr)
+                continue
             except error.HTTPError as exc:
                 print(
-                    f"[WARN] Failed to download {pdb_id}: HTTP {exc.code}",
+                    f"[WARN] Failed to download {pdb_id}: HTTP {exc.code} {exc.reason}",
                     file=sys.stderr,
                 )
                 continue
@@ -754,7 +787,7 @@ def main() -> int:
     )
 
     all_rows: List[Dict[str, str]] = []
-    if args.input_csv:
+    if args.input_csv and args.merge_input_csv:
         all_rows.extend(read_csv_rows(Path(args.input_csv)))
     all_rows.extend(generated_rows)
 

@@ -1,0 +1,6 @@
+python3 data_glycoprotein.py \
+  --output-csv /ddnB/work/rauniyar/Spring_2024/carbohydrates/data/glycoprotein_samples/sample_details_carbohydrates_PD1_PDL1.csv \
+  --search-text Glycoprotein \
+  --require-glycosylation-site \
+  --group PD1_PDL1 \
+  --workers 8
