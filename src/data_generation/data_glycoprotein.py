@@ -14,6 +14,10 @@ aggregates duplicate residue numbers, and writes a fresh output CSV.
 Merging with an existing CSV is available only when explicitly requested.
 """
 
+
+
+
+
 from __future__ import annotations
 
 import argparse
@@ -48,6 +52,8 @@ class PDBParseResult:
     atom_residues: Set[ResidueKey]
     het_residues: Set[ResidueKey]
     residue_graph: Dict[ResidueKey, Set[ResidueKey]]
+    atom_seq_ids_by_chain: Dict[str, Set[str]]
+    het_heavy_atom_counts: Dict[ResidueKey, int]
 
 
 @dataclass
@@ -178,6 +184,30 @@ def build_parser() -> argparse.ArgumentParser:
             "when present then falls back to all HETATM residues."
         ),
     )
+    parser.add_argument(
+        "--min-heavy-atoms-per-residue",
+        type=int,
+        default=3,
+        help=(
+            "Drop HETATM residues that contain fewer than this many heavy atoms. "
+            "Default: 3."
+        ),
+    )
+    parser.add_argument(
+        "--exclude-between-atom-residues",
+        action="store_true",
+        help=(
+            "Exclude HETATM residues whose sequence number falls inside the ATOM residue numbering "
+            "range for the same chain."
+        ),
+    )
+    parser.add_argument(
+        "--allow-between-atom-residues",
+        dest="exclude_between_atom_residues",
+        action="store_false",
+        help="Keep HETATM residues even if they fall inside the ATOM residue numbering range.",
+    )
+    parser.set_defaults(exclude_between_atom_residues=True)
     parser.add_argument(
         "--known-carb-csv",
         help=(
@@ -472,6 +502,16 @@ def split_carb_id_field(carb_id_value: str) -> List[str]:
     return [part.strip() for part in str(carb_id_value).split(";") if part.strip()]
 
 
+def is_heavy_atom_line(line: str) -> bool:
+    element = line[76:78].strip().upper()
+    if not element:
+        atom_name = "".join(character for character in line[12:16] if character.isalpha()).upper()
+        if atom_name.startswith(("H", "D")):
+            return False
+        return True
+    return element not in {"H", "D"}
+
+
 def merge_rows(rows: Iterable[Dict[str, str]]) -> List[Dict[str, str]]:
     grouped: Dict[Tuple[str, str, str, str], Set[str]] = defaultdict(set)
 
@@ -533,6 +573,8 @@ def parse_pdb_file(path: Path) -> PDBParseResult:
     atom_residues: Set[ResidueKey] = set()
     het_residues: Set[ResidueKey] = set()
     residue_graph: Dict[ResidueKey, Set[ResidueKey]] = defaultdict(set)
+    atom_seq_ids_by_chain: Dict[str, Set[str]] = defaultdict(set)
+    het_heavy_atom_counts: Dict[ResidueKey, int] = defaultdict(int)
 
     with path.open(encoding="utf-8", errors="replace") as handle:
         for line in handle:
@@ -547,13 +589,17 @@ def parse_pdb_file(path: Path) -> PDBParseResult:
                 break
 
             if record == "ATOM":
-                atom_residues.add(residue_key_from_atom_like_line(line))
+                residue_key = residue_key_from_atom_like_line(line)
+                atom_residues.add(residue_key)
+                atom_seq_ids_by_chain[residue_key.chain].add(residue_key.seq_id)
                 continue
 
             if record == "HETATM":
                 residue_key = residue_key_from_atom_like_line(line)
                 if residue_key.residue_name not in EXCLUDED_HET_RESIDUES:
                     het_residues.add(residue_key)
+                    if is_heavy_atom_line(line):
+                        het_heavy_atom_counts[residue_key] += 1
                 continue
 
             if record == "LINK":
@@ -573,6 +619,8 @@ def parse_pdb_file(path: Path) -> PDBParseResult:
         atom_residues=atom_residues,
         het_residues=het_residues,
         residue_graph=residue_graph,
+        atom_seq_ids_by_chain=atom_seq_ids_by_chain,
+        het_heavy_atom_counts=het_heavy_atom_counts,
     )
 
 
@@ -594,11 +642,26 @@ def select_linked_het_residues(parsed: PDBParseResult) -> Set[ResidueKey]:
     return selected
 
 
+def residue_is_between_atom_residues(
+    residue: ResidueKey,
+    atom_seq_ids_by_chain: Dict[str, Set[str]],
+) -> bool:
+    chain_seq_ids = atom_seq_ids_by_chain.get(residue.chain)
+    if not chain_seq_ids:
+        return False
+
+    residue_key = parse_residue_seq_sort_key(residue.seq_id)
+    atom_sort_keys = sorted(parse_residue_seq_sort_key(seq_id) for seq_id in chain_seq_ids)
+    return atom_sort_keys[0] < residue_key < atom_sort_keys[-1]
+
+
 def choose_residues(
     parsed: PDBParseResult,
     selection_mode: str,
     known_carb_names: Optional[Set[str]],
     known_carb_only: bool,
+    min_heavy_atoms_per_residue: int,
+    exclude_between_atom_residues: bool,
 ) -> Tuple[Set[ResidueKey], str]:
     linked_residues = select_linked_het_residues(parsed)
 
@@ -619,6 +682,23 @@ def choose_residues(
     if known_carb_names and (known_carb_only or mode_used == "all"):
         selected = {
             residue for residue in selected if residue.residue_name in known_carb_names
+        }
+
+    if min_heavy_atoms_per_residue > 0:
+        selected = {
+            residue
+            for residue in selected
+            if parsed.het_heavy_atom_counts.get(residue, 0) >= min_heavy_atoms_per_residue
+        }
+
+    if exclude_between_atom_residues:
+        selected = {
+            residue
+            for residue in selected
+            if not residue_is_between_atom_residues(
+                residue=residue,
+                atom_seq_ids_by_chain=parsed.atom_seq_ids_by_chain,
+            )
         }
 
     return selected, mode_used
@@ -689,6 +769,8 @@ def process_single_pdb(
         selection_mode=args.selection_mode,
         known_carb_names=known_carb_names,
         known_carb_only=args.known_carb_only,
+        min_heavy_atoms_per_residue=args.min_heavy_atoms_per_residue,
+        exclude_between_atom_residues=args.exclude_between_atom_residues,
     )
     rows = rows_from_residues(pdb_id=pdb_id, residues=residues, group_name=args.group)
     return WorkerResult(pdb_id=pdb_id, rows=rows, selection_mode_used=mode_used)
