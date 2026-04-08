@@ -6,3 +6,12 @@ python3 data_glycoprotein.py \
   --require-glycosylation-site \
   --group PD1_PDL1 \
   --workers 8
+
+Key generation
+python key_generator/key_generation_using_id_chain_res_seq/key_triplets_generation.py \
+  -p pdb_files \
+  -c data/glycoprotein_samples/sample_details_carbohydrates_merged_1.csv \
+  -l data/lexical_file/drug_atom_lexical_txt_11_4_2025.csv \
+  -o proteins \
+  -s proteinNumKeysDist.csv \
+  -r results 

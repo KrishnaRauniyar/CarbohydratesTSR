@@ -60,8 +60,8 @@ class AminoAcidAnalyzer:
         # This is reading the csv file and generating proteins list containing fileName and chain
         self.proteinList = []
         self.targetResidues = []
-        # New dictionary for lexical code for specific chain only
-        self.newDictForLexicalCode = {}
+        # Preserve atom labels by index so alternate-location records do not collapse duplicate atom names.
+        self.atomLabelByIndex = {}
         self.skip = False
 
     def _clean_csv_value(self, value):
@@ -203,7 +203,7 @@ class AminoAcidAnalyzer:
         self.maxDistList = []
         self.keyFreq = {}
         incrementVal = 0
-        self.newDictForLexicalCode = {}
+        self.atomLabelByIndex = {}
         self.aminoAcidCode = {}
         self.aminoSeqNum = {}
         # Original key-calculation logic below is reused unchanged; only the residue-selection filter now includes chain_identity and seq_value from the new CSV.
@@ -217,6 +217,7 @@ class AminoAcidAnalyzer:
                         break
                     if (
                         line.startswith("HETATM")
+                        and line[16:17].strip() in ("", "A") # accept blank or 'A' alternate location indicator for carbohydrate residues
                         and line[21:22].strip() == chain
                         and line[17:20].strip() == chain_identity
                         and line[22:27].strip() == seq_value
@@ -231,7 +232,7 @@ class AminoAcidAnalyzer:
                         self.xCoordinate[incrementVal] = float(line[30:38])
                         self.yCoordinate[incrementVal] = float(line[38:46])
                         self.zCoordinate[incrementVal] = float(line[46:54])
-                        self.newDictForLexicalCode[line[13:16].rstrip()] = int(self.aminoAcidLabelWithCode[line[13:16].rstrip()])
+                        self.atomLabelByIndex[incrementVal] = line[13:16].rstrip()
                         incrementVal += 1
                 except Exception as e:
                     print("Their is an error in: ", line, pdbFile)
@@ -350,9 +351,9 @@ class AminoAcidAnalyzer:
                     binTheta = self.thetaClass(theta)
                     binLength = self.dist12Class(maxDistance)
 
-                    aminoAcidR1 = list(self.newDictForLexicalCode.keys())[l1_index0]
-                    aminoAcidR2 = list(self.newDictForLexicalCode.keys())[l2_index1]
-                    aminoAcidR3 = list(self.newDictForLexicalCode.keys())[l3_index2]
+                    aminoAcidR1 = self.atomLabelByIndex[l1_index0]
+                    aminoAcidR2 = self.atomLabelByIndex[l2_index1]
+                    aminoAcidR3 = self.atomLabelByIndex[l3_index2]
                     # These are the sequence number of the three amino acids
                     seqNumber1 = list(self.aminoSeqNum.values())[l1_index0]
                     seqNumber2 = list(self.aminoSeqNum.values())[l2_index1]
