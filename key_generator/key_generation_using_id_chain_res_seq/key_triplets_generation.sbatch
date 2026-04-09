@@ -1,8 +1,9 @@
 #!/bin/bash
 #SBATCH -p workq
 #SBATCH -N 1
-#SBATCH -n 64
-#SBATCH -t 01:00:00
+#SBATCH -n 1
+#SBATCH -c 64
+#SBATCH -t 10:00:00
 #SBATCH -A loni_tsr_9
 #SBATCH -J key_triplets_generation
 #SBATCH -o slurm_logs/%x_%j.out
@@ -40,7 +41,7 @@ echo "[INFO] Starting key-triplets generation pipeline"
 
 RESULTS_DIR="results"
 PDB_DIR="pdb_files"
-TARGET_CSV="/ddnB/work/rauniyar/Spring_2024/carbohydrates/data/glycoprotein_samples/sample_details_carbohydrates_merged_2.csv"
+TARGET_CSV="/ddnB/work/rauniyar/Spring_2024/carbohydrates/data/glycoprotein_samples/sample_details_carbohydrates_merged.csv"
 LEXICAL_CSV="/ddnB/work/rauniyar/Spring_2024/carbohydrates/data/lexical_file/drug_atom_lexical_txt_11_4_2025.csv"
 PROTEIN_DIR="proteins"
 SUMMARY_CSV="proteinNumKeysDist.csv"
@@ -50,7 +51,7 @@ PY_SCRIPT="key_triplets_generation.py"
 DTHETA="29"
 DLEN="18"
 NUM_LABELS="112"
-NUM_CORES="${SLURM_NTASKS:-64}"
+NUM_CORES="${SLURM_CPUS_PER_TASK:-64}"
 
 mkdir -p "${RESULTS_DIR}"
 
