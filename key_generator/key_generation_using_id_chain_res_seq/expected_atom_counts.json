@@ -1,0 +1,37 @@
+{
+  "ligand": {
+    "BGC": 11,
+    "BMA": 11,
+    "FUC": 10,
+    "FUL": 10,
+    "GAL": 11,
+    "MAN": 11,
+    "NAG": 14,
+    "NDG": 14
+  },
+  "residue": {
+    "GLY": 4,
+    "ALA": 5,
+    "VAL": 7,
+    "LEU": 8,
+    "ILE": 8,
+    "PRO": 7,
+    "PHE": 11,
+    "TYR": 12,
+    "TRP": 14,
+    "SER": 6,
+    "THR": 7,
+    "MET": 8,
+    "CYS": 6,
+    "HIS": 10,
+    "LYS": 9,
+    "ARG": 11,
+    "ASP": 8,
+    "GLU": 9,
+    "ASN": 8,
+    "GLN": 9,
+    "TPO": 11,
+    "SEP": 10,
+    "PTR": 16
+  }
+}

@@ -21,8 +21,17 @@ set_random_seeds()
 
 def drugClassifier(file_path):
     def parse_protein_name(protein_name):
-        parts = protein_name.split('_')
-        return parts[0], parts[1], parts[2], parts[3]
+        parts = str(protein_name).split('_')
+        if len(parts) < 3:
+            raise ValueError(
+                f"Protein Name '{protein_name}' must contain at least 3 underscore-separated parts."
+            )
+
+        protein_id = parts[0]
+        chain_id = parts[1]
+        residue_number = "_".join(parts[2:-1])
+        residue_type = parts[-1]
+        return protein_id, chain_id, residue_number, residue_type
     
     df = pd.read_csv(file_path)
 

@@ -19,7 +19,7 @@ def load_and_process_data(csv_file):
     df = pd.read_csv(csv_file, header=None)
     df1 = df[0].str.split(';', expand=True)
     residue_split = df1[0].str.split('_', expand=True)
-    residue_types = residue_split[3]
+    residue_types = residue_split[2]
     df = df.drop(0, axis=1)
     merged_df = pd.concat([df1, df], axis=1)
     processed_df = merged_df.set_index(merged_df[0]).T.reset_index(drop=True).rename_axis(None, axis=1)
