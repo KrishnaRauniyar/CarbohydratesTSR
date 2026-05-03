@@ -11,7 +11,6 @@ The script can either:
 For each PDB ID it downloads the legacy PDB file, parses HETATM residues,
 uses LINK records to keep glycan-like residues attached to the protein,
 aggregates duplicate residue numbers, and writes a fresh output CSV.
-Merging with an existing CSV is available only when explicitly requested.
 """
 
 
@@ -89,21 +88,6 @@ def build_parser() -> argparse.ArgumentParser:
         "--output-csv",
         required=True,
         help="Where to write the generated CSV.",
-    )
-    parser.add_argument(
-        "--input-csv",
-        help=(
-            "Optional existing carbohydrate CSV. By default this is used only as a carb_name whitelist. "
-            "It is merged into the output only if --merge-input-csv is also provided."
-        ),
-    )
-    parser.add_argument(
-        "--merge-input-csv",
-        action="store_true",
-        help=(
-            "Merge rows from --input-csv into the final output. "
-            "If not set, the script writes only newly generated rows."
-        ),
     )
     parser.add_argument(
         "--pdb-ids-file",
@@ -208,18 +192,6 @@ def build_parser() -> argparse.ArgumentParser:
         help="Keep HETATM residues even if they fall inside the ATOM residue numbering range.",
     )
     parser.set_defaults(exclude_between_atom_residues=True)
-    parser.add_argument(
-        "--known-carb-csv",
-        help=(
-            "Optional CSV with a carb_name column. Used as a whitelist when you want to restrict "
-            "output to known carbohydrate residue names."
-        ),
-    )
-    parser.add_argument(
-        "--known-carb-only",
-        action="store_true",
-        help="Apply the carbohydrate residue whitelist to the final selected residues.",
-    )
     parser.add_argument(
         "--workers",
         type=int,
@@ -470,27 +442,6 @@ def save_pdb_ids(pdb_ids: Sequence[str], output_path: Path) -> None:
     output_path.write_text("\n".join(pdb_ids) + ("\n" if pdb_ids else ""), encoding="utf-8")
 
 
-def read_csv_rows(path: Path) -> List[Dict[str, str]]:
-    with path.open(newline="", encoding="utf-8-sig") as handle:
-        reader = csv.DictReader(handle)
-        if not reader.fieldnames:
-            return []
-        return [
-            {column: str(row.get(column, "")).strip() for column in reader.fieldnames}
-            for row in reader
-        ]
-
-
-def load_known_carb_names(path: Path) -> Set[str]:
-    rows = read_csv_rows(path)
-    carb_names = {
-        row.get("carb_name", "").strip()
-        for row in rows
-        if row.get("carb_name", "").strip()
-    }
-    return carb_names
-
-
 def parse_residue_seq_sort_key(seq_id: str) -> Tuple[int, int, str]:
     match = re.fullmatch(r"(-?\d+)([A-Za-z]?)", seq_id)
     if match:
@@ -512,7 +463,7 @@ def is_heavy_atom_line(line: str) -> bool:
     return element not in {"H", "D"}
 
 
-def merge_rows(rows: Iterable[Dict[str, str]]) -> List[Dict[str, str]]:
+def aggregate_rows(rows: Iterable[Dict[str, str]]) -> List[Dict[str, str]]:
     grouped: Dict[Tuple[str, str, str, str], Set[str]] = defaultdict(set)
 
     for row in rows:
@@ -527,10 +478,10 @@ def merge_rows(rows: Iterable[Dict[str, str]]) -> List[Dict[str, str]]:
 
         grouped[(protein, chain, carb_name, group_name)].update(carb_ids)
 
-    merged_rows = []
+    aggregated_rows = []
     for protein, chain, carb_name, group_name in sorted(grouped.keys()):
         carb_ids = sorted(grouped[(protein, chain, carb_name, group_name)], key=parse_residue_seq_sort_key)
-        merged_rows.append(
+        aggregated_rows.append(
             {
                 "protein": protein,
                 "chain": chain,
@@ -539,7 +490,7 @@ def merge_rows(rows: Iterable[Dict[str, str]]) -> List[Dict[str, str]]:
                 "group": group_name,
             }
         )
-    return merged_rows
+    return aggregated_rows
 
 
 def residue_key_from_atom_like_line(line: str) -> ResidueKey:
@@ -658,8 +609,6 @@ def residue_is_between_atom_residues(
 def choose_residues(
     parsed: PDBParseResult,
     selection_mode: str,
-    known_carb_names: Optional[Set[str]],
-    known_carb_only: bool,
     min_heavy_atoms_per_residue: int,
     exclude_between_atom_residues: bool,
 ) -> Tuple[Set[ResidueKey], str]:
@@ -678,11 +627,6 @@ def choose_residues(
         else:
             selected = set(parsed.het_residues)
             mode_used = "all"
-
-    if known_carb_names and (known_carb_only or mode_used == "all"):
-        selected = {
-            residue for residue in selected if residue.residue_name in known_carb_names
-        }
 
     if min_heavy_atoms_per_residue > 0:
         selected = {
@@ -755,7 +699,6 @@ def download_pdb_if_needed(
 def process_single_pdb(
     pdb_id: str,
     args: argparse.Namespace,
-    known_carb_names: Optional[Set[str]],
 ) -> WorkerResult:
     pdb_path = download_pdb_if_needed(
         pdb_id=pdb_id,
@@ -767,8 +710,6 @@ def process_single_pdb(
     residues, mode_used = choose_residues(
         parsed=parsed,
         selection_mode=args.selection_mode,
-        known_carb_names=known_carb_names,
-        known_carb_only=args.known_carb_only,
         min_heavy_atoms_per_residue=args.min_heavy_atoms_per_residue,
         exclude_between_atom_residues=args.exclude_between_atom_residues,
     )
@@ -822,19 +763,13 @@ def main() -> int:
         print("Dry run complete. No PDB files were downloaded.", file=sys.stderr)
         return 0
 
-    known_carb_names: Optional[Set[str]] = None
-    if args.known_carb_csv:
-        known_carb_names = load_known_carb_names(Path(args.known_carb_csv))
-    elif args.input_csv:
-        known_carb_names = load_known_carb_names(Path(args.input_csv))
-
     generated_rows: List[Dict[str, str]] = []
     linked_count = 0
     fallback_all_count = 0
 
     with ThreadPoolExecutor(max_workers=max(1, args.workers)) as executor:
         futures = {
-            executor.submit(process_single_pdb, pdb_id, args, known_carb_names): pdb_id
+            executor.submit(process_single_pdb, pdb_id, args): pdb_id
             for pdb_id in pdb_ids
         }
 
@@ -868,15 +803,10 @@ def main() -> int:
         file=sys.stderr,
     )
 
-    all_rows: List[Dict[str, str]] = []
-    if args.input_csv and args.merge_input_csv:
-        all_rows.extend(read_csv_rows(Path(args.input_csv)))
-    all_rows.extend(generated_rows)
+    output_rows = aggregate_rows(generated_rows)
+    write_csv(Path(args.output_csv), output_rows)
 
-    merged_rows = merge_rows(all_rows)
-    write_csv(Path(args.output_csv), merged_rows)
-
-    print(f"Wrote {len(merged_rows)} rows to {args.output_csv}", file=sys.stderr)
+    print(f"Wrote {len(output_rows)} rows to {args.output_csv}", file=sys.stderr)
     return 0
 
 
