@@ -140,8 +140,8 @@ def load_input_dataframe(input_csv: Path, label_from: str) -> pd.DataFrame:
 def extract_labels_from_protein(values: pd.Series) -> pd.Series:
     """Extract class labels from the final underscore-separated token."""
 
-    labels = values.astype(str).str.strip().str.split("_").str[-1]
-    invalid = labels.isna() | (labels == "") | (labels.str.lower() == "nan")
+    labels = values.astype(str).str.strip().str.split("_").str[-1].str.strip()
+    invalid = values.isna() | (labels == "")
     if invalid.any():
         bad_examples = values[invalid].head(5).tolist()
         raise ValueError(f"Could not extract labels from these protein values: {bad_examples}")
@@ -605,4 +605,3 @@ def print_device_information() -> Dict:
     except Exception as exc:
         print(f"TensorFlow device information is unavailable: {exc}")
     return info
-

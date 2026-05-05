@@ -27,8 +27,9 @@ Supported calculation modes
 2. ``id_chain``
    Group CSV rows by ``protein`` and ``chain`` only. In this mode the CSV is
    used only to provide unique protein-chain pairs; the atom-selection logic
-   then operates on the entire matching chain scope for the selected
-   ``entity_type``.
+   then operates on the matching chain scope for the selected ``entity_type``.
+   For ligand runs, that chain scope is limited to the ligand names configured
+   in ``expected_atom_counts.json``.
 
 Supported entity types
 ----------------------
@@ -897,7 +898,16 @@ class AminoAcidAnalyzer:
         )
         return False
 
-    def _load_atoms_for_selection(self, fileName, chain, entity_names, seq_values, entity_type, output_identifier=None):
+    def _load_atoms_for_selection(
+        self,
+        fileName,
+        chain,
+        entity_names,
+        seq_values,
+        entity_type,
+        output_identifier=None,
+        apply_ligand_atom_count_filter=True,
+    ):
         """
         Load atoms matching the requested chain, entity names, and sequence numbers.
 
@@ -948,12 +958,14 @@ class AminoAcidAnalyzer:
         for entity_name, entity_seq in entity_group_order:
             entity_atoms = entity_atom_groups[(entity_name, entity_seq)]
             entity_identifier = f"{fileName}_{chain}_{entity_seq}_{entity_name}"
-            if entity_type == ENTITY_LIGAND:
+            if entity_type == ENTITY_LIGAND and apply_ligand_atom_count_filter:
                 passes_filter = self._passes_ligand_atom_count_filter(
                     ligand_name=entity_name,
                     atom_count=len(entity_atoms),
                     output_identifier=entity_identifier,
                 )
+            elif entity_type == ENTITY_LIGAND:
+                passes_filter = True
             else:
                 passes_filter = self._passes_residue_instance_atom_count_filter(
                     residue_name=entity_name,
@@ -1182,7 +1194,17 @@ class AminoAcidAnalyzer:
             for values in self.keyFreq:
                 keyFreqFile.writelines([str(values), "\t", str(self.keyFreq[values]), "\n"])
 
-    def calculate_for_selection(self, fileName, chain, seq_values, entity_names, entity_type, output_identifier, protein_path=None):
+    def calculate_for_selection(
+        self,
+        fileName,
+        chain,
+        seq_values,
+        entity_names,
+        entity_type,
+        output_identifier,
+        protein_path=None,
+        apply_ligand_atom_count_filter=True,
+    ):
         """
         Shared wrapper that prepares the selected atom set before running the preserved key logic.
 
@@ -1202,6 +1224,7 @@ class AminoAcidAnalyzer:
             seq_values=seq_values,
             entity_type=entity_type,
             output_identifier=output_identifier,
+            apply_ligand_atom_count_filter=apply_ligand_atom_count_filter,
         )
 
         if not self._passes_residue_atom_count_filter(
@@ -1241,7 +1264,9 @@ class AminoAcidAnalyzer:
 
         In id_chain mode the CSV contributes only protein and chain. Passing
         empty ``entity_names`` and ``seq_values`` tells the selector to use the
-        full matching chain scope for the chosen entity type.
+        full matching chain scope for the chosen entity type. The id_chain
+        ligand caller passes configured ligand names so only those ligands are
+        selected from the chain.
         """
         return self.calculate_for_selection(
             fileName=fileName,
@@ -1251,6 +1276,7 @@ class AminoAcidAnalyzer:
             entity_type=entity_type,
             output_identifier=output_identifier,
             protein_path=protein_path,
+            apply_ligand_atom_count_filter=False,
         )
 
 
@@ -1277,11 +1303,21 @@ def process_target(target, lexical_map, ligand_atom_counts, residue_atom_counts)
             target["entity_type"],
         )
     else:
+        grouped_entity_names = target["entity_names"]
+        if target["entity_type"] == ENTITY_LIGAND:
+            grouped_entity_names = sorted(ligand_atom_counts)
+            if not grouped_entity_names:
+                print(
+                    f"Warning: skipping {target['identifier']} because no ligand names "
+                    "are configured in the atom-count JSON."
+                )
+                return None
+
         processed = analyzer.calcuTheteAndKeyForGroupedSelection(
             fileName=target["protein"],
             chain=target["chain"],
             seq_values=target["seqnums"],
-            entity_names=target["entity_names"],
+            entity_names=grouped_entity_names,
             entity_type=target["entity_type"],
             output_identifier=target["identifier"],
         )
