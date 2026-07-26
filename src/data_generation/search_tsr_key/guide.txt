@@ -1,0 +1,84 @@
+Simple guide to run search_tsr_key.sbatch
+=========================================
+
+Script:
+  src/data_generation/search_tsr_key/search_tsr_key.sbatch
+
+Main idea
+---------
+This job searches key files for one atom triplet and writes matching key rows.
+
+GENERALISED_CSV is optional.
+
+Case 1: You have a generalised.csv
+----------------------------------
+Use this when you want the script to create the search/sample-detail file first.
+This is useful for group-wise split, for example identifiers with CI/NCI or
+chain group names.
+
+What happens:
+  1. Reads GENERALISED_CSV.
+  2. Creates SAMPLE_DETAIL_CSV.
+  3. Searches key files in KEY_DIR.
+  4. Writes matches to OUTPUT_FILE.
+
+Case 2: You already have a sample/search input CSV
+-------------------------------------------------
+Use this when the search input is already created.
+Set GENERALISED_CSV="" so the script does not try to create a new sample file.
+
+What happens:
+  1. Reads SEARCH_INPUT_CSV.
+  2. Searches key files in KEY_DIR.
+  3. Writes matches to OUTPUT_FILE.
+
+If GENERALISED_CSV="" and SEARCH_INPUT_CSV is also empty, the job reads
+SAMPLE_DETAIL_CSV as the search input.
+
+Key modes
+---------
+Choose one KEY_MODE:
+
+  tsr_keys_chain
+    For whole-chain files with no seq_num in the filename.
+    Example key file:
+      7WG3_M_NNBMMM.keys_theta29_dist18
+    Chain IDs are case-sensitive, so V and v are different chains.
+
+  tsr_keys_no_chain
+    For residue-specific TSR key files with seq_num in the filename.
+    Example key files:
+      5WT9_G_102_ASN.keys_theta29_dist18
+      102_5WT9_G_ASN.keys_theta29_dist18
+
+  tsr_cross_keys
+    For cross key files.
+    Uses the cross-key row layout.
+
+Important variables
+-------------------
+  KEY_MODE
+    One of: tsr_keys_chain, tsr_keys_no_chain, tsr_cross_keys, auto.
+
+  GENERALISED_CSV
+    Optional. Give this if you want to create SAMPLE_DETAIL_CSV first.
+    Set it to "" if you already have a sample/search input CSV.
+
+  SEARCH_INPUT_CSV
+    Existing sample/search input CSV. Used only when GENERALISED_CSV="".
+
+  SAMPLE_DETAIL_CSV
+    Created from GENERALISED_CSV, or used as the default search input when
+    GENERALISED_CSV="" and SEARCH_INPUT_CSV is empty.
+
+  KEY_DIR
+    Folder containing .keys_theta29_dist18 files.
+
+  ATOMS
+    Three atom names to search. Spaces, commas, or semicolons are ok.
+    Example:
+      ATOMS="N2 N2 C1"
+
+  OUTPUT_FILE
+    Final CSV with protein name and matching TSR key rows.
+

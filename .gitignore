@@ -1,2 +1,5 @@
 .venv_gnn311/
 data/
+.DS_Store
+*.sbatch
+src/data_generation/add_label_CI_NCI_tripletname/ligand_residue_cross.csv

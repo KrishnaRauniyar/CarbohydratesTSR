@@ -2,8 +2,8 @@
 #SBATCH -p workq
 #SBATCH -N 1
 #SBATCH -n 64
-#SBATCH -t 10:00:00
-#SBATCH -A loni_tsr_9
+#SBATCH -t 01:00:00
+#SBATCH -A loni_tsr_10
 #SBATCH -J key_triplets_generation_dual_mode
 #SBATCH -o slurm_logs/%x_%j.out
 #SBATCH -e slurm_logs/%x_%j.err
@@ -41,7 +41,7 @@ echo "[INFO] Starting key-triplets generation pipeline"
 # Core script and outputs
 # ---------------------------------------------------------------------------
 PY_SCRIPT="/ddnB/work/rauniyar/Spring_2024/carbohydrates/key_generator/key_generation_using_id_chain_res_seq/key_triplets_generation_dual_mode.py"
-RESULTS_DIR="results"
+RESULTS_DIR="results_discovery_asn_mirror_tsr"
 PDB_DIR="pdb_files"
 PROTEIN_DIR="proteins"
 SUMMARY_CSV="proteinNumKeysDist.csv"
@@ -50,7 +50,7 @@ SUMMARY_CSV="proteinNumKeysDist.csv"
 # Input files
 # ---------------------------------------------------------------------------
 # Residue-oriented example CSV (protein, chain, residue, seqnum, ...):
-TARGET_CSV="/ddnB/work/rauniyar/Spring_2024/carbohydrates/data/glycoprotein_samples/sample_details_carbohydrates_merged_eight_residues.csv"
+TARGET_CSV="/ddnB/work/rauniyar/Spring_2024/carbohydrates/data/discovery/pd1/sample_detailes_pd1_asn_ci_nci.csv"
 LEXICAL_CSV="/ddnB/work/rauniyar/Spring_2024/carbohydrates/data/lexical_file/drug_atom_lexical_txt_11_4_2025.csv"
 
 # ---------------------------------------------------------------------------
@@ -60,23 +60,20 @@ LEXICAL_CSV="/ddnB/work/rauniyar/Spring_2024/carbohydrates/data/lexical_file/dru
 #   all_4_id_chain_res_seqnum -> one target per protein/chain/entity_name/seqnum
 #   id_chain                  -> one output per protein+chain using only those
 #                                two CSV columns
-#MODE="all_4_id_chain_res_seqnum"
-MODE="id_chain"
+MODE="all_4_id_chain_res_seqnum"
+#MODE="id_chain"
 
 # ENTITY_TYPE controls only atom selection:
 #   ligand  -> heavy atoms from HETATM records
 #   residue -> matching ATOM records (including C-alpha) from the specified residue/seqnum
-#ENTITY_TYPE="residue"
-ENTITY_TYPE="ligand"
+ENTITY_TYPE="residue"
+#ENTITY_TYPE="ligand"
 
-# Use these overrides only when the CSV headers differ from the defaults.
+# Use these overrides only when the CSV headers differ from the defaults. (protein,chain,carb_name,carb_id)
 PROTEIN_COLUMN=""
 CHAIN_COLUMN=""
-ENTITY_NAME_COLUMN="carb_name"
-SEQNUM_COLUMN="carb_id"
-
-# Leave blank to use expected_atom_counts.json next to the Python script.
-ATOM_COUNT_CONFIG=""
+ENTITY_NAME_COLUMN="aa"
+SEQNUM_COLUMN="resnumber"
 
 # ---------------------------------------------------------------------------
 # Key-generation parameters
@@ -85,6 +82,8 @@ DTHETA="29"
 DLEN="18"
 NUM_LABELS="112"
 NUM_CORES="${SLURM_CPUS_PER_TASK:-64}"
+### This flag is used to mirror the TSR keys.
+MIRROR_TSR="true"
 
 mkdir -p "${RESULTS_DIR}"
 
@@ -92,6 +91,7 @@ echo "[INFO] Using mode: ${MODE}"
 echo "[INFO] Using entity type: ${ENTITY_TYPE}"
 echo "[INFO] Python script: ${PY_SCRIPT}"
 echo "[INFO] Target CSV: ${TARGET_CSV}"
+echo "[INFO] Mirror TSR: ${MIRROR_TSR}"
 
 CMD=(
     python "${PY_SCRIPT}"
@@ -107,6 +107,7 @@ CMD=(
     --dlen "${DLEN}"
     --num_labels "${NUM_LABELS}"
     --num_cores "${NUM_CORES}"
+    --mirror_tsr "${MIRROR_TSR}"
 )
 
 if [ -n "${PROTEIN_COLUMN}" ]; then
@@ -120,9 +121,6 @@ if [ -n "${ENTITY_NAME_COLUMN}" ]; then
 fi
 if [ -n "${SEQNUM_COLUMN}" ]; then
     CMD+=(--seqnum_column "${SEQNUM_COLUMN}")
-fi
-if [ -n "${ATOM_COUNT_CONFIG}" ]; then
-    CMD+=(--atom_count_config "${ATOM_COUNT_CONFIG}")
 fi
 
 "${CMD[@]}"

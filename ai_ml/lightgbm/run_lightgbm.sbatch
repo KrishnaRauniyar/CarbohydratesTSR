@@ -2,7 +2,7 @@
 #SBATCH -p workq
 #SBATCH -N 1
 #SBATCH -n 64
-#SBATCH -t 24:00:00
+#SBATCH -t 72:00:00
 #SBATCH -A loni_tsr_9
 #SBATCH -J tsr_lgbm
 #SBATCH -o outputs/logs/%x_%j.out
@@ -21,7 +21,8 @@ cd "${SLURM_SUBMIT_DIR}"
 ###############################################################################
 # Outputs + logs
 mkdir -p outputs/logs
-OUTPUT_DIR="${SLURM_SUBMIT_DIR}/outputs"
+# OUTPUT_DIR="${SLURM_SUBMIT_DIR}/outputs_chain"
+OUTPUT_DIR="${SLURM_SUBMIT_DIR}/outputs_individual"
 ENV_DIR="${SLURM_SUBMIT_DIR}/.conda_tsr_lgbm"
 
 ###############################################################################
@@ -46,11 +47,13 @@ python -m pip install -r requirements.txt
 echo "[INFO] Starting TSR LightGBM CPU training"
 
 INPUT_CSV="/ddnB/work/rauniyar/Spring_2024/carbohydrates/data/ai_ml/all_4_id_chain_res_seq/localFeatureVect_theta29_dist18_NoFeatureSelection_keyCombine0_header.csv"
+# INPUT_CSV="/ddnB/work/rauniyar/Spring_2024/carbohydrates/data/ai_ml/chain/localFeatureVect_theta29_dist18_NoFeatureSelection_keyCombine0_header.csv"
 
 python train_lightgbm_tsr.py \
   --input_csv "${INPUT_CSV}" \
   --output_dir "${OUTPUT_DIR}" \
   --label_from "Protein Name" \
+  --split_strategy pdb_grouped \
   --balance_method class_weight \
   --use_log1p \
   --scaler none \

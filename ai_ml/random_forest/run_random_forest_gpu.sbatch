@@ -53,6 +53,7 @@ python train_random_forest_tsr.py \
   --input_csv "${INPUT_CSV}" \
   --output_dir "${OUTPUT_DIR}" \
   --label_from "Protein Name" \
+  --split_strategy pdb_grouped \
   --balance_method class_weight \
   --use_log1p \
   --scaler none \

@@ -27,7 +27,7 @@ from sklearn.metrics import (
     precision_recall_fscore_support,
     roc_auc_score,
 )
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import GroupShuffleSplit, train_test_split
 from sklearn.preprocessing import LabelBinarizer, LabelEncoder, RobustScaler, StandardScaler
 from sklearn.utils.class_weight import compute_class_weight
 
@@ -220,11 +220,32 @@ def stratified_train_val_test_split(
     test_size: float,
     val_size: float,
     random_state: int,
+    identifiers: Optional[Sequence[str]] = None,
+    split_strategy: str = "row_stratified",
+    group_split_candidates: int = 512,
 ) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
-    """Return train, validation, and test row indexes using stratification."""
+    """Return train, validation, and test indexes using row or grouped splitting."""
 
     if test_size <= 0 or val_size <= 0 or test_size + val_size >= 1:
         raise ValueError("--test_size and --val_size must be positive and sum to less than 1.")
+
+    if split_strategy not in {"row_stratified", "pdb_grouped", "pdb_chain_grouped"}:
+        raise ValueError(
+            "--split_strategy must be one of: row_stratified, pdb_grouped, pdb_chain_grouped"
+        )
+
+    if split_strategy != "row_stratified":
+        if identifiers is None:
+            raise ValueError("Grouped splitting requires sample identifiers.")
+        groups = extract_groups_from_identifiers(identifiers, split_strategy)
+        return grouped_train_val_test_split(
+            labels_encoded=labels_encoded,
+            groups=groups,
+            test_size=test_size,
+            val_size=val_size,
+            random_state=random_state,
+            n_candidates=group_split_candidates,
+        )
 
     all_idx = np.arange(len(df))
     train_val_idx, test_idx = train_test_split(
@@ -241,6 +262,210 @@ def stratified_train_val_test_split(
         stratify=labels_encoded[train_val_idx],
     )
     return train_idx, val_idx, test_idx
+
+
+def extract_groups_from_identifiers(
+    identifiers: Sequence[str],
+    split_strategy: str,
+) -> np.ndarray:
+    """Extract PDB or PDB-chain groups from underscore-delimited identifiers."""
+
+    required_tokens = 1 if split_strategy == "pdb_grouped" else 2
+    groups = []
+    invalid = []
+    for value in identifiers:
+        identifier = str(value).strip()
+        tokens = identifier.split("_")
+        if not identifier or len(tokens) < required_tokens or any(
+            not token.strip() for token in tokens[:required_tokens]
+        ):
+            invalid.append(identifier)
+            continue
+        groups.append("_".join(token.strip() for token in tokens[:required_tokens]))
+    if invalid:
+        raise ValueError(
+            f"Could not extract {split_strategy} groups from identifiers such as: {invalid[:5]}"
+        )
+    return np.asarray(groups, dtype=object)
+
+
+def grouped_train_val_test_split(
+    labels_encoded: np.ndarray,
+    groups: Sequence[str],
+    test_size: float,
+    val_size: float,
+    random_state: int,
+    n_candidates: int = 512,
+) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
+    """Choose disjoint group partitions that approximate class-stratified fractions."""
+
+    labels_encoded = np.asarray(labels_encoded)
+    groups = np.asarray(groups, dtype=object)
+    if len(labels_encoded) != len(groups):
+        raise ValueError("labels_encoded and groups must have the same length.")
+    if len(np.unique(groups)) < 3:
+        raise ValueError("Grouped train/validation/test splitting requires at least three groups.")
+    if n_candidates < 1:
+        raise ValueError("--group_split_candidates must be at least 1.")
+
+    all_idx = np.arange(len(labels_encoded))
+    train_val_idx, test_idx = _best_group_holdout(
+        indices=all_idx,
+        labels=labels_encoded,
+        groups=groups,
+        holdout_fraction=test_size,
+        random_state=random_state,
+        n_candidates=n_candidates,
+    )
+    relative_val_size = val_size / (1.0 - test_size)
+    train_idx, val_idx = _best_group_holdout(
+        indices=train_val_idx,
+        labels=labels_encoded,
+        groups=groups,
+        holdout_fraction=relative_val_size,
+        random_state=random_state + 1,
+        n_candidates=n_candidates,
+    )
+    return np.sort(train_idx), np.sort(val_idx), np.sort(test_idx)
+
+
+def _best_group_holdout(
+    *,
+    indices: np.ndarray,
+    labels: np.ndarray,
+    groups: np.ndarray,
+    holdout_fraction: float,
+    random_state: int,
+    n_candidates: int,
+) -> Tuple[np.ndarray, np.ndarray]:
+    """Select the best of deterministic random group holdouts."""
+
+    subset_labels = labels[indices]
+    subset_groups = groups[indices]
+    classes, total_class_counts = np.unique(subset_labels, return_counts=True)
+    splitter = GroupShuffleSplit(
+        n_splits=n_candidates,
+        test_size=holdout_fraction,
+        random_state=random_state,
+    )
+    best = None
+    for train_relative, holdout_relative in splitter.split(
+        np.zeros(len(indices)),
+        subset_labels,
+        subset_groups,
+    ):
+        train_counts = np.bincount(
+            subset_labels[train_relative],
+            minlength=int(classes.max()) + 1,
+        )[classes]
+        if np.any(train_counts == 0):
+            continue
+        holdout_counts = np.bincount(
+            subset_labels[holdout_relative],
+            minlength=int(classes.max()) + 1,
+        )[classes]
+        observed_fraction = len(holdout_relative) / len(indices)
+        size_error = abs(observed_fraction - holdout_fraction)
+        class_fraction_error = float(
+            np.mean(np.abs(holdout_counts / total_class_counts - holdout_fraction))
+        )
+        missing_fraction = float(np.mean(holdout_counts == 0))
+        score = 4.0 * size_error + class_fraction_error + 0.25 * missing_fraction
+        candidate = (score, size_error, class_fraction_error, train_relative, holdout_relative)
+        if best is None or candidate[:3] < best[:3]:
+            best = candidate
+
+    if best is None:
+        raise ValueError(
+            "Could not create a grouped holdout while retaining every class in training. "
+            "Some classes may occur in only one group; increase --min_class_count, merge rare "
+            "classes, or choose a broader training dataset."
+        )
+    return indices[best[3]], indices[best[4]]
+
+
+def save_split_assignments(
+    *,
+    identifiers: Sequence[str],
+    labels: Sequence[str],
+    train_idx: Sequence[int],
+    val_idx: Sequence[int],
+    test_idx: Sequence[int],
+    split_strategy: str,
+    assignments_path: Path,
+    report_path: Path,
+) -> Dict:
+    """Save row-level split assignments and grouped-split diagnostics."""
+
+    identifiers = pd.Series(identifiers, dtype=str).reset_index(drop=True)
+    labels = pd.Series(labels, dtype=str).reset_index(drop=True)
+    split = np.empty(len(identifiers), dtype=object)
+    split[np.asarray(train_idx)] = "train"
+    split[np.asarray(val_idx)] = "validation"
+    split[np.asarray(test_idx)] = "test"
+
+    if split_strategy == "row_stratified":
+        groups = np.asarray([f"row_{index}" for index in range(len(identifiers))], dtype=object)
+        group_scope = "row"
+    else:
+        groups = extract_groups_from_identifiers(identifiers, split_strategy)
+        group_scope = "PDB" if split_strategy == "pdb_grouped" else "PDB-chain"
+
+    assignments = pd.DataFrame(
+        {
+            "row_index": np.arange(len(identifiers)),
+            "identifier": identifiers,
+            "label": labels,
+            "group": groups,
+            "split": split,
+        }
+    )
+    assignments.to_csv(assignments_path, index=False)
+
+    split_names = ["train", "validation", "test"]
+    group_sets = {
+        name: set(assignments.loc[assignments["split"] == name, "group"])
+        for name in split_names
+    }
+    label_sets = {
+        name: set(assignments.loc[assignments["split"] == name, "label"])
+        for name in split_names
+    }
+    all_labels = set(labels)
+    class_group_counts = assignments.groupby("label")["group"].nunique()
+    report = {
+        "split_strategy": split_strategy,
+        "group_scope": group_scope,
+        "total_rows": int(len(assignments)),
+        "total_groups": int(assignments["group"].nunique()),
+        "rows_by_split": {
+            name: int((assignments["split"] == name).sum()) for name in split_names
+        },
+        "groups_by_split": {name: int(len(group_sets[name])) for name in split_names},
+        "group_overlap": {
+            "train_validation": int(len(group_sets["train"] & group_sets["validation"])),
+            "train_test": int(len(group_sets["train"] & group_sets["test"])),
+            "validation_test": int(len(group_sets["validation"] & group_sets["test"])),
+        },
+        "classes_by_split": {name: int(len(label_sets[name])) for name in split_names},
+        "classes_missing_by_split": {
+            name: sorted(all_labels - label_sets[name]) for name in split_names
+        },
+        "classes_with_fewer_than_three_groups": sorted(
+            class_group_counts[class_group_counts < 3].index.astype(str).tolist()
+        ),
+    }
+    save_json(report, report_path)
+
+    if split_strategy != "row_stratified" and any(report["group_overlap"].values()):
+        raise RuntimeError("Grouped split validation failed because a group crosses partitions.")
+    missing_test = report["classes_missing_by_split"]["test"]
+    if missing_test:
+        warnings.warn(
+            f"{len(missing_test)} classes are absent from the test partition. "
+            "See split_group_report.json for the class list."
+        )
+    return report
 
 
 def save_split_statistics(

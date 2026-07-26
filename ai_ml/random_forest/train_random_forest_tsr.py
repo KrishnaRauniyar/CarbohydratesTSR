@@ -36,6 +36,7 @@ from utils import (  # noqa: E402
     save_artifact,
     save_json,
     save_predictions,
+    save_split_assignments,
     save_split_statistics,
     set_global_seed,
     stratified_train_val_test_split,
@@ -60,6 +61,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--label_from", default="Protein Name", help="Column whose final underscore token is the label.")
     parser.add_argument("--test_size", type=float, default=0.15, help="Held-out test fraction.")
     parser.add_argument("--val_size", type=float, default=0.15, help="Validation fraction.")
+    parser.add_argument(
+        "--split_strategy",
+        default="row_stratified",
+        choices=["row_stratified", "pdb_grouped", "pdb_chain_grouped"],
+        help="Use PDB-grouped splitting for structure-independent evaluation.",
+    )
+    parser.add_argument("--group_split_candidates", type=int, default=512)
     parser.add_argument("--random_state", type=int, default=42, help="Random seed.")
     parser.add_argument(
         "--balance_method",
@@ -146,6 +154,9 @@ def main() -> None:
         test_size=args.test_size,
         val_size=args.val_size,
         random_state=args.random_state,
+        identifiers=df[args.label_from],
+        split_strategy=args.split_strategy,
+        group_split_candidates=args.group_split_candidates,
     )
     split_labels = {
         "train": labels.iloc[train_idx].tolist(),
@@ -153,6 +164,16 @@ def main() -> None:
         "test": labels.iloc[test_idx].tolist(),
     }
     save_split_statistics(split_labels, paths["metrics"] / "split_class_statistics.csv")
+    save_split_assignments(
+        identifiers=df[args.label_from],
+        labels=labels,
+        train_idx=train_idx,
+        val_idx=val_idx,
+        test_idx=test_idx,
+        split_strategy=args.split_strategy,
+        assignments_path=paths["metrics"] / "split_assignments.csv",
+        report_path=paths["metrics"] / "split_group_report.json",
+    )
     plot_split_distributions(split_labels, paths["plots"] / "class_distribution_train_validation_test.png", args.top_n_plots)
 
     X_train_raw = X_numeric_raw.iloc[train_idx].reset_index(drop=True)
@@ -359,4 +380,3 @@ def _save_balance_outputs(balance_report: Dict, class_names, paths: Dict[str, Pa
 
 if __name__ == "__main__":
     main()
-

@@ -187,6 +187,18 @@ def normalize_entity_type(entity_type):
     return normalized
 
 
+def parse_bool_arg(value):
+    """Parse CLI boolean values written as true/false, yes/no, or 1/0."""
+    normalized = clean_csv_value(value).lower()
+    if normalized in {"true", "t", "yes", "y", "1"}:
+        return True
+    if normalized in {"false", "f", "no", "n", "0"}:
+        return False
+    raise argparse.ArgumentTypeError(
+        f"Expected a boolean value for mirror_tsr, got '{value}'."
+    )
+
+
 def build_identifier_for_all4(protein, chain, seqnum, entity_name):
     """Build the original four-part target identifier."""
     return f"{protein}_{chain}_{seqnum}_{entity_name}"
@@ -704,10 +716,11 @@ def write_summary_csv(summary_path, rows):
 class AminoAcidAnalyzer:
     """Container for atom selection state and the preserved key-calculation logic."""
 
-    def __init__(self, dtheta, dLen, numOfLabels):
+    def __init__(self, dtheta, dLen, numOfLabels, mirror_tsr=False):
         self.dtheta = dtheta
         self.dLen = dLen
         self.numOfLabels = numOfLabels
+        self.mirror_tsr = mirror_tsr
         # These are the different labels of the atoms with their unique code.
         self.aminoAcidLabelWithCode = {}
         # Store lexical code, coordinates, and residue sequence numbers per atom.
@@ -1134,6 +1147,8 @@ class AminoAcidAnalyzer:
                             + dtheta * (binLength - 1)
                             + (binTheta - 1)
                         )
+                        if self.mirror_tsr and thetaAngle1 > 90:
+                            tripletKeys = -tripletKeys
 
                         # Total number of keys and max distance list
                         self.totalKeys.append(tripletKeys)
@@ -1280,7 +1295,7 @@ class AminoAcidAnalyzer:
         )
 
 
-def process_target(target, lexical_map, ligand_atom_counts, residue_atom_counts):
+def process_target(target, lexical_map, ligand_atom_counts, residue_atom_counts, mirror_tsr):
     """
     Process a single target in a worker-local analyzer instance.
 
@@ -1291,7 +1306,7 @@ def process_target(target, lexical_map, ligand_atom_counts, residue_atom_counts)
     EXPECTED_LIGAND_ATOM_COUNTS = ligand_atom_counts
     EXPECTED_RESIDUE_ATOM_COUNTS = residue_atom_counts
 
-    analyzer = AminoAcidAnalyzer(dtheta, dLen, numOfLabels)
+    analyzer = AminoAcidAnalyzer(dtheta, dLen, numOfLabels, mirror_tsr=mirror_tsr)
     analyzer.setDrugLexicalMap(lexical_map)
 
     if target["mode"] == MODE_ALL_4:
@@ -1346,6 +1361,7 @@ def main(
     entity_name_column=None,
     seqnum_column=None,
     atom_count_config=None,
+    mirror_tsr=False,
 ):
     """Main entry point for both CLI usage and batch execution."""
     global CSV_FILE_PATH, CSV_FILE_LEXICAL_PATH, PDB_DIR_PATH, PROTEIN_DIR_PATH, SUMMARY_CSV_PATH, dtheta, dLen, numOfLabels, EXPECTED_LIGAND_ATOM_COUNTS, EXPECTED_RESIDUE_ATOM_COUNTS
@@ -1402,6 +1418,7 @@ def main(
             lexical_map,
             EXPECTED_LIGAND_ATOM_COUNTS,
             EXPECTED_RESIDUE_ATOM_COUNTS,
+            mirror_tsr,
         )
         for target in processing_targets
     )
@@ -1505,6 +1522,12 @@ if __name__ == "__main__":
     parser.add_argument("--dlen", type=int, default=18, help="Distance bin count parameter used by the preserved key logic")
     parser.add_argument("--num_labels", type=int, default=112, help="Number of lexical labels used in key generation")
     parser.add_argument(
+        "--mirror_tsr",
+        type=parse_bool_arg,
+        default=False,
+        help="When true, make triplet keys negative for mirrored triplets where thetaAngle1 > 90.",
+    )
+    parser.add_argument(
         "--num_cores",
         type=int,
         default=multiprocessing.cpu_count(),
@@ -1529,4 +1552,5 @@ if __name__ == "__main__":
         args.entity_name_column,
         args.seqnum_column,
         args.atom_count_config,
+        args.mirror_tsr,
     )
